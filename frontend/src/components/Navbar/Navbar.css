@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: var(--color-navy);
+  color: var(--color-white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+}
+
+.navbar--transparent {
+  background-color: transparent;
+}
+
+.nav-logo {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-navy);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--color-navy);
+  text-decoration: none;
+  font-size: 13px;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link--signup {
+  background-color: var(--color-green);
+  color: var(--color-navy);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+  opacity: 1;
+}
