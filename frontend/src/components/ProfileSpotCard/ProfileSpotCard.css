@@ -1,0 +1,239 @@
+.profile-spot {
+  padding: 14px 16px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    background-color 0.2s;
+}
+
+.profile-spot:hover {
+  border-color: var(--color-green);
+}
+
+.profile-spot--selected {
+  border-color: var(--color-green);
+  background-color: #f7faf7;
+}
+
+.profile-spot--editing {
+  border: 2px solid var(--color-green);
+  background-color: #f7faf7;
+  cursor: default;
+}
+
+/* ── View mode ── */
+
+.profile-spot__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.profile-spot__name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-navy);
+}
+
+.profile-spot__icon-group {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.profile-spot__icon-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  border: 1px solid #e4e4e4;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-navy);
+  opacity: 0.5;
+  transition:
+    opacity 0.2s,
+    border-color 0.2s;
+}
+
+.profile-spot__icon-btn:hover {
+  opacity: 0.85;
+  border-color: var(--color-green);
+}
+
+.profile-spot__icon-btn--delete {
+  color: #a32d2d;
+}
+
+.profile-spot__icon-btn--delete:hover {
+  border-color: #a32d2d;
+}
+
+.profile-spot__address {
+  font-size: 0.8rem;
+  color: var(--color-navy);
+  opacity: 0.45;
+  margin-top: 3px;
+}
+
+.profile-spot__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.profile-spot__status {
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.profile-spot__status--crowded {
+  background-color: #fce8e8;
+  color: #a32d2d;
+}
+
+.profile-spot__status--moderate {
+  background-color: #faeeda;
+  color: #854f0b;
+}
+
+.profile-spot__status--open {
+  background-color: #eaf3de;
+  color: #3b6d11;
+}
+
+.profile-spot__type {
+  font-size: 0.75rem;
+  color: var(--color-navy);
+  opacity: 0.4;
+}
+
+/* ── Edit mode ── */
+
+.profile-spot__edit-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.profile-spot__edit-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #3b6d11;
+}
+
+.profile-spot__edit-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.profile-spot__save-btn {
+  padding: 4px 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color-green);
+  color: var(--color-navy);
+  font-size: 0.78rem;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.profile-spot__save-btn:hover {
+  opacity: 0.85;
+}
+
+.profile-spot__cancel-btn {
+  padding: 4px 14px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background: transparent;
+  color: var(--color-navy);
+  opacity: 0.55;
+  font-size: 0.78rem;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.profile-spot__cancel-btn:hover {
+  opacity: 0.8;
+}
+
+.profile-spot__edit-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-spot__edit-row {
+  display: flex;
+  gap: 8px;
+}
+
+.profile-spot__edit-row .profile-spot__edit-field {
+  flex: 1;
+}
+
+.profile-spot__edit-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-spot__edit-field label {
+  font-size: 0.7rem;
+  color: var(--color-navy);
+  opacity: 0.45;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.profile-spot__edit-field input,
+.profile-spot__edit-field select,
+.profile-spot__edit-field textarea {
+  width: 100%;
+  height: 34px;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  padding: 0 10px;
+  font-size: 0.82rem;
+  font-family: "DM Sans", sans-serif;
+  color: var(--color-navy);
+  background-color: var(--color-white);
+  transition: border-color 0.2s;
+}
+
+.profile-spot__edit-field textarea {
+  height: auto;
+  padding: 8px 10px;
+  resize: none;
+  line-height: 1.4;
+}
+
+.profile-spot__edit-field input:focus,
+.profile-spot__edit-field select:focus,
+.profile-spot__edit-field textarea:focus {
+  outline: none;
+  border-color: var(--color-green);
+}
+
+.profile-spot__edit-field select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2304395E' stroke-width='2' stroke-linecap='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 28px;
+}
