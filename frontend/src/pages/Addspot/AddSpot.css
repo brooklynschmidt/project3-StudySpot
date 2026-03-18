@@ -1,4 +1,4 @@
-.add-spot-page {
+.add-spot {
   display: flex;
   height: calc(100vh - 50px);
   overflow: hidden;
@@ -6,102 +6,114 @@
   color: var(--color-navy);
 }
 
-.add-spot-page__map-side {
+.add-spot__map-side {
   flex: 1;
   position: relative;
 }
 
-.add-spot-page__leaflet {
+.add-spot__leaflet {
   width: 100%;
   height: 100%;
   background-color: #e8efe8;
-  position: relative;
-  z-index: 0;
+  cursor: crosshair;
 }
 
-.add-spot-page__map-hint {
+.add-spot__map-hint {
   position: absolute;
-  top: 16px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 10;
   background-color: rgba(255, 255, 255, 0.92);
   padding: 8px 20px;
   border-radius: 20px;
   font-size: 0.8rem;
   color: var(--color-navy);
   opacity: 0.7;
+  z-index: 500;
 }
 
-.add-spot-page__map-error {
-  position: absolute;
-  bottom: 16px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
-  background-color: #fce8e8;
-  padding: 6px 16px;
-  border-radius: 8px;
-  font-size: 0.8rem;
-  color: #a32d2d;
-  font-weight: 500;
-}
-
-.add-spot-page__form-side {
+.add-spot__form-side {
   flex: 1;
-  padding: 36px 44px;
+  padding: 24px 44px 36px;
   overflow-y: auto;
-  border-left: 1px solid #f0f0f0;
+  background-color: var(--color-white);
 }
 
-.add-spot-page__title {
+/* ── Back button ── */
+
+.add-spot__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: var(--color-navy);
+  opacity: 0.45;
+  font-size: 0.8rem;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 20px;
+  transition: opacity 0.2s;
+}
+
+.add-spot__back:hover {
+  opacity: 0.75;
+}
+
+/* ── Title ── */
+
+.add-spot__title {
   font-family: "Playfair Display", serif;
   font-size: 1.8rem;
   font-weight: 400;
   color: var(--color-navy);
 }
 
-.add-spot-page__subtitle {
+.add-spot__subtitle {
   font-size: 0.9rem;
   color: var(--color-navy);
   opacity: 0.45;
-  margin-top: 6px;
+  margin-top: 4px;
   margin-bottom: 28px;
 }
 
-.add-spot-page__form {
+/* ── Form ── */
+
+.add-spot__form {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 16px;
 }
 
-.add-spot-page__row {
+.add-spot__row {
   display: flex;
   gap: 14px;
 }
 
-.add-spot-page__row .add-spot-page__field {
+.add-spot__row .add-spot__field {
   flex: 1;
 }
 
-.add-spot-page__field {
-  margin-bottom: 18px;
+.add-spot__field {
+  display: flex;
+  flex-direction: column;
 }
 
-.add-spot-page__field label {
-  display: block;
-  font-size: 0.82rem;
+.add-spot__field label {
+  font-size: 0.8rem;
   color: var(--color-navy);
   opacity: 0.55;
   margin-bottom: 6px;
   font-weight: 500;
 }
 
-.add-spot-page__field input,
-.add-spot-page__field select,
-.add-spot-page__field textarea {
+.add-spot__field input,
+.add-spot__field select,
+.add-spot__field textarea {
   width: 100%;
-  border: 1px solid #e0e0e0;
+  height: 42px;
+  border: 1px solid #e4e4e4;
   border-radius: 10px;
   padding: 0 14px;
   font-size: 0.9rem;
@@ -111,52 +123,147 @@
   transition: border-color 0.2s;
 }
 
-.add-spot-page__field input,
-.add-spot-page__field select {
-  height: 42px;
-}
-
-.add-spot-page__field textarea {
+.add-spot__field textarea {
+  height: auto;
   padding: 12px 14px;
-  resize: vertical;
-  min-height: 70px;
+  resize: none;
+  line-height: 1.5;
 }
 
-.add-spot-page__field input:focus,
-.add-spot-page__field select:focus,
-.add-spot-page__field textarea:focus {
+.add-spot__field input:focus,
+.add-spot__field select:focus,
+.add-spot__field textarea:focus {
   outline: none;
   border-color: var(--color-green);
 }
 
-.add-spot-page__field input::placeholder,
-.add-spot-page__field textarea::placeholder {
+.add-spot__field input::placeholder,
+.add-spot__field textarea::placeholder {
+  color: var(--color-navy);
+  opacity: 0.25;
+}
+
+.add-spot__field select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2304395E' stroke-width='2' stroke-linecap='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+
+/* ── Live preview ── */
+
+.add-spot__preview-section {
+  margin-top: 4px;
+}
+
+.add-spot__preview-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-navy);
+  opacity: 0.4;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+}
+
+.add-spot__preview-card {
+  padding: 14px 16px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: border-color 0.2s;
+}
+
+.add-spot__preview-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.add-spot__preview-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-navy);
+  transition: opacity 0.2s;
+}
+
+.add-spot__preview-name--empty {
+  opacity: 0.25;
+}
+
+.add-spot__preview-address {
+  font-size: 0.8rem;
+  color: var(--color-navy);
+  opacity: 0.45;
+  margin-top: 3px;
+  transition: opacity 0.2s;
+}
+
+.add-spot__preview-address--empty {
+  opacity: 0.2;
+}
+
+.add-spot__preview-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.add-spot__preview-status {
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.add-spot__preview-status--empty {
+  background-color: #f5f5f5;
   color: var(--color-navy);
   opacity: 0.3;
 }
 
-.add-spot-page__field select {
-  appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2304395E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 14px center;
-  cursor: pointer;
-}
-
-.add-spot-page__error {
-  display: block;
+.add-spot__preview-type {
   font-size: 0.75rem;
-  color: #a32d2d;
-  margin-top: 4px;
+  color: var(--color-navy);
+  opacity: 0.4;
+  transition: opacity 0.2s;
 }
 
-.add-spot-page__actions {
+.add-spot__preview-type--empty {
+  opacity: 0.2;
+}
+
+/* Reuse SpotCard status pill colors */
+.spot-card__status--crowded {
+  background-color: #fce8e8;
+  color: #a32d2d;
+}
+
+.spot-card__status--moderate {
+  background-color: #faeeda;
+  color: #854f0b;
+}
+
+.spot-card__status--open {
+  background-color: #eaf3de;
+  color: #3b6d11;
+}
+
+/* ── Actions ── */
+
+.add-spot__actions {
   display: flex;
   gap: 12px;
   margin-top: 8px;
 }
 
-.add-spot-page__btn {
+.add-spot__btn {
   flex: 1;
   height: 44px;
   border-radius: 10px;
@@ -167,23 +274,36 @@
   transition: opacity 0.2s;
 }
 
-.add-spot-page__btn--cancel {
+.add-spot__btn--cancel {
   background-color: transparent;
   border: 1px solid #e0e0e0;
   color: var(--color-navy);
   opacity: 0.6;
 }
 
-.add-spot-page__btn--cancel:hover {
+.add-spot__btn--cancel:hover {
   opacity: 0.8;
 }
 
-.add-spot-page__btn--submit {
+.add-spot__btn--submit {
   background-color: var(--color-navy);
   border: none;
   color: var(--color-white);
 }
 
-.add-spot-page__btn--submit:hover {
+.add-spot__btn--submit:hover {
   opacity: 0.9;
+}
+
+.add-spot__btn--submit:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.add-spot__pin-warning {
+  font-size: 0.8rem;
+  color: var(--color-navy);
+  opacity: 0.35;
+  text-align: center;
+  margin-top: 4px;
 }
