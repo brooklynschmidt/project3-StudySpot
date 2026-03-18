@@ -256,7 +256,7 @@ function MapView({ spots }) {
         id="card-allspots"
         className={`map-view__card map-view__card--allspots ${currentStep === 1 ? "map-view__card--visible" : ""}`}
       >
-        <h2>All spots on campus</h2>
+        <h2>All spots around campus</h2>
         <p>Browse every study space at a glance</p>
       </div>
 
