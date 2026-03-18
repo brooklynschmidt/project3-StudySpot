@@ -1,0 +1,189 @@
+.add-spot-page {
+  display: flex;
+  height: calc(100vh - 50px);
+  overflow: hidden;
+  font-family: "DM Sans", sans-serif;
+  color: var(--color-navy);
+}
+
+.add-spot-page__map-side {
+  flex: 1;
+  position: relative;
+}
+
+.add-spot-page__leaflet {
+  width: 100%;
+  height: 100%;
+  background-color: #e8efe8;
+  position: relative;
+  z-index: 0;
+}
+
+.add-spot-page__map-hint {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: var(--color-navy);
+  opacity: 0.7;
+}
+
+.add-spot-page__map-error {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: #fce8e8;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: #a32d2d;
+  font-weight: 500;
+}
+
+.add-spot-page__form-side {
+  flex: 1;
+  padding: 36px 44px;
+  overflow-y: auto;
+  border-left: 1px solid #f0f0f0;
+}
+
+.add-spot-page__title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-navy);
+}
+
+.add-spot-page__subtitle {
+  font-size: 0.9rem;
+  color: var(--color-navy);
+  opacity: 0.45;
+  margin-top: 6px;
+  margin-bottom: 28px;
+}
+
+.add-spot-page__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.add-spot-page__row {
+  display: flex;
+  gap: 14px;
+}
+
+.add-spot-page__row .add-spot-page__field {
+  flex: 1;
+}
+
+.add-spot-page__field {
+  margin-bottom: 18px;
+}
+
+.add-spot-page__field label {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--color-navy);
+  opacity: 0.55;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.add-spot-page__field input,
+.add-spot-page__field select,
+.add-spot-page__field textarea {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 0 14px;
+  font-size: 0.9rem;
+  font-family: "DM Sans", sans-serif;
+  color: var(--color-navy);
+  background-color: #fafafa;
+  transition: border-color 0.2s;
+}
+
+.add-spot-page__field input,
+.add-spot-page__field select {
+  height: 42px;
+}
+
+.add-spot-page__field textarea {
+  padding: 12px 14px;
+  resize: vertical;
+  min-height: 70px;
+}
+
+.add-spot-page__field input:focus,
+.add-spot-page__field select:focus,
+.add-spot-page__field textarea:focus {
+  outline: none;
+  border-color: var(--color-green);
+}
+
+.add-spot-page__field input::placeholder,
+.add-spot-page__field textarea::placeholder {
+  color: var(--color-navy);
+  opacity: 0.3;
+}
+
+.add-spot-page__field select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2304395E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  cursor: pointer;
+}
+
+.add-spot-page__error {
+  display: block;
+  font-size: 0.75rem;
+  color: #a32d2d;
+  margin-top: 4px;
+}
+
+.add-spot-page__actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.add-spot-page__btn {
+  flex: 1;
+  height: 44px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.add-spot-page__btn--cancel {
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+  color: var(--color-navy);
+  opacity: 0.6;
+}
+
+.add-spot-page__btn--cancel:hover {
+  opacity: 0.8;
+}
+
+.add-spot-page__btn--submit {
+  background-color: var(--color-navy);
+  border: none;
+  color: var(--color-white);
+}
+
+.add-spot-page__btn--submit:hover {
+  opacity: 0.9;
+}

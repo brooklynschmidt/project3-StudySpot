@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./pages/Home/Home.jsx";
 import Login from "./pages/Login/Login.jsx";
 import Signup from "./pages/Signup/Signup.jsx";
+import Explore from "./pages/Explore/Explore.jsx";
+import AddSpot from "./pages/AddSpot/AddSpot.jsx";
 import "./App.css";
 
 function AppContent() {
@@ -16,11 +18,9 @@ function AppContent() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="/add-spot" element={<AddSpot />} />
         {/* TODO: Add routes for other pages */}
-        {/* <Route path="/explore" element={<Explore />} /> */}
-        {/* <Route path="/spots/:id" element={<SpotDetail />} /> */}
-        {/* <Route path="/add-spot" element={<AddSpot />} /> */}
-        {/* <Route path="/favorites" element={<Favorites />} /> */}
         {/* <Route path="/profile" element={<Profile />} /> */}
       </Routes>
     </>

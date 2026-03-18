@@ -1,0 +1,97 @@
+.spot-card {
+  padding: 14px 16px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    background-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.spot-card:hover {
+  border-color: var(--color-green);
+}
+
+.spot-card--selected {
+  border-color: var(--color-green);
+  background-color: #f7faf7;
+}
+
+.spot-card__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.spot-card__name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-navy);
+}
+
+.spot-card__address {
+  font-size: 0.8rem;
+  color: var(--color-navy);
+  opacity: 0.45;
+  margin-top: 3px;
+}
+
+.spot-card__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.spot-card__status {
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.spot-card__status--crowded {
+  background-color: #fce8e8;
+  color: #a32d2d;
+}
+
+.spot-card__status--moderate {
+  background-color: #faeeda;
+  color: #854f0b;
+}
+
+.spot-card__status--open {
+  background-color: #eaf3de;
+  color: #3b6d11;
+}
+
+.spot-card__type {
+  font-size: 0.75rem;
+  color: var(--color-navy);
+  opacity: 0.4;
+}
+
+.spot-card__heart {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.15s ease;
+}
+
+.spot-card__heart:hover {
+  transform: scale(1.15);
+}
+
+.spot-card__heart:active {
+  transform: scale(0.95);
+}
