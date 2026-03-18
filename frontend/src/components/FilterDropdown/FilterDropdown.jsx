@@ -20,6 +20,14 @@ function FilterDropdown({ filters, onFilterChange, onClose }) {
     });
   };
 
+  const toggleSingleFilter = (key, value) => {
+    setLocalFilters((prev) => {
+      const current = prev[key] || [];
+      const updated = current.includes(value) ? [] : [value];
+      return { ...prev, [key]: updated };
+    });
+  };
+
   const handleApply = () => {
     onFilterChange(localFilters);
     onClose();
@@ -117,7 +125,7 @@ function FilterDropdown({ filters, onFilterChange, onClose }) {
                   ? "filter-dropdown__chip--active"
                   : ""
               }`}
-              onClick={() => toggleFilter("groupFriendly", g)}
+              onClick={() => toggleSingleFilter("groupFriendly", g)}
             >
               {g}
             </button>
