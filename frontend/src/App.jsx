@@ -44,7 +44,10 @@ function AppContent() {
           path="/signup"
           element={<Signup onLogin={handleLogin} />}
         />
-        <Route path="/explore" element={<Explore />} />
+        <Route
+          path="/explore"
+          element={<Explore loggedIn={loggedIn} />}
+        />
         <Route path="/add-spot" element={<AddSpot />} />
         <Route
           path="/profile"

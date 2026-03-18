@@ -155,3 +155,99 @@
 .explore-page__map .leaflet-container {
   z-index: 1;
 }
+
+/* ── Auth prompt overlay (guest favorites) ── */
+
+.explore-page__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(4, 57, 94, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.explore-page__auth-prompt {
+  background-color: var(--color-white);
+  border-radius: 16px;
+  padding: 32px 36px;
+  max-width: 360px;
+  width: 90%;
+  position: relative;
+  text-align: center;
+}
+
+.explore-page__auth-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--color-navy);
+  margin-bottom: 8px;
+}
+
+.explore-page__auth-text {
+  font-size: 0.85rem;
+  color: var(--color-navy);
+  opacity: 0.5;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.explore-page__auth-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.explore-page__auth-btn {
+  flex: 1;
+  height: 42px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.explore-page__auth-btn--primary {
+  background-color: var(--color-navy);
+  color: var(--color-white);
+}
+
+.explore-page__auth-btn--primary:hover {
+  opacity: 0.9;
+}
+
+.explore-page__auth-btn--secondary {
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+  color: var(--color-navy);
+}
+
+.explore-page__auth-btn--secondary:hover {
+  border-color: var(--color-green);
+}
+
+.explore-page__auth-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: none;
+  border: none;
+  color: var(--color-navy);
+  opacity: 0.3;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.2s;
+}
+
+.explore-page__auth-close:hover {
+  opacity: 0.6;
+}

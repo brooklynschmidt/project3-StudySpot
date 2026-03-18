@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import SpotCard from "../../components/SpotCard/SpotCard.jsx";
@@ -248,7 +249,7 @@ function makeIcon(color, size, active) {
 const greenIcon = makeIcon("#9ABD97", 12, false);
 const activeIcon = makeIcon("#9ABD97", 16, true);
 
-function Explore() {
+function Explore({ loggedIn = false }) {
   const mapRef = useRef(null);
   const mapElRef = useRef(null);
   const markersRef = useRef({});
@@ -257,6 +258,7 @@ function Explore() {
   const [selectedSpot, setSelectedSpot] = useState(null);
   const [favorites, setFavorites] = useState([]);
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
+  const [authPrompt, setAuthPrompt] = useState(false);
   const [filters, setFilters] = useState({
     category: [],
     availability: [],
@@ -264,13 +266,28 @@ function Explore() {
     groupFriendly: [],
   });
 
-  const toggleFavorite = useCallback((spotId) => {
-    setFavorites((prev) =>
-      prev.includes(spotId)
-        ? prev.filter((id) => id !== spotId)
-        : [...prev, spotId],
-    );
-  }, []);
+  const toggleFavorite = useCallback(
+    (spotId) => {
+      if (!loggedIn) {
+        setAuthPrompt(true);
+        return;
+      }
+      setFavorites((prev) =>
+        prev.includes(spotId)
+          ? prev.filter((id) => id !== spotId)
+          : [...prev, spotId],
+      );
+    },
+    [loggedIn],
+  );
+
+  const handleFavoritesFilter = useCallback(() => {
+    if (!loggedIn) {
+      setAuthPrompt(true);
+      return;
+    }
+    setShowFavoritesOnly((prev) => !prev);
+  }, [loggedIn]);
 
   // TODO: Replace with API fetch
   const allSpots = PLACEHOLDER_SPOTS;
@@ -373,6 +390,52 @@ function Explore() {
 
   return (
     <main className="explore-page">
+      {authPrompt && (
+        <div
+          className="explore-page__overlay"
+          onClick={() => setAuthPrompt(false)}
+        >
+          <div
+            className="explore-page__auth-prompt"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <p className="explore-page__auth-title">
+              Create an account to save spots
+            </p>
+            <p className="explore-page__auth-text">
+              Sign up to favorite study spots and access them anytime.
+            </p>
+            <div className="explore-page__auth-actions">
+              <Link to="/signup" className="explore-page__auth-btn explore-page__auth-btn--primary">
+                Sign up
+              </Link>
+              <Link to="/login" className="explore-page__auth-btn explore-page__auth-btn--secondary">
+                Log in
+              </Link>
+            </div>
+            <button
+              type="button"
+              className="explore-page__auth-close"
+              onClick={() => setAuthPrompt(false)}
+              aria-label="Close"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                width="16"
+                height="16"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="explore-page__toolbar">
         <div className="explore-page__search">
           <svg
@@ -425,7 +488,7 @@ function Explore() {
           <button
             type="button"
             className={`explore-page__tool-btn ${showFavoritesOnly ? "explore-page__tool-btn--active" : ""}`}
-            onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
+            onClick={handleFavoritesFilter}
             title="Favorites"
           >
             <svg
@@ -515,6 +578,8 @@ function Explore() {
   );
 }
 
-Explore.propTypes = {};
+Explore.propTypes = {
+  loggedIn: PropTypes.bool,
+};
 
 export default Explore;
