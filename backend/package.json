@@ -1,0 +1,19 @@
+{
+  "name": "studyspot-backend",
+  "version": "1.0.0",
+  "description": "StudySpot backend API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "author": "Isabel Yeow, Brooklyn Schmidt",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0"
+  }
+}

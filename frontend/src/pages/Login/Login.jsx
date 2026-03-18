@@ -8,18 +8,35 @@ function Login({ onLogin = () => {} }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // TODO: Connect to backend auth
-    if (
-      email === "yeow.i@northeastern.edu" &&
-      password === "studyspot"
-    ) {
-      onLogin("IY");
+    setError("");
+    setLoading(true);
+
+    try {
+      // TODO: Connect to backend auth
+      const res = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        setError(data.error || "Invalid email or password");
+        setLoading(false);
+        return;
+      }
+
+      onLogin(data);
       navigate("/explore");
-    } else {
-      setError("Invalid email or password");
+    } catch (err) {
+      console.error("Login failed:", err);
+      setError("Something went wrong. Try again.");
+      setLoading(false);
     }
   };
 
@@ -85,8 +102,9 @@ function Login({ onLogin = () => {} }) {
           <button
             type="submit"
             className="login-page__btn login-page__btn--primary"
+            disabled={loading}
           >
-            Log in
+            {loading ? "Logging in..." : "Log in"}
           </button>
         </form>
 

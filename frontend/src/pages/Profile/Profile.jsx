@@ -24,76 +24,52 @@ function makeIcon(size, active) {
 const greenIcon = makeIcon(12, false);
 const activeIcon = makeIcon(16, true);
 
-/* TODO: Replace with real user data from API */
-const PLACEHOLDER_USER = {
-  name: "Isabel Yeow",
-  email: "yeow.i@northeastern.edu",
-  initials: "IY",
-  preferences: {
-    noise: "Quiet",
-    group: "Solo study",
-    category: "Library",
-  },
-};
-
-/* TODO: Replace with API fetch for spots created by this user */
-const PLACEHOLDER_MY_SPOTS = [
-  {
-    id: "1",
-    name: "Snell Library",
-    address: "376 Huntington Ave",
-    pos: [42.33855, -71.08843],
-    status: "Crowded",
-    category: "Library",
-    noiseLevel: "Quiet",
-    groupFriendly: "No",
-    hours: "Open 24 hours (Husky Card)",
-    description:
-      "Main campus library with multiple floors. Silent study areas on upper floors, collaborative spaces on lower levels.",
-  },
-  {
-    id: "2",
-    name: "Curry Student Center",
-    address: "346 Huntington Ave",
-    pos: [42.33912, -71.08735],
-    status: "Not crowded",
-    category: "Student center",
-    noiseLevel: "Loud",
-    groupFriendly: "Yes",
-    hours: "7:00 AM - 11:00 PM",
-    description:
-      "Student center with dining, lounge areas, and meeting rooms. Great for group work.",
-  },
-  {
-    id: "3",
-    name: "Hayden Hall",
-    address: "370 Huntington Ave",
-    pos: [42.33825, -71.08615],
-    status: "Moderate",
-    category: "Academic",
-    noiseLevel: "Moderate",
-    groupFriendly: "No",
-    hours: "8:00 AM - 10:00 PM",
-    description:
-      "Academic building with open study nooks between classrooms. Can get busy between classes.",
-  },
-];
-
 const PREF_STYLES = {
   noise: { bg: "#eaf3de", color: "#3b6d11" },
   group: { bg: "#faeeda", color: "#854f0b" },
   category: { bg: "#e6f0fa", color: "#1a5276" },
 };
 
-function Profile({ onLogout = () => {} }) {
+function Profile({ user = null, onLogout = () => {} }) {
   const navigate = useNavigate();
   const mapRef = useRef(null);
   const mapElRef = useRef(null);
   const markersRef = useRef({});
 
-  const [user] = useState(PLACEHOLDER_USER);
-  const [mySpots, setMySpots] = useState(PLACEHOLDER_MY_SPOTS);
+  const [profileData, setProfileData] = useState(null);
+  const [mySpots, setMySpots] = useState([]);
   const [selectedSpotId, setSelectedSpotId] = useState(null);
+
+  useEffect(() => {
+    if (!user) return;
+
+    async function fetchProfile() {
+      try {
+        const res = await fetch(`/api/users/${user._id}`);
+        if (res.ok) {
+          const data = await res.json();
+          setProfileData(data);
+        }
+      } catch (err) {
+        console.error("Failed to fetch profile:", err);
+      }
+    }
+
+    async function fetchMySpots() {
+      try {
+        const res = await fetch(`/api/spots?createdBy=${user._id}`);
+        if (res.ok) {
+          const data = await res.json();
+          setMySpots(data);
+        }
+      } catch (err) {
+        console.error("Failed to fetch spots:", err);
+      }
+    }
+
+    fetchProfile();
+    fetchMySpots();
+  }, [user]);
 
   useEffect(() => {
     if (mapRef.current) return;
@@ -118,16 +94,17 @@ function Profile({ onLogout = () => {} }) {
     markersRef.current = {};
 
     mySpots.forEach((spot) => {
-      const isActive = selectedSpotId === spot.id;
+      const spotId = spot._id || spot.id;
+      const isActive = selectedSpotId === spotId;
       const icon = isActive ? activeIcon : greenIcon;
       const m = L.marker(spot.pos, { icon })
         .addTo(mapRef.current)
         .bindTooltip(spot.name, { direction: "top", offset: [0, -10] });
       m.on("click", () => {
-        setSelectedSpotId(spot.id);
+        setSelectedSpotId(spotId);
         mapRef.current.flyTo(spot.pos, 17, { duration: 0.8 });
       });
-      markersRef.current[spot.id] = m;
+      markersRef.current[spotId] = m;
     });
   }, [mySpots, selectedSpotId]);
 
@@ -138,7 +115,7 @@ function Profile({ onLogout = () => {} }) {
   const handleSelect = useCallback(
     (spotId) => {
       setSelectedSpotId(spotId);
-      const spot = mySpots.find((s) => s.id === spotId);
+      const spot = mySpots.find((s) => (s._id || s.id) === spotId);
       if (spot && mapRef.current) {
         mapRef.current.flyTo(spot.pos, 17, { duration: 0.8 });
       }
@@ -146,29 +123,61 @@ function Profile({ onLogout = () => {} }) {
     [mySpots],
   );
 
-  const handleSave = useCallback(
-    (spotId, updatedFields) => {
-      /* TODO: PUT /api/spots/:id */
-      setMySpots((prev) =>
-        prev.map((s) => (s.id === spotId ? { ...s, ...updatedFields } : s)),
-      );
-    },
-    [],
-  );
+  const handleSave = useCallback(async (spotId, updatedFields) => {
+    try {
+      const res = await fetch(`/api/spots/${spotId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(updatedFields),
+      });
+
+      if (res.ok) {
+        const updated = await res.json();
+        setMySpots((prev) =>
+          prev.map((s) => ((s._id || s.id) === spotId ? updated : s)),
+        );
+      }
+    } catch (err) {
+      console.error("Failed to update spot:", err);
+    }
+  }, []);
 
   const handleDelete = useCallback(
-    (spotId) => {
-      /* TODO: DELETE /api/spots/:id */
-      setMySpots((prev) => prev.filter((s) => s.id !== spotId));
-      if (selectedSpotId === spotId) {
-        setSelectedSpotId(null);
-        if (mapRef.current) {
-          mapRef.current.flyTo([42.344, -71.08], 14, { duration: 0.8 });
+    async (spotId) => {
+      try {
+        const res = await fetch(`/api/spots/${spotId}`, {
+          method: "DELETE",
+        });
+
+        if (res.ok) {
+          setMySpots((prev) =>
+            prev.filter((s) => (s._id || s.id) !== spotId),
+          );
+          if (selectedSpotId === spotId) {
+            setSelectedSpotId(null);
+            if (mapRef.current) {
+              mapRef.current.flyTo([42.344, -71.08], 14, { duration: 0.8 });
+            }
+          }
         }
+      } catch (err) {
+        console.error("Failed to delete spot:", err);
       }
     },
     [selectedSpotId],
   );
+
+  const displayUser = profileData || user;
+
+  if (!displayUser) {
+    return (
+      <main className="profile-page">
+        <p style={{ padding: "40px", textAlign: "center", opacity: 0.5 }}>
+          Please log in to view your profile.
+        </p>
+      </main>
+    );
+  }
 
   return (
     <main className="profile-page">
@@ -195,24 +204,35 @@ function Profile({ onLogout = () => {} }) {
         </button>
       </div>
       <header className="profile-page__header">
-        <div className="profile-page__avatar">{user.initials}</div>
+        <div className="profile-page__avatar">
+          {displayUser.initials}
+        </div>
         <div className="profile-page__info">
-          <h1 className="profile-page__name">{user.name}</h1>
-          <p className="profile-page__email">{user.email}</p>
+          <h1 className="profile-page__name">
+            {displayUser.firstName} {displayUser.lastName}
+          </h1>
+          <p className="profile-page__email">{displayUser.email}</p>
         </div>
         <div className="profile-page__prefs">
-          {Object.entries(user.preferences).map(([key, value]) => (
-            <span
-              key={key}
-              className="profile-page__pref-pill"
-              style={{
-                backgroundColor: PREF_STYLES[key].bg,
-                color: PREF_STYLES[key].color,
-              }}
-            >
-              {value}
-            </span>
-          ))}
+          {displayUser.preferences &&
+            Object.entries(displayUser.preferences)
+              .filter(([, value]) => value)
+              .map(([key, value]) => (
+                <span
+                  key={key}
+                  className="profile-page__pref-pill"
+                  style={{
+                    backgroundColor: PREF_STYLES[key]
+                      ? PREF_STYLES[key].bg
+                      : "#f0f0f0",
+                    color: PREF_STYLES[key]
+                      ? PREF_STYLES[key].color
+                      : "#666",
+                  }}
+                >
+                  {value}
+                </span>
+              ))}
         </div>
         <button
           type="button"
@@ -253,16 +273,19 @@ function Profile({ onLogout = () => {} }) {
               You haven&apos;t added any spots yet.
             </p>
           )}
-          {mySpots.map((spot) => (
-            <ProfileSpotCard
-              key={spot.id}
-              spot={spot}
-              selected={selectedSpotId === spot.id}
-              onSelect={() => handleSelect(spot.id)}
-              onSave={handleSave}
-              onDelete={handleDelete}
-            />
-          ))}
+          {mySpots.map((spot) => {
+            const spotId = spot._id || spot.id;
+            return (
+              <ProfileSpotCard
+                key={spotId}
+                spot={{ ...spot, id: spotId }}
+                selected={selectedSpotId === spotId}
+                onSelect={() => handleSelect(spotId)}
+                onSave={handleSave}
+                onDelete={handleDelete}
+              />
+            );
+          })}
         </div>
       </div>
     </main>
@@ -270,6 +293,14 @@ function Profile({ onLogout = () => {} }) {
 }
 
 Profile.propTypes = {
+  user: PropTypes.shape({
+    _id: PropTypes.string.isRequired,
+    firstName: PropTypes.string,
+    lastName: PropTypes.string,
+    email: PropTypes.string,
+    initials: PropTypes.string,
+    preferences: PropTypes.object,
+  }),
   onLogout: PropTypes.func,
 };
 

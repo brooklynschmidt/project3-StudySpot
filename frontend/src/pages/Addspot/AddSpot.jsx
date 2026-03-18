@@ -15,7 +15,7 @@ const CATEGORIES = [
 const NOISE_LEVELS = ["Quiet", "Moderate", "Loud"];
 const AVAILABILITY = ["Not crowded", "Moderate", "Crowded"];
 
-function AddSpot() {
+function AddSpot({ user = null }) {
   const navigate = useNavigate();
   const mapRef = useRef(null);
   const mapElRef = useRef(null);
@@ -30,6 +30,7 @@ function AddSpot() {
   const [description, setDescription] = useState("");
   const [status, setStatus] = useState("");
   const [position, setPosition] = useState(null);
+  const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
     if (mapRef.current) return;
@@ -65,21 +66,39 @@ function AddSpot() {
   }, []);
 
   const handleSubmit = useCallback(
-    (e) => {
+    async (e) => {
       e.preventDefault();
-      const newSpot = {
-        name,
-        address,
-        category,
-        noiseLevel,
-        groupFriendly,
-        hours,
-        description,
-        status,
-        pos: position,
-      };
-      console.log("New spot:", newSpot);
-      navigate("/explore");
+      setSubmitting(true);
+
+      try {
+        const res = await fetch("/api/spots", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name,
+            address,
+            category,
+            noiseLevel,
+            groupFriendly,
+            hours,
+            description,
+            status,
+            pos: position,
+            createdBy: user ? user._id : null,
+          }),
+        });
+
+        if (res.ok) {
+          navigate("/explore");
+        } else {
+          const data = await res.json();
+          console.error("Failed to add spot:", data.error);
+          setSubmitting(false);
+        }
+      } catch (err) {
+        console.error("Failed to add spot:", err);
+        setSubmitting(false);
+      }
     },
     [
       name,
@@ -91,6 +110,7 @@ function AddSpot() {
       description,
       status,
       position,
+      user,
       navigate,
     ],
   );
@@ -303,9 +323,9 @@ function AddSpot() {
             <button
               type="submit"
               className="add-spot__btn add-spot__btn--submit"
-              disabled={!position}
+              disabled={!position || submitting}
             >
-              Add spot
+              {submitting ? "Adding..." : "Add spot"}
             </button>
           </div>
 
@@ -320,6 +340,11 @@ function AddSpot() {
   );
 }
 
-AddSpot.propTypes = {};
+AddSpot.propTypes = {
+  user: PropTypes.shape({
+    _id: PropTypes.string.isRequired,
+    initials: PropTypes.string.isRequired,
+  }),
+};
 
 export default AddSpot;

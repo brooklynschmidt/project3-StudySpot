@@ -10,18 +10,43 @@ function Signup({ onLogin = () => {} }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setError("");
+
     if (password !== confirmPassword) {
-      alert("Passwords do not match");
+      setError("Passwords do not match");
       return;
     }
-    // TODO: Connect to backend auth
-    const initials =
-      (firstName.charAt(0) + lastName.charAt(0)).toUpperCase() || "";
-    onLogin(initials);
-    navigate("/explore");
+
+    setLoading(true);
+
+    try {
+      // TODO: Connect to backend auth
+      const res = await fetch("/api/auth/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password, firstName, lastName }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        setError(data.error || "Signup failed");
+        setLoading(false);
+        return;
+      }
+
+      onLogin(data);
+      navigate("/explore");
+    } catch (err) {
+      console.error("Signup failed:", err);
+      setError("Something went wrong. Try again.");
+      setLoading(false);
+    }
   };
 
   return (
@@ -112,11 +137,14 @@ function Signup({ onLogin = () => {} }) {
             />
           </div>
 
+          {error && <p className="signup-page__error">{error}</p>}
+
           <button
             type="submit"
             className="signup-page__btn"
+            disabled={loading}
           >
-            Create account
+            {loading ? "Creating account..." : "Create account"}
           </button>
         </form>
 

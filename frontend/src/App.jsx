@@ -13,26 +13,25 @@ function AppContent() {
   const location = useLocation();
   const isHome = location.pathname === "/";
 
-  /* TODO: Replace with real auth (session/token check) */
-  const [loggedIn, setLoggedIn] = useState(false);
-  const [userInitials, setUserInitials] = useState("");
+  /* TODO: Replace with session/token persistence */
+  const [user, setUser] = useState(null);
 
-  const handleLogin = useCallback((initials) => {
-    setLoggedIn(true);
-    setUserInitials(initials || "");
+  const handleLogin = useCallback((userData) => {
+    setUser(userData);
   }, []);
 
   const handleLogout = useCallback(() => {
-    setLoggedIn(false);
-    setUserInitials("");
+    setUser(null);
   }, []);
+
+  const loggedIn = user !== null;
 
   return (
     <>
       <Navbar
         transparent={isHome}
         loggedIn={loggedIn}
-        userInitials={userInitials}
+        userInitials={user ? user.initials : ""}
       />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -46,12 +45,15 @@ function AppContent() {
         />
         <Route
           path="/explore"
-          element={<Explore loggedIn={loggedIn} />}
+          element={<Explore loggedIn={loggedIn} user={user} />}
         />
-        <Route path="/add-spot" element={<AddSpot />} />
+        <Route
+          path="/add-spot"
+          element={<AddSpot user={user} />}
+        />
         <Route
           path="/profile"
-          element={<Profile onLogout={handleLogout} />}
+          element={<Profile user={user} onLogout={handleLogout} />}
         />
       </Routes>
     </>

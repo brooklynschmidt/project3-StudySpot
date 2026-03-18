@@ -8,236 +8,13 @@ import SpotDetail from "../../components/SpotDetail/SpotDetail.jsx";
 import FilterDropdown from "../../components/FilterDropdown/FilterDropdown.jsx";
 import "./Explore.css";
 
-const PLACEHOLDER_SPOTS = [
-  {
-    id: "1",
-    name: "Snell Library",
-    address: "376 Huntington Ave",
-    pos: [42.33855, -71.08843],
-    status: "Crowded",
-    category: "Library",
-    noiseLevel: "Quiet",
-    groupFriendly: "No",
-    hours: "Open 24 hours (Husky Card)",
-    description:
-      "Main campus library with multiple floors. Silent study areas on upper floors, collaborative spaces on lower levels.",
-    studentsNow: 142,
-  },
-  {
-    id: "2",
-    name: "Curry Student Center",
-    address: "346 Huntington Ave",
-    pos: [42.33912, -71.08735],
-    status: "Not crowded",
-    category: "Student center",
-    noiseLevel: "Loud",
-    groupFriendly: "Yes",
-    hours: "7:00 AM - 11:00 PM",
-    description:
-      "Student center with dining, lounge areas, and meeting rooms. Great for group work.",
-    studentsNow: 28,
-  },
-  {
-    id: "3",
-    name: "Hayden Hall",
-    address: "370 Huntington Ave",
-    pos: [42.33825, -71.08615],
-    status: "Moderate",
-    category: "Academic",
-    noiseLevel: "Moderate",
-    groupFriendly: "No",
-    hours: "8:00 AM - 10:00 PM",
-    description:
-      "Academic building with open study nooks between classrooms. Can get busy between classes.",
-    studentsNow: 54,
-  },
-  {
-    id: "4",
-    name: "International Village",
-    address: "1155 Tremont St",
-    pos: [42.34065, -71.08895],
-    status: "Moderate",
-    category: "Residence",
-    noiseLevel: "Quiet",
-    groupFriendly: "No",
-    hours: "24 hours (residents only)",
-    description:
-      "Residence hall with common study lounges on each floor. Quiet after 10 PM.",
-    studentsNow: 35,
-  },
-  {
-    id: "5",
-    name: "Shillman Hall",
-    address: "115 Forsyth St",
-    pos: [42.33745, -71.08920],
-    status: "Not crowded",
-    category: "Academic",
-    noiseLevel: "Moderate",
-    groupFriendly: "Yes",
-    hours: "8:00 AM - 9:00 PM",
-    description:
-      "Large lecture hall building with open atrium space. Tables and seating on the ground floor.",
-    studentsNow: 18,
-  },
-  {
-    id: "6",
-    name: "Behrakis Health Sciences",
-    address: "30 Leon St",
-    pos: [42.33665, -71.09175],
-    status: "Not crowded",
-    category: "Academic",
-    noiseLevel: "Quiet",
-    groupFriendly: "No",
-    hours: "7:30 AM - 9:00 PM",
-    description:
-      "Health sciences building with quiet study areas. Less known so usually has open seats.",
-    studentsNow: 9,
-  },
-  {
-    id: "7",
-    name: "Caffè Bene",
-    address: "333 Massachusetts Ave",
-    pos: [42.34268, -71.08545],
-    status: "Moderate",
-    category: "Cafe",
-    noiseLevel: "Moderate",
-    groupFriendly: "Yes",
-    hours: "8:00 AM - 10:00 PM",
-    description:
-      "Korean cafe near Symphony with great waffles, bingsu, and lattes. Popular with NEU students. Plenty of seating and outlets.",
-    studentsNow: 38,
-  },
-  {
-    id: "8",
-    name: "Wishing Cup",
-    address: "45 Court St",
-    pos: [42.35862, -71.05895],
-    status: "Not crowded",
-    category: "Cafe",
-    noiseLevel: "Moderate",
-    groupFriendly: "No",
-    hours: "7:00 AM - 5:00 PM (Closed Sun)",
-    description:
-      "Family-owned cafe in the Financial District. Every order supports their wish-granting program. Great matcha and pastries.",
-    studentsNow: 8,
-  },
-  {
-    id: "9",
-    name: "Jaho Coffee - Back Bay",
-    address: "116 Huntington Ave",
-    pos: [42.34795, -71.07755],
-    status: "Moderate",
-    category: "Cafe",
-    noiseLevel: "Moderate",
-    groupFriendly: "Yes",
-    hours: "6:30 AM - 11:00 PM",
-    description:
-      "Largest Jaho location with a fireplace lounge, marble bar, and wine/beer. Open late — great for evening study sessions.",
-    studentsNow: 45,
-  },
-  {
-    id: "10",
-    name: "Jaho Coffee - Chinatown",
-    address: "665 Washington St",
-    pos: [42.35155, -71.06255],
-    status: "Not crowded",
-    category: "Cafe",
-    noiseLevel: "Quiet",
-    groupFriendly: "Yes",
-    hours: "6:30 AM - 11:00 PM",
-    description:
-      "Flagship Jaho location with in-house roaster, slow coffee bar, and full food menu. Open late with a chill vibe.",
-    studentsNow: 22,
-  },
-  {
-    id: "11",
-    name: "Jaho Coffee - South End",
-    address: "1651 Washington St",
-    pos: [42.33665, -71.07445],
-    status: "Not crowded",
-    category: "Cafe",
-    noiseLevel: "Quiet",
-    groupFriendly: "No",
-    hours: "6:30 AM - 9:00 PM",
-    description:
-      "Cozy South End location. First Jaho in Boston. Great coffee and a relaxed neighborhood feel.",
-    studentsNow: 14,
-  },
-  {
-    id: "12",
-    name: "Caffè Nero - Copley",
-    address: "100 Huntington Ave",
-    pos: [42.34740, -71.07985],
-    status: "Moderate",
-    category: "Cafe",
-    noiseLevel: "Moderate",
-    groupFriendly: "No",
-    hours: "6:30 AM - 7:30 PM",
-    description:
-      "Italian coffee chain in Copley Place. Solid espresso, free wifi, and baked goods. Good for quick study sessions.",
-    studentsNow: 20,
-  },
-  {
-    id: "13",
-    name: "Caffè Nero - South End",
-    address: "564 Tremont St",
-    pos: [42.34460, -71.07095],
-    status: "Not crowded",
-    category: "Cafe",
-    noiseLevel: "Quiet",
-    groupFriendly: "No",
-    hours: "6:30 AM - 9:00 PM",
-    description:
-      "Quiet South End Nero location. Italian-style light dishes and blended drinks in a cozy setting.",
-    studentsNow: 10,
-  },
-  {
-    id: "14",
-    name: "Boston Public Library",
-    address: "700 Boylston St",
-    pos: [42.34940, -71.07835],
-    status: "Moderate",
-    category: "Library",
-    noiseLevel: "Quiet",
-    groupFriendly: "No",
-    hours: "9:00 AM - 9:00 PM (Mon-Thu)",
-    description:
-      "Historic public library at Copley Square. Beautiful reading rooms, free wifi, and open to everyone. No Husky Card needed.",
-    studentsNow: 95,
-  },
-  {
-    id: "15",
-    name: "Capital One Cafe - Back Bay",
-    address: "711 Boylston St",
-    pos: [42.34900, -71.07650],
-    status: "Not crowded",
-    category: "Cafe",
-    noiseLevel: "Moderate",
-    groupFriendly: "Yes",
-    hours: "7:00 AM - 7:00 PM",
-    description:
-      "Free wifi, comfortable seating, and 50% off drinks with a Capital One card. Private nooks available for account holders.",
-    studentsNow: 25,
-  },
-  {
-    id: "16",
-    name: "Blank Street - Boylston",
-    address: "647 Boylston St",
-    pos: [42.34935, -71.07475],
-    status: "Not crowded",
-    category: "Cafe",
-    noiseLevel: "Moderate",
-    groupFriendly: "No",
-    hours: "6:30 AM - 8:00 PM",
-    description:
-      "Minimalist coffee shop on Boylston. Quick service, good matcha and espresso. Small but efficient.",
-    studentsNow: 6,
-  },
-];
-
 function makeIcon(color, size, active) {
-  const shadow = active ? "box-shadow:0 0 8px rgba(4,57,94,.4);" : "box-shadow:0 0 4px rgba(154,189,151,.4);";
-  const border = active ? "border:2.5px solid #04395E;" : "border:2px solid #fff;";
+  const shadow = active
+    ? "box-shadow:0 0 8px rgba(4,57,94,.4);"
+    : "box-shadow:0 0 4px rgba(154,189,151,.4);";
+  const border = active
+    ? "border:2.5px solid #04395E;"
+    : "border:2px solid #fff;";
   return L.divIcon({
     html: `<div style="width:${size}px;height:${size}px;background:${color};${border}border-radius:50%;${shadow}transition:all .2s;"></div>`,
     className: "",
@@ -253,6 +30,7 @@ function Explore({ loggedIn = false }) {
   const mapRef = useRef(null);
   const mapElRef = useRef(null);
   const markersRef = useRef({});
+  const [allSpots, setAllSpots] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [filterOpen, setFilterOpen] = useState(false);
   const [selectedSpot, setSelectedSpot] = useState(null);
@@ -265,6 +43,21 @@ function Explore({ loggedIn = false }) {
     noiseLevel: [],
     groupFriendly: [],
   });
+
+  useEffect(() => {
+    async function fetchSpots() {
+      try {
+        const res = await fetch("/api/spots");
+        if (res.ok) {
+          const data = await res.json();
+          setAllSpots(data);
+        }
+      } catch (err) {
+        console.error("Failed to fetch spots:", err);
+      }
+    }
+    fetchSpots();
+  }, []);
 
   const toggleFavorite = useCallback(
     (spotId) => {
@@ -289,11 +82,9 @@ function Explore({ loggedIn = false }) {
     setShowFavoritesOnly((prev) => !prev);
   }, [loggedIn]);
 
-  // TODO: Replace with API fetch
-  const allSpots = PLACEHOLDER_SPOTS;
-
   const filteredSpots = allSpots.filter((spot) => {
-    if (showFavoritesOnly && !favorites.includes(spot.id)) return false;
+    const spotId = spot._id || spot.id;
+    if (showFavoritesOnly && !favorites.includes(spotId)) return false;
 
     const matchesSearch =
       searchQuery === "" ||
@@ -336,7 +127,7 @@ function Explore({ loggedIn = false }) {
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
       { maxZoom: 19 },
     ).addTo(mapRef.current);
-    mapRef.current.setView([42.3440, -71.0800], 14);
+    mapRef.current.setView([42.344, -71.08], 14);
   }, []);
 
   const updateMarkers = useCallback(() => {
@@ -348,7 +139,8 @@ function Explore({ loggedIn = false }) {
     markersRef.current = {};
 
     filteredSpots.forEach((spot) => {
-      const isActive = selectedSpot && selectedSpot.id === spot.id;
+      const spotId = spot._id || spot.id;
+      const isActive = selectedSpot && (selectedSpot._id || selectedSpot.id) === spotId;
       const icon = isActive ? activeIcon : greenIcon;
       const m = L.marker(spot.pos, { icon })
         .addTo(mapRef.current)
@@ -357,7 +149,7 @@ function Explore({ loggedIn = false }) {
         setSelectedSpot(spot);
         mapRef.current.flyTo(spot.pos, 17, { duration: 0.8 });
       });
-      markersRef.current[spot.id] = m;
+      markersRef.current[spotId] = m;
     });
   }, [filteredSpots, selectedSpot]);
 
@@ -365,20 +157,17 @@ function Explore({ loggedIn = false }) {
     updateMarkers();
   }, [updateMarkers]);
 
-  const handleSpotClick = useCallback(
-    (spot) => {
-      setSelectedSpot(spot);
-      if (mapRef.current) {
-        mapRef.current.flyTo(spot.pos, 17, { duration: 0.8 });
-      }
-    },
-    [],
-  );
+  const handleSpotClick = useCallback((spot) => {
+    setSelectedSpot(spot);
+    if (mapRef.current) {
+      mapRef.current.flyTo(spot.pos, 17, { duration: 0.8 });
+    }
+  }, []);
 
   const handleCloseDetail = useCallback(() => {
     setSelectedSpot(null);
     if (mapRef.current) {
-      mapRef.current.flyTo([42.3440, -71.0800], 14, { duration: 0.8 });
+      mapRef.current.flyTo([42.344, -71.08], 14, { duration: 0.8 });
     }
   }, []);
 
@@ -406,10 +195,16 @@ function Explore({ loggedIn = false }) {
               Sign up to favorite study spots and access them anytime.
             </p>
             <div className="explore-page__auth-actions">
-              <Link to="/signup" className="explore-page__auth-btn explore-page__auth-btn--primary">
+              <Link
+                to="/signup"
+                className="explore-page__auth-btn explore-page__auth-btn--primary"
+              >
                 Sign up
               </Link>
-              <Link to="/login" className="explore-page__auth-btn explore-page__auth-btn--secondary">
+              <Link
+                to="/login"
+                className="explore-page__auth-btn explore-page__auth-btn--secondary"
+              >
                 Log in
               </Link>
             </div>
@@ -559,19 +354,25 @@ function Explore({ loggedIn = false }) {
                 : "No spots match your filters. Try adjusting your search."}
             </p>
           )}
-          {filteredSpots.map((spot) => (
-            <SpotCard
-              key={spot.id}
-              name={spot.name}
-              address={spot.address}
-              status={spot.status}
-              category={spot.category}
-              selected={selectedSpot && selectedSpot.id === spot.id}
-              favorited={favorites.includes(spot.id)}
-              onClick={() => handleSpotClick(spot)}
-              onToggleFavorite={() => toggleFavorite(spot.id)}
-            />
-          ))}
+          {filteredSpots.map((spot) => {
+            const spotId = spot._id || spot.id;
+            return (
+              <SpotCard
+                key={spotId}
+                name={spot.name}
+                address={spot.address}
+                status={spot.status}
+                category={spot.category}
+                selected={
+                  selectedSpot &&
+                  (selectedSpot._id || selectedSpot.id) === spotId
+                }
+                favorited={favorites.includes(spotId)}
+                onClick={() => handleSpotClick(spot)}
+                onToggleFavorite={() => toggleFavorite(spotId)}
+              />
+            );
+          })}
         </div>
       </div>
     </main>
