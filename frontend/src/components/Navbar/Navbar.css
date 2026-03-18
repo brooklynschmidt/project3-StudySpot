@@ -2,18 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 24px;
-  background-color: var(--color-navy);
-  color: var(--color-white);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  padding: 14px 32px;
+  background-color: var(--color-white);
+  position: relative;
   z-index: 200;
 }
 
 .navbar--transparent {
   background-color: transparent;
+  border-bottom: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .nav-logo {
@@ -48,7 +49,7 @@
 .nav-link--signup {
   background-color: var(--color-green);
   color: var(--color-navy);
-  padding: 5px 14px;
+  padding: 6px 16px;
   border-radius: 20px;
   font-weight: 500;
   opacity: 1;
