@@ -7,6 +7,7 @@ import "./MapView.css";
 const NEU = [42.3398, -71.0892];
 const SNELL = [42.3386, -71.0877];
 const MASS_AVE = [42.342, -71.0853];
+const KHOURY = [42.3370, -71.0920];
 
 const SPOTS = [
   { pos: [42.3386, -71.0877], name: "Snell Library" },
@@ -32,6 +33,7 @@ function makeIcon(color, size, shadow) {
 const greenIcon = makeIcon("#9ABD97", 10, "");
 const redIcon = makeIcon("#E24B4A", 16, "rgba(226,75,74,.4)");
 const bigGreenIcon = makeIcon("#9ABD97", 16, "rgba(154,189,151,.5)");
+const navyIcon = makeIcon("#04395E", 16, "rgba(4,57,94,.4)");
 
 function MapView({ spots }) {
   const heroMapRef = useRef(null);
@@ -44,7 +46,7 @@ function MapView({ spots }) {
   const [currentStep, setCurrentStep] = useState(0);
   const isTransitioning = useRef(false);
   const accumulated = useRef(0);
-  const totalSteps = 4;
+  const totalSteps = 5;
   const displaySpots = spots.length > 0 ? spots : SPOTS;
 
   useEffect(() => {
@@ -100,17 +102,14 @@ function MapView({ spots }) {
       const cardRect = cardEl.getBoundingClientRect();
       const frameRect = frameRef.current.getBoundingClientRect();
 
-      const cardCenterX = cardRect.left - frameRect.left + cardRect.width / 2;
       const cardCenterY = cardRect.top - frameRect.top + cardRect.height / 2;
 
-      let cardEdgeX, cardEdgeY;
+      let cardEdgeX;
 
       if (cardRect.left > frameRect.left + frameRect.width / 2) {
         cardEdgeX = cardRect.left - frameRect.left;
-        cardEdgeY = cardCenterY;
       } else {
         cardEdgeX = cardRect.right - frameRect.left;
-        cardEdgeY = cardCenterY;
       }
 
       const line = document.createElementNS(
@@ -118,7 +117,7 @@ function MapView({ spots }) {
         "line",
       );
       line.setAttribute("x1", cardEdgeX);
-      line.setAttribute("y1", cardEdgeY);
+      line.setAttribute("y1", cardCenterY);
       line.setAttribute("x2", point.x);
       line.setAttribute("y2", point.y);
       line.setAttribute("stroke", "#04395E");
@@ -199,6 +198,19 @@ function MapView({ spots }) {
           markersRef.current.push(m1, m2);
           drawLine("card-discover", MASS_AVE);
         }, 600);
+      } else if (step === 4) {
+        map.flyTo(KHOURY, 17, { duration: 1.2 });
+        setTimeout(() => {
+          const m = L.marker(KHOURY, { icon: navyIcon })
+            .addTo(map)
+            .bindTooltip("Khoury College", {
+              direction: "top",
+              offset: [0, -12],
+              permanent: true,
+            });
+          markersRef.current.push(m);
+          drawLine("card-khoury", KHOURY);
+        }, 600);
       } else if (step === 0) {
         map.flyTo(NEU, 15, { duration: 1 });
       }
@@ -271,6 +283,48 @@ function MapView({ spots }) {
         <span className="map-view__badge">30 students studying</span>
       </div>
 
+      <div
+        id="card-khoury"
+        className={`map-view__card map-view__card--khoury ${currentStep === 4 ? "map-view__card--visible" : ""}`}
+      >
+        <div className="map-view__khoury-label">
+          <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+            <polygon
+              points="10,1 12.5,7 19,7.5 14,12 15.5,19 10,15.5 4.5,19 6,12 1,7.5 7.5,7"
+              fill="#9ABD97"
+            />
+          </svg>
+          <span>Khoury College</span>
+        </div>
+        <h2>Made by students, for students</h2>
+        <p>
+          We noticed students always end up at the same crowded spots.
+          StudySpot was built to change that.
+        </p>
+        <div className="map-view__bios">
+          <div className="map-view__bio-card">
+            <div className="map-view__bio-avatar">IY</div>
+            <div>
+              <p className="map-view__bio-name">Isabel Yeow</p>
+              <p className="map-view__bio-text">
+                Tired of circling Snell for an open seat. Built StudySpot so
+                nobody has to settle for the last chair again.
+              </p>
+            </div>
+          </div>
+          <div className="map-view__bio-card">
+            <div className="map-view__bio-avatar">BS</div>
+            <div>
+              <p className="map-view__bio-name">Brooklyn Schmidt</p>
+              <p className="map-view__bio-text">
+                Wanted a better way for students to share the spots they
+                swear by. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Layer 4: Hero */}
       <div
         className="map-view__hero"
@@ -300,7 +354,7 @@ function MapView({ spots }) {
 
       {/* Layer 5: Navigation */}
       <div className="map-view__dots">
-        {[0, 1, 2, 3].map((i) => (
+        {[0, 1, 2, 3, 4].map((i) => (
           <button
             key={i}
             className={`map-view__dot ${currentStep === i ? "map-view__dot--active" : ""}`}

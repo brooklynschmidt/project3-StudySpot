@@ -159,3 +159,9 @@
 .login-page__switch a:hover {
   text-decoration: underline;
 }
+
+.login-page__error {
+  font-size: 0.8rem;
+  color: #a32d2d;
+  margin-bottom: 4px;
+}

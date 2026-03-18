@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Signup.css";
 
-function Signup() {
+function Signup({ onLogin = () => {} }) {
+  const navigate = useNavigate();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -17,7 +18,10 @@ function Signup() {
       return;
     }
     // TODO: Connect to backend auth
-    console.log("Signup:", { firstName, lastName, email, password });
+    const initials =
+      (firstName.charAt(0) + lastName.charAt(0)).toUpperCase() || "";
+    onLogin(initials);
+    navigate("/explore");
   };
 
   return (
@@ -125,6 +129,8 @@ function Signup() {
   );
 }
 
-Signup.propTypes = {};
+Signup.propTypes = {
+  onLogin: PropTypes.func,
+};
 
 export default Signup;

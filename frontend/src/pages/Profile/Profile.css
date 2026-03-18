@@ -91,6 +91,33 @@
   white-space: nowrap;
 }
 
+/* ── Logout ── */
+
+.profile-page__logout {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.78rem;
+  font-family: "DM Sans", sans-serif;
+  color: var(--color-navy);
+  opacity: 0.55;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    opacity 0.2s,
+    border-color 0.2s;
+}
+
+.profile-page__logout:hover {
+  opacity: 0.85;
+  border-color: #a32d2d;
+  color: #a32d2d;
+}
+
 /* ── Map + List ── */
 
 .profile-page__content {

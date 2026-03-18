@@ -1,16 +1,26 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Login.css";
 
-function Login() {
+function Login({ onLogin = () => {} }) {
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: Connect to backend auth
-    console.log("Login:", { email, password });
+    if (
+      email === "yeow.i@northeastern.edu" &&
+      password === "studyspot"
+    ) {
+      onLogin("IY");
+      navigate("/explore");
+    } else {
+      setError("Invalid email or password");
+    }
   };
 
   return (
@@ -47,7 +57,10 @@ function Login() {
               type="email"
               placeholder="you@northeastern.edu"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => {
+                setEmail(e.target.value);
+                setError("");
+              }}
               required
             />
           </div>
@@ -59,10 +72,15 @@ function Login() {
               type="password"
               placeholder="Enter your password"
               value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={(e) => {
+                setPassword(e.target.value);
+                setError("");
+              }}
               required
             />
           </div>
+
+          {error && <p className="login-page__error">{error}</p>}
 
           <button
             type="submit"
@@ -92,6 +110,8 @@ function Login() {
   );
 }
 
-Login.propTypes = {};
+Login.propTypes = {
+  onLogin: PropTypes.func,
+};
 
 export default Login;

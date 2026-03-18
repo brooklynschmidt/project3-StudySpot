@@ -85,7 +85,7 @@ const PREF_STYLES = {
   category: { bg: "#e6f0fa", color: "#1a5276" },
 };
 
-function Profile() {
+function Profile({ onLogout = () => {} }) {
   const navigate = useNavigate();
   const mapRef = useRef(null);
   const mapElRef = useRef(null);
@@ -214,6 +214,30 @@ function Profile() {
             </span>
           ))}
         </div>
+        <button
+          type="button"
+          className="profile-page__logout"
+          onClick={() => {
+            onLogout();
+            navigate("/");
+          }}
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            width="14"
+            height="14"
+          >
+            <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4" />
+            <polyline points="16 17 21 12 16 7" />
+            <line x1="21" y1="12" x2="9" y2="12" />
+          </svg>
+          <span>Log out</span>
+        </button>
       </header>
 
       <div className="profile-page__content">
@@ -245,6 +269,8 @@ function Profile() {
   );
 }
 
-Profile.propTypes = {};
+Profile.propTypes = {
+  onLogout: PropTypes.func,
+};
 
 export default Profile;
