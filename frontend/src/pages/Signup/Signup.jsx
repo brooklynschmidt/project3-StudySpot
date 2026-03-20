@@ -25,10 +25,10 @@ function Signup({ onLogin = () => {} }) {
     setLoading(true);
 
     try {
-      // TODO: Connect to backend auth
       const res = await fetch("/api/auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({ email, password, firstName, lastName }),
       });
 

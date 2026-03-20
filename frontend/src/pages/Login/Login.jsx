@@ -16,10 +16,10 @@ function Login({ onLogin = () => {} }) {
     setLoading(true);
 
     try {
-      // TODO: Connect to backend auth
       const res = await fetch("/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({ email, password }),
       });
 

@@ -68,10 +68,10 @@ function Explore({ loggedIn = false }) {
       setFavorites((prev) =>
         prev.includes(spotId)
           ? prev.filter((id) => id !== spotId)
-          : [...prev, spotId],
+          : [...prev, spotId]
       );
     },
-    [loggedIn],
+    [loggedIn]
   );
 
   const handleFavoritesFilter = useCallback(() => {
@@ -116,6 +116,37 @@ function Explore({ loggedIn = false }) {
     );
   });
 
+  // --- NEW: handle updating spot availability ---
+  const handleUpdateAvailability = useCallback(
+    async (spotId, newStatus) => {
+      try {
+        // Update immediately in UI for snappy feedback
+        setAllSpots((prev) =>
+          prev.map((s) =>
+            (s._id || s.id) === spotId ? { ...s, status: newStatus } : s
+          )
+        );
+        if (selectedSpot && (selectedSpot._id || selectedSpot.id) === spotId) {
+          setSelectedSpot((prev) => ({ ...prev, status: newStatus }));
+        }
+
+        // Persist change to backend
+        const res = await fetch(`/api/spots/${spotId}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ status: newStatus }),
+        });
+
+        if (!res.ok) {
+          console.error("Failed to update spot status");
+        }
+      } catch (err) {
+        console.error("Error updating spot status:", err);
+      }
+    },
+    [selectedSpot]
+  );
+
   useEffect(() => {
     if (mapRef.current) return;
 
@@ -125,7 +156,7 @@ function Explore({ loggedIn = false }) {
     });
     L.tileLayer(
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-      { maxZoom: 19 },
+      { maxZoom: 19 }
     ).addTo(mapRef.current);
     mapRef.current.setView([42.344, -71.08], 14);
   }, []);
@@ -134,13 +165,14 @@ function Explore({ loggedIn = false }) {
     if (!mapRef.current) return;
 
     Object.values(markersRef.current).forEach((m) =>
-      mapRef.current.removeLayer(m),
+      mapRef.current.removeLayer(m)
     );
     markersRef.current = {};
 
     filteredSpots.forEach((spot) => {
       const spotId = spot._id || spot.id;
-      const isActive = selectedSpot && (selectedSpot._id || selectedSpot.id) === spotId;
+      const isActive =
+        selectedSpot && (selectedSpot._id || selectedSpot.id) === spotId;
       const icon = isActive ? activeIcon : greenIcon;
       const m = L.marker(spot.pos, { icon })
         .addTo(mapRef.current)
@@ -256,7 +288,9 @@ function Explore({ loggedIn = false }) {
         <div className="explore-page__tools">
           <button
             type="button"
-            className={`explore-page__tool-btn ${filterOpen ? "explore-page__tool-btn--active" : ""}`}
+            className={`explore-page__tool-btn ${
+              filterOpen ? "explore-page__tool-btn--active" : ""
+            }`}
             onClick={() => setFilterOpen(!filterOpen)}
             title="Filter"
           >
@@ -282,7 +316,9 @@ function Explore({ loggedIn = false }) {
 
           <button
             type="button"
-            className={`explore-page__tool-btn ${showFavoritesOnly ? "explore-page__tool-btn--active" : ""}`}
+            className={`explore-page__tool-btn ${
+              showFavoritesOnly ? "explore-page__tool-btn--active" : ""
+            }`}
             onClick={handleFavoritesFilter}
             title="Favorites"
           >
@@ -333,7 +369,11 @@ function Explore({ loggedIn = false }) {
         <div className="explore-page__map">
           <div ref={mapElRef} className="explore-page__leaflet" />
           {selectedSpot && (
-            <SpotDetail spot={selectedSpot} onClose={handleCloseDetail} />
+            <SpotDetail
+              spot={selectedSpot}
+              onClose={handleCloseDetail}
+              onUpdateAvailability={handleUpdateAvailability} // <-- PASS HERE
+            />
           )}
         </div>
         <div className="explore-page__list">
@@ -344,8 +384,8 @@ function Explore({ loggedIn = false }) {
             {!showFavoritesOnly && (searchQuery || activeFilterCount > 0)
               ? "found"
               : showFavoritesOnly
-                ? ""
-                : "nearby"}
+              ? ""
+              : "nearby"}
           </p>
           {filteredSpots.length === 0 && (
             <p className="explore-page__no-results">

@@ -1,15 +1,20 @@
 import PropTypes from "prop-types";
 import "./SpotDetail.css";
 
-function SpotDetail({ spot = null, onClose }) {
+const STATUS_OPTIONS = [
+  { label: "Not crowded", class: "open" },
+  { label: "Moderate", class: "moderate" },
+  { label: "Crowded", class: "crowded" },
+];
+
+function SpotDetail({ spot = null, onClose, onUpdateAvailability }) {
   if (!spot) return null;
 
-  const statusClass =
-    spot.status === "Crowded"
-      ? "spot-detail__status--crowded"
-      : spot.status === "Moderate"
-        ? "spot-detail__status--moderate"
-        : "spot-detail__status--open";
+  const handleStatusClick = (status) => {
+    if (status !== spot.status) {
+      onUpdateAvailability(spot.id || spot._id, status);
+    }
+  };
 
   return (
     <div className="spot-detail">
@@ -26,9 +31,19 @@ function SpotDetail({ spot = null, onClose }) {
       <p className="spot-detail__address">{spot.address}</p>
 
       <div className="spot-detail__tags">
-        <span className={`spot-detail__status ${statusClass}`}>
-          {spot.status}
-        </span>
+        {STATUS_OPTIONS.map((opt) => (
+          <span
+            key={opt.label}
+            className={`spot-detail__status spot-detail__status--${opt.class} ${
+              spot.status === opt.label ? "spot-detail__status--active" : ""
+            }`}
+            onClick={() => handleStatusClick(opt.label)}
+            style={{ cursor: "pointer" }}
+          >
+            {opt.label}
+          </span>
+        ))}
+
         <span className="spot-detail__category">{spot.category}</span>
       </div>
 
@@ -63,6 +78,7 @@ function SpotDetail({ spot = null, onClose }) {
 SpotDetail.propTypes = {
   spot: PropTypes.shape({
     id: PropTypes.string.isRequired,
+    _id: PropTypes.string,
     name: PropTypes.string.isRequired,
     address: PropTypes.string.isRequired,
     status: PropTypes.oneOf(["Crowded", "Moderate", "Not crowded"]).isRequired,
@@ -75,6 +91,7 @@ SpotDetail.propTypes = {
     pos: PropTypes.arrayOf(PropTypes.number).isRequired,
   }),
   onClose: PropTypes.func.isRequired,
+  onUpdateAvailability: PropTypes.func.isRequired,
 };
 
 export default SpotDetail;

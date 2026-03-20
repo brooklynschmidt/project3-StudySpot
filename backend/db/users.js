@@ -2,7 +2,7 @@ import { ObjectId } from "mongodb";
 import bcrypt from "bcrypt";
 import { getDb } from "./connection.js";
 
-const COLLECTION = "users";
+const COLLECTION = "UserInfo";
 
 async function createUser({ email, password, firstName, lastName }) {
   const db = getDb();
