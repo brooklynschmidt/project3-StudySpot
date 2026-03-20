@@ -1,0 +1,1001 @@
+_id,name,address,category,noiseLevel,groupFriendly,hours,description,status,pos,createdBy,createdAt
+1,Janyx,58 Orin Road,Library,Moderate,Group Friendly,8:00am - 6:00pm,Spicy salsa made with fresh ingredients.,,89.573856,1,9/15/2025
+2,Devpulse,67 Little Fleur Center,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,"Ready-to-bake garlic breadsticks, perfect with pasta dishes.",,120.16366,2,9/7/2025
+3,Gigaclub,6644 Butternut Hill,Student Center,Loud,Group Friendly,11:00am - 5:00pm,Hard-shell case for protecting sunglasses.,,46.2910589,3,2/8/2026
+4,Twimbo,4 Reindahl Trail,Academic,Loud,Group Friendly,11:00am - 5:00pm,Quick oatmeal with various flavors,,39.3745033,4,5/21/2025
+5,Avaveo,33 High Crossing Lane,Academic,Loud,Group Friendly,8:00am - 6:00pm,Comfortable trainers with mesh inserts for breathability.,,23.8661305,5,2/17/2026
+6,Wordify,790 Sheridan Drive,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,"Fresh kale salad with a zesty lemon dressing, great as a side dish.",,109.3575011,6,11/26/2025
+7,Devpulse,7 Toban Alley,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,Instant hot water dispenser for tea and cooking.,,-76.1334449,7,2/13/2026
+8,Digitube,1 Schiller Drive,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,Compact fridge ideal for camping and road trips.,,49.9213133,8,7/31/2025
+9,Rhynoodle,84 Summerview Hill,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Crunchy granola with maple flavor and almond pieces for breakfast.,,-25.145931,9,9/2/2025
+10,Skaboo,690 Columbus Center,Library,Loud,Not Group Friendly,24 hour,"Durable canvas tote bag, perfect for everyday use.",,24.1502631,10,6/24/2025
+11,Wikido,9 Menomonie Center,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Quick oatmeal with various flavors,,111.5811123,11,10/18/2025
+12,Shuffledrive,64811 Holy Cross Alley,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,"Crispy baked falafel balls, perfect for salads",,-8.270224,12,10/19/2025
+13,Dynabox,408 Warrior Plaza,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Rich and sweet paprika spice for seasoning.,,-84.06035,13,3/18/2026
+14,Ooba,23919 David Street,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Complete tattoo kit for beginners and professionals.,,-38.6779363,14,8/16/2025
+15,Demizz,836 Park Meadow Alley,Academic,Loud,Not Group Friendly,24 hour,A mix of frozen roasted vegetables for an easy side dish.,,-80.1986649,15,10/18/2025
+16,Blognation,5557 Mosinee Avenue,Residence,Moderate,Group Friendly,24 hour,Shower head designed for a strong spray and complete coverage.,,-83.8539514,16,3/5/2026
+17,Avamm,3 Lillian Center,Library,Quiet,Group Friendly,11:00am - 5:00pm,Multi-functional grater for cheese and vegetables.,,2.1450245,17,10/30/2025
+18,Youfeed,3 Canary Road,Academic,Quiet,Group Friendly,8:00am - 6:00pm,Delicious pie filled with coconut cream and topped with whipped cream.,,18.0994673,18,9/17/2025
+19,Quire,7797 Superior Avenue,Academic,Quiet,Group Friendly,24 hour,Supportive yoga wheel for deep stretching and balance.,,-9.017701,19,8/4/2025
+20,Aivee,3 Spaight Lane,Cafe,Moderate,Group Friendly,24 hour,"Soft and comfortable robe, perfect for lounging at home.",,44.4991029,20,7/23/2025
+21,Eidel,6 Cardinal Road,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,High-quality matcha for making traditional tea or lattes.,,111.034516,21,2/9/2026
+22,Yadel,20232 Summer Ridge Drive,Library,Quiet,Not Group Friendly,24 hour,"Stylish two-tone windbreaker, perfect for active days.",,15.2242807,22,9/1/2025
+23,Yacero,7 Briar Crest Avenue,Academic,Loud,Group Friendly,24 hour,Compact electric pot for hot pot dining at home.,,15.6741931,23,1/28/2026
+24,Tagchat,63687 Forster Street,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,"Crunchy, toasted coconut chips for snacking.",,17.9873583,24,3/22/2025
+25,Feedmix,01427 Delladonna Street,Student Center,Loud,Not Group Friendly,24 hour,Make delicious ice cream at home with this user-friendly machine.,,119.39402,25,2/11/2026
+26,Devpoint,57 Michigan Alley,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,"Marinated chicken breast seasoned with herbs, ready for grilling.",,-83.1702597,26,3/14/2026
+27,Tekfly,9863 Rigney Hill,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,Compact hair straightener for travel.,,20.2841743,27,10/3/2025
+28,Tekfly,417 Almo Trail,Residence,Quiet,Group Friendly,11:00am - 5:00pm,"Trendy high-low tee with a relaxed fit, ideal for weekends.",,-86.1980589,28,5/10/2025
+29,Voomm,31 Cody Terrace,Residence,Quiet,Group Friendly,8:00am - 6:00pm,A fragrant Indian spice blend for curries and stews.,,118.677372,29,4/2/2025
+30,Eidel,8 Hayes Way,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,"Durable canvas tote bag, perfect for everyday use.",,34.1121629,30,12/21/2025
+31,Mybuzz,88 Warner Street,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,A sleek leather wallet that combines style and functionality.,,69.636351,31,5/24/2025
+32,Wikizz,52 Anzinger Crossing,Academic,Moderate,Group Friendly,11:00am - 5:00pm,Rich chocolate syrup for ice cream or beverages.,,119.569323,32,3/4/2026
+33,Skivee,0560 Lunder Crossing,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,Wi-Fi camera with motion detection for home security.,,91.9206341,33,1/13/2026
+34,Youopia,0 Hagan Road,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Compact fire pit for campfires and gatherings.,,112.7688416,34,1/22/2026
+35,Yabox,61975 Norway Maple Alley,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,"Gluten-free pasta made from red lentils, packed with protein.",,106.6160052,35,9/10/2025
+36,Thoughtmix,799 Village Green Park,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,Convenient hooks that utilize door space for hanging items.,,118.983733,36,10/7/2025
+37,Agivu,2 Scott Terrace,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Delicious canned pineapple rings for desserts or salads.,,-41.0165586,37,5/24/2025
+38,Gabspot,7 Truax Drive,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,"Stylish two-tone windbreaker, perfect for active days.",,11.9313139,38,1/1/2026
+39,Tagpad,7236 Sherman Plaza,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,A mix of fresh vegetables for quick stir-fries.,,108.2080973,39,8/1/2025
+40,Zoovu,3519 Ridgeview Avenue,Academic,Quiet,Group Friendly,11:00am - 5:00pm,Large stir fry pan with non-stick surface.,,16.2037727,40,5/4/2025
+41,Linkbridge,7776 Hermina Street,Residence,Moderate,Group Friendly,8:00am - 6:00pm,"A spicy glaze made with sriracha and honey, perfect for meats.",,38.9796562,41,3/6/2026
+42,Riffpath,972 Delaware Hill,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Compact sewing kit for travel emergencies.,,120.6947522,42,10/15/2025
+43,Skipfire,3 Center Center,Academic,Loud,Group Friendly,11:00am - 5:00pm,Delicious pie filled with coconut cream and topped with whipped cream.,,121.006595,43,11/29/2025
+44,Fanoodle,154 Merchant Place,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Spicy chili sauce for an extra kick in your meals.,,120.070387,44,12/14/2025
+45,Ozu,17489 Meadow Vale Road,Academic,Quiet,Group Friendly,24 hour,Portable battery pack to charge laptops while on the move.,,-74.7571147,45,11/3/2025
+46,Buzzdog,1657 Springs Plaza,Library,Loud,Group Friendly,8:00am - 6:00pm,Instant noodles with a spicy Thai sauce for quick meals.,,-76.35459,46,7/15/2025
+47,Agimba,7273 Dapin Point,Library,Moderate,Group Friendly,11:00am - 5:00pm,Compact digital camera with 20MP resolution.,,-1.6029573,47,4/22/2025
+48,Tagopia,8295 Duke Lane,Library,Moderate,Group Friendly,24 hour,Creamy pumpkin soup with spices,,19.4151148,48,11/7/2025
+49,Jaxbean,503 Donald Plaza,Library,Loud,Group Friendly,8:00am - 6:00pm,"Crispy baked falafel balls, perfect for salads",,-79.542666,49,6/26/2025
+50,Dabtype,46 Kennedy Street,Library,Moderate,Group Friendly,11:00am - 5:00pm,Comfortable wireless headphones designed for sleeping.,,28.266799,50,3/6/2026
+51,Feedspan,5311 Kim Trail,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,Everything you need to build a festive gingerbread house.,,105.049027,51,7/17/2025
+52,Linktype,61473 Crowley Parkway,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,Secure digital wireless security camera system.,,17.1389487,52,1/12/2026
+53,Eare,0 Bluestem Street,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,Set with various resistance bands for workouts.,,-7.8993756,53,5/29/2025
+54,Browsebug,71475 Roxbury Point,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,A smoky blend of spices for grilling and roasting.,,101.766228,54,10/28/2025
+55,Ntags,85756 Acker Drive,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,Ergonomic stand for laptops to improve posture while working.,,-9.1007778,55,9/12/2025
+56,Plambee,14 Graceland Plaza,Residence,Moderate,Not Group Friendly,24 hour,"Crunchy roasted pumpkin seeds, great for snacking.",,4.8398662,56,11/25/2025
+57,Agimba,4317 Petterle Circle,Cafe,Quiet,Not Group Friendly,24 hour,Compact Bluetooth speaker with rich sound quality.,,119.141473,57,5/18/2025
+58,Topicstorm,18361 Bultman Point,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,Crunchy granola with almonds and coconut.,,112.6794582,58,1/27/2026
+59,Midel,695 Burrows Place,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,Nutritious energy bars packed with chocolate chips.,,-79.4366324,59,8/22/2025
+60,LiveZ,36 Hagan Junction,Library,Quiet,Group Friendly,24 hour,"Freshly baked artisan bread, perfect for sandwiches or toasting.",,73.4361761,60,2/11/2026
+61,Youspan,17600 International Trail,Library,Moderate,Not Group Friendly,24 hour,Non-stick and reusable mats for easy baking.,,44.0788197,61,3/25/2025
+62,Jaloo,20200 Grim Way,Student Center,Moderate,Not Group Friendly,24 hour,A soothing herbal tea made from ginger root.,,16.8352157,62,10/15/2025
+63,Mydo,0 Scott Way,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,"Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",,116.2637946,63,12/3/2025
+64,Centidel,026 Spohn Street,Library,Loud,Not Group Friendly,24 hour,"Rich and creamy tomato basil soup, perfect with a grilled cheese.",,36.0186458,64,10/2/2025
+65,Skyba,9 Memorial Terrace,Cafe,Moderate,Group Friendly,24 hour,Automated stirring for your drinks with just a press of a button.,,-46.633882,65,9/27/2025
+66,Dabshots,744 Washington Terrace,Library,Quiet,Group Friendly,8:00am - 6:00pm,Comfortable and stretchy legging pants perfect for workouts or daily wear.,,116.695522,66,12/21/2025
+67,Skajo,16 Granby Circle,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,Smooth Greek yogurt infused with vanilla bean flavor.,,123.2814017,67,4/23/2025
+68,Feednation,994 Ruskin Court,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,Warm and stylish jacket for cold weather.,,135.5286653,68,3/31/2025
+69,Roodel,530 Duke Street,Library,Quiet,Group Friendly,8:00am - 6:00pm,"Crunchy granola with toasted coconut flakes, perfect for breakfast or snacks.",,14.8470274,69,11/30/2025
+70,Kwinu,69761 Blaine Point,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,A chic leather crossbody bag for everyday use.,,25.431687,70,6/26/2025
+71,Tagcat,30248 Main Alley,Residence,Quiet,Group Friendly,24 hour,Heat-sensitive mug that changes color when filled with hot liquid.,,117.3247325,71,9/23/2025
+72,Snaptags,20206 Eagan Place,Cafe,Quiet,Not Group Friendly,24 hour,"Non-stick griddle for pancakes, burgers, and more.",,38.7368187,72,6/18/2025
+73,Mynte,9 Portage Park,Residence,Loud,Group Friendly,8:00am - 6:00pm,Adjustable footrest for improved comfort while sitting.,,15.2414232,73,4/24/2025
+74,Buzzster,08 Elgar Drive,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Portable chess set with magnetic pieces for travel.,,-8.1447804,74,12/31/2025
+75,Eire,030 High Crossing Avenue,Library,Loud,Group Friendly,8:00am - 6:00pm,"Bartender kit with shaker, jigger, and strainer.",,116.262661,75,5/22/2025
+76,Fivechat,16055 Fairview Avenue,Academic,Loud,Group Friendly,24 hour,Space-saving broom holder for organized cleaning supplies.,,7.907355,76,3/8/2026
+77,Kwideo,27 Monument Junction,Library,Loud,Group Friendly,8:00am - 6:00pm,"Crispy on the outside, tender on the inside, perfect for stir-fries or salads.",,126.6607764,77,6/11/2025
+78,Edgeclub,6536 Morningstar Pass,Residence,Moderate,Not Group Friendly,11:00am - 5:00pm,Light and fluffy popcorn coated in aged white cheddar.,,-86.6548114,78,9/4/2025
+79,Dablist,7007 Superior Parkway,Student Center,Quiet,Group Friendly,24 hour,Refreshing cranberry juice with no added sugar.,,123.9327724,79,10/25/2025
+80,Topiclounge,88 Cottonwood Road,Library,Quiet,Group Friendly,8:00am - 6:00pm,Classic chicken noodle soup with tender chicken and vegetables.,,109.934086,80,7/6/2025
+81,Kaymbo,1 Graedel Center,Cafe,Quiet,Not Group Friendly,24 hour,"Crunchy granola with chocolate and coconut, great for breakfast or snacks.",,121.1394301,81,10/18/2025
+82,Latz,4772 Autumn Leaf Street,Residence,Moderate,Group Friendly,24 hour,Chocolate-covered candy bars with coconut and almonds.,,-48.7837539,82,7/3/2025
+83,Feedspan,8479 John Wall Street,Library,Loud,Group Friendly,11:00am - 5:00pm,"Healthy whole grain cereal, great for breakfast.",,117.893335,83,3/25/2025
+84,Edgeblab,133 Cherokee Way,Library,Loud,Not Group Friendly,24 hour,Scented bath salts for relaxation and self-care.,,21.3639876,84,3/9/2026
+85,Skyble,984 Memorial Center,Library,Quiet,Not Group Friendly,24 hour,Color-changing 3D night light for kids' rooms.,,21.89472,85,1/4/2026
+86,Zooveo,62 Schurz Lane,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Flour tortilla filled with cheese and a medley of vegetables.,,-77.1708039,86,9/27/2025
+87,Wordtune,6544 Debs Court,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,Instant mix for creamy vanilla pudding.,,-67.7134201,87,10/2/2025
+88,Feedbug,96 Ilene Point,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,Set of stylish throw pillows for home decor.,,123.9321966,88,11/2/2025
+89,Twinder,0656 Rieder Alley,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Large stir fry pan with non-stick surface.,,8.4239055,89,6/16/2025
+90,Rhynyx,656 Cambridge Avenue,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,Durable tarp for outdoor camping and protection.,,-87.4554432,90,4/12/2025
+91,Meembee,054 Cordelia Crossing,Cafe,Quiet,Group Friendly,24 hour,Adjustable phone mount for car dashboard.,,13.7233116,91,4/15/2025
+92,Browsedrive,4598 Lakewood Plaza,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,Foldable kneeler that doubles as a seat for gardening convenience.,,111.982232,92,5/13/2025
+93,Plambee,479 Oneill Pass,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,"A variety pack of classic, roasted red pepper, and garlic hummus.",,2.8002946,93,10/6/2025
+94,Livetube,9 Scofield Parkway,Academic,Quiet,Group Friendly,11:00am - 5:00pm,Foldable chair equipped with a cooler pouch.,,2.5525914,94,10/11/2025
+95,Realpoint,40063 Melody Avenue,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,Crispy dill pickles that are perfect for snacking or sandwiches.,,31.4620967,95,8/25/2025
+96,Trilith,07064 Gulseth Junction,Student Center,Loud,Group Friendly,24 hour,Nutritious chia seeds great for smoothies,,109.1880047,96,3/21/2025
+97,Gigaclub,36 Upham Point,Cafe,Loud,Not Group Friendly,24 hour,"Crisp and sweet Honeycrisp apples, freshly picked.",,5.8978018,97,7/9/2025
+98,Vidoo,60765 Moose Lane,Residence,Moderate,Not Group Friendly,24 hour,Sturdy grip to hold your phone securely while taking selfies.,,27.5126688,98,10/10/2025
+99,Brightdog,61 Marcy Court,Library,Quiet,Group Friendly,8:00am - 6:00pm,Hearty tomato soup made from organic ingredients.,,-68.1435063,99,1/25/2026
+100,Jaloo,51 Melody Avenue,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Comfortable and reusable face masks in different styles.,,-57.6000001,100,7/14/2025
+101,Voonte,086 Hollow Ridge Junction,Student Center,Loud,Not Group Friendly,8:00am - 6:00pm,Stay warm with this stylish knit beanie in various colors.,,44.5593439,101,11/15/2025
+102,Yodel,61 Green Place,Academic,Quiet,Not Group Friendly,24 hour,Silicone tray for making ice cubes with a lid to prevent spills.,,105.8180306,102,11/29/2025
+103,Camido,44 Tomscot Park,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Crunchy granola with cranberries and pecans.,,141.5321435,103,11/7/2025
+104,Topiclounge,994 Harbort Street,Library,Moderate,Group Friendly,8:00am - 6:00pm,Sleek and protective sleeve for laptops and tablets.,,-118.1766294,104,8/8/2025
+105,Lazz,268 Jana Park,Library,Moderate,Group Friendly,8:00am - 6:00pm,8oz water bottle with built-in filter for clean drinking water.,,123.33769,105,1/11/2026
+106,Camimbo,756 Forest Parkway,Academic,Moderate,Group Friendly,24 hour,Compact air compressor for inflating tires and sports equipment.,,-65.0008536,106,12/15/2025
+107,Eimbee,16 Cherokee Hill,Residence,Loud,Group Friendly,11:00am - 5:00pm,Comfortable and adjustable harness for dogs.,,116.0761121,107,1/8/2026
+108,Rhyzio,4 Mallard Street,Student Center,Moderate,Not Group Friendly,24 hour,Monthly subscription for freshly roasted coffee delivered to your door.,,122.4801854,108,7/10/2025
+109,Leexo,842 Kim Place,Library,Loud,Group Friendly,8:00am - 6:00pm,Powerful hand blender for soups and smoothies.,,90.2905901,109,4/3/2025
+110,Abatz,7 Kingsford Circle,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Eco-friendly bamboo holder for toothbrushes.,,115.5856047,110,1/24/2026
+111,Topicblab,98 Mifflin Alley,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,Natural fruit spread bursting with real strawberry flavor.,,121.42076,111,10/2/2025
+112,Voomm,17 Coleman Hill,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Energy-efficient window air conditioner for cooling.,,109.5463954,112,5/17/2025
+113,Rhynoodle,15 Corben Drive,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Ziti pasta baked with marinara and parmesan cheese,,-56.0500846,113,10/12/2025
+114,Edgeify,8945 Daystar Lane,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Fun instruments to introduce kids to music.,,2.0308233,114,1/4/2026
+115,Jabbersphere,7 Susan Plaza,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Elegant cover that protects your notebook with style.,,20.1194129,115,7/1/2025
+116,Realcube,2 Bonner Road,Academic,Moderate,Group Friendly,11:00am - 5:00pm,Wi-Fi-enabled digital frame for displaying photos.,,-63.9004303,116,5/23/2025
+117,Minyx,06133 Becker Avenue,Library,Moderate,Not Group Friendly,24 hour,Nutritious bars packed with protein for energy,,115.1281425,117,7/13/2025
+118,Snaptags,645 Beilfuss Park,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,500-piece jigsaw puzzle featuring beautiful scenery.,,-8.6325611,118,11/12/2025
+119,Eayo,158 Pawling Point,Cafe,Quiet,Not Group Friendly,24 hour,Set of flexible molds for baking cakes and pastries.,,-1.235807,119,12/29/2025
+120,Shuffletag,18 Karstens Alley,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,Gluten-free bread mix made with almond flour.,,111.9671537,120,6/19/2025
+121,Thoughtsphere,2073 Main Terrace,Cafe,Quiet,Group Friendly,24 hour,Flexible light strips for creative home decor.,,-49.8004866,121,10/9/2025
+122,Photobean,4507 Reinke Court,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,Electric kettle that offers precise temperature settings.,,105.298756,122,9/9/2025
+123,Jetwire,1 Summer Ridge Trail,Cafe,Loud,Group Friendly,11:00am - 5:00pm,"Rich spaghetti sauce, a perfect pasta sauce.",,106.221144,123,10/16/2025
+124,Feedbug,4031 David Crossing,Student Center,Quiet,Group Friendly,8:00am - 6:00pm,"Delicious vegetable dumplings, perfect for steaming or frying.",,16.6212715,124,11/10/2025
+125,Thoughtbeat,4977 Oak Junction,Library,Quiet,Not Group Friendly,24 hour,Thermos that tracks your water intake and temperature.,,-44.9693894,125,7/12/2025
+126,Voonyx,0418 Butternut Center,Library,Loud,Not Group Friendly,8:00am - 6:00pm,A sweet and spicy sauce for dipping or cooking.,,-70.6977162,126,5/10/2025
+127,Skalith,4 Haas Street,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Reusable microfiber cloths for environmentally friendly cleaning.,,23.2572455,127,10/1/2025
+128,Feedfire,01779 Claremont Lane,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Bottle with infuser for brewing loose-leaf tea on the go.,,15.290983,128,8/14/2025
+129,Meembee,425 Main Trail,Library,Moderate,Not Group Friendly,24 hour,Stylish desk lamp featuring a USB charging port.,,-24.354942,129,11/13/2025
+130,Avavee,35209 Straubel Way,Academic,Loud,Not Group Friendly,24 hour,"Pre-seasoned beef mix for delicious tacos, just heat and serve.",,68.9509787,130,3/13/2026
+131,Yakitri,43791 Graedel Park,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,Stylish smartwatch with fitness tracking and notifications.,,30.317148,131,5/3/2025
+132,Aimbo,44367 Green Ridge Park,Library,Loud,Not Group Friendly,8:00am - 6:00pm,"Nutty, crunchy pecans great for baking.",,107.020589,132,1/29/2026
+133,Vimbo,40559 Eggendart Place,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Delicious cookies packed with oats and raisins.,,-7.2598913,133,5/31/2025
+134,Gabspot,1 Duke Court,Student Center,Loud,Group Friendly,8:00am - 6:00pm,Elegant classic pumps that add sophistication to any outfit.,,-57.1154122,134,5/17/2025
+135,Bluezoom,84 Debra Crossing,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,Flavored aioli made with roasted garlic,,37.5884971,135,5/22/2025
+136,Pixoboo,62 Gerald Crossing,Academic,Moderate,Not Group Friendly,24 hour,A hearty vegetable curry for a quick and satisfying meal.,,100.6985155,136,6/22/2025
+137,Browsetype,1 Gale Plaza,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,Blender designed for smoothies and shakes on the go.,,11.9070339,137,1/4/2026
+138,Browsezoom,90590 School Center,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,Jump rope that counts your jumps for tracking workouts.,,108.7766309,138,7/13/2025
+139,Jaxnation,23797 Cascade Pass,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,Ready-to-drink shots made with fresh ginger and turmeric.,,123.6602783,139,2/23/2026
+140,Centimia,3 Di Loreto Crossing,Residence,Moderate,Not Group Friendly,8:00am - 6:00pm,Marinated beef strips in teriyaki sauce for easy grilling.,,8.5721016,140,5/28/2025
+141,Cogidoo,48 Main Alley,Academic,Loud,Group Friendly,8:00am - 6:00pm,Durable training soccer ball for practice.,,104.195397,141,2/17/2026
+142,Flashdog,2100 Crest Line Place,Cafe,Loud,Not Group Friendly,24 hour,Crispy and sweet dried apple slices,,27.10324,142,8/1/2025
+143,Tagpad,6 Lunder Way,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Illuminated vanity mirror with adjustable brightness settings.,,113.366904,143,6/28/2025
+144,Youfeed,862 Esker Plaza,Library,Loud,Group Friendly,24 hour,All ingredients included for delicious chicken fajitas.,,122.0496521,144,9/9/2025
+145,Trunyx,444 Sommers Parkway,Student Center,Loud,Group Friendly,8:00am - 6:00pm,Fun and colorful gardening tools designed for children.,,114.029327,145,3/26/2025
+146,Mita,44 Ridge Oak Court,Library,Moderate,Group Friendly,11:00am - 5:00pm,GPS collar that monitors your pet's location and activity level.,,33.6744583,146,4/6/2025
+147,Bubblebox,06 Sommers Trail,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Indoor putting green for practicing your putting skills.,,126.0932341,147,11/28/2025
+148,Vimbo,14 Warrior Circle,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Fresh and crunchy baby carrots ready for snacking.,,117.419998,148,12/11/2025
+149,Realpoint,6 Dayton Circle,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,Rich and flavorful pasta sauce made with ripe tomatoes and basil.,,39.645666,149,7/24/2025
+150,Oozz,7 1st Pass,Academic,Quiet,Not Group Friendly,24 hour,Monthly subscription for freshly roasted coffee delivered to your door.,,-12.9176518,150,1/17/2026
+151,Yadel,717 Spaight Street,Residence,Loud,Not Group Friendly,24 hour,Ceramic pizza stone for homemade pizzas.,,30.3839017,151,6/5/2025
+152,Digitube,01 Derek Drive,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,Natural air purifiers to absorb odors and moisture.,,106.979574,152,4/9/2025
+153,Jabbercube,80 1st Center,Cafe,Moderate,Group Friendly,24 hour,Ergonomically designed pillow with breathable bamboo cover.,,22.9045174,153,5/10/2025
+154,Flashdog,44372 Comanche Pass,Residence,Loud,Group Friendly,11:00am - 5:00pm,Double-sided art easel for painting and drawing.,,44.3930377,154,12/13/2025
+155,Realbuzz,07 Fairview Trail,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Automated cleaning robot for hassle-free home maintenance.,,123.769227,155,3/14/2026
+156,Jatri,65893 Pine View Place,Residence,Loud,Not Group Friendly,24 hour,Flexible LED lights for creative home lighting designs.,,20.6883184,156,6/16/2025
+157,Agimba,758 Cambridge Street,Library,Moderate,Group Friendly,11:00am - 5:00pm,Effective brush for removing loose hair from pets.,,136.73393,157,2/16/2026
+158,Jabberstorm,008 Village Place,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,"Crunchy, toasted coconut chips for snacking.",,42.5992867,158,9/7/2025
+159,Kazu,0008 Del Mar Court,Cafe,Loud,Not Group Friendly,24 hour,Absorbent training pads for puppies and kittens.,,-79.4703885,159,1/11/2026
+160,Youopia,25276 Hudson Crossing,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,"Crunchy pretzels coated in rich chocolate, a sweet treat.",,111.3679689,160,8/26/2025
+161,Gigazoom,268 Main Park,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,Secure phone mount for your vehicle's dashboard.,,125.182333,161,6/18/2025
+162,Kare,14177 Redwing Court,Residence,Loud,Group Friendly,8:00am - 6:00pm,Eco-friendly LED lights for festive decorations.,,7.5655743,162,10/16/2025
+163,Mynte,54 Spaight Crossing,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,Tangy sweet chili sauce perfect for dipping or cooking.,,13.1018168,163,1/18/2026
+164,Feednation,01 Hansons Lane,Library,Quiet,Not Group Friendly,24 hour,All-in-one kit for making delicious chicken salad.,,10.7048554,164,3/1/2026
+165,Demivee,2093 Arrowood Lane,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Wi-Fi camera with motion detection for home security.,,20.3835279,165,9/30/2025
+166,Yozio,393 Hagan Court,Library,Loud,Not Group Friendly,8:00am - 6:00pm,Custom cutting board made from high-quality wood.,,101.503572,166,3/9/2026
+167,Yakidoo,60 School Park,Cafe,Loud,Not Group Friendly,11:00am - 5:00pm,"Deliciously creamy spinach dip, perfect for parties.",,19.6209662,167,8/11/2025
+168,Skippad,17 Kings Terrace,Academic,Loud,Not Group Friendly,8:00am - 6:00pm,Freshly roasted coffee beans with rich flavor.,,29.2407915,168,10/25/2025
+169,Jaxspan,931 Buhler Circle,Student Center,Moderate,Not Group Friendly,24 hour,Creamy soup full of rich mushroom flavor.,,15.5151157,169,2/16/2026
+170,Oodoo,44 Merchant Center,Library,Loud,Not Group Friendly,24 hour,"Savory hash made with sweet potatoes and kale, a perfect side dish.",,-2.8935028,170,5/5/2025
+171,Kare,3 Eastwood Trail,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,Durable tarp for outdoor camping and protection.,,116.70345,171,6/16/2025
+172,Shufflebeat,441 Burrows Plaza,Academic,Loud,Group Friendly,11:00am - 5:00pm,Tool to check car engine codes and performance issues.,,35.5630426,172,11/1/2025
+173,Roodel,1 Holy Cross Alley,Library,Moderate,Group Friendly,8:00am - 6:00pm,Adjustable grinders for fresh spices at the table.,,20.0476701,173,4/23/2025
+174,Avamba,6 Michigan Point,Academic,Quiet,Group Friendly,24 hour,Satisfy your sweet tooth with these dark chocolate-covered raisins.,,34.5795618,174,8/17/2025
+175,Centizu,2068 Ronald Regan Place,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,Electric kettle that offers precise temperature settings.,,117.788836,175,6/19/2025
+176,Brainbox,693 Hagan Lane,Library,Loud,Not Group Friendly,8:00am - 6:00pm,A rich curry paste for making authentic Thai green curry at home.,,171.281541,176,4/22/2025
+177,Kimia,7036 Larry Plaza,Residence,Loud,Not Group Friendly,24 hour,Professional-grade nail care set for manicures and pedicures.,,-4.4706255,177,4/21/2025
+178,Quire,6544 Mesta Pass,Student Center,Quiet,Not Group Friendly,24 hour,Soft and chewy bar packed with protein and cinnamon flavors.,,-58.410092,178,1/13/2026
+179,Skiptube,9 Shoshone Pass,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Spicy salsa made with black beans and tomatoes.,,56.4943984,179,6/10/2025
+180,Zooxo,6439 Becker Street,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,Bright safety vest for outdoor visibility during any activity.,,110.400306,180,10/3/2025
+181,Mynte,24 Petterle Road,Academic,Moderate,Not Group Friendly,24 hour,A pack of assorted nut and protein bars for a quick energy boost.,,-39.6930912,181,6/4/2025
+182,JumpXS,6297 Lillian Circle,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Breathable polo shirt designed for both style and comfort on the greens.,,61.7005127,182,8/27/2025
+183,Mynte,46550 Derek Street,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,"Sweet and salty kettle corn, perfect for snacking.",,6.6518329,183,4/27/2025
+184,Dynabox,335 Judy Avenue,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,Durable baking sheet coated for easy food release.,,72.9003298,184,3/22/2025
+185,Quimm,516 Amoth Place,Cafe,Quiet,Not Group Friendly,24 hour,Easily opens jar lids and bottle caps with one touch.,,106.454213,185,8/14/2025
+186,Aimbu,250 Miller Lane,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,"A trendy fanny pack, perfect for hands-free outings.",,56.0194244,186,6/18/2025
+187,Kwilith,3 Forest Run Lane,Library,Quiet,Not Group Friendly,24 hour,Non-toxic traps for catching household pests safely.,,110.138102,187,8/17/2025
+188,Meezzy,98 Rutledge Crossing,Student Center,Moderate,Group Friendly,8:00am - 6:00pm,Versatile canvas sneakers suitable for everyday wear with a comfortable fit.,,100.966512,188,6/21/2025
+189,Realpoint,030 Mayer Hill,Academic,Loud,Group Friendly,24 hour,Lightweight and durable tent for camping trips.,,124.21667,189,3/23/2025
+190,Izio,2733 Mcbride Way,Academic,Quiet,Group Friendly,24 hour,"Frozen pizza rolls stuffed with spinach and cheese, perfect for snacking.",,19.7935705,190,2/19/2026
+191,Twitterbeat,63379 Nova Road,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Rugged phone case for drop protection.,,-114.105279,191,3/7/2026
+192,Browsezoom,25 Straubel Street,Residence,Loud,Not Group Friendly,24 hour,Space-saving crates for easy organization at home or while traveling.,,-7.5586322,192,5/5/2025
+193,Browseblab,71 Jenifer Place,Student Center,Loud,Group Friendly,11:00am - 5:00pm,Thermos that tracks your water intake and temperature.,,30.9136062,193,12/5/2025
+194,Leexo,8452 Mockingbird Alley,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Comprehensive first aid kit for home and travel.,,31.7171894,194,12/17/2025
+195,Devbug,1 Reindahl Parkway,Residence,Moderate,Not Group Friendly,24 hour,Hanging bird feeder for backyard birds.,,1.4534246,195,5/15/2025
+196,Abata,43689 Memorial Hill,Library,Moderate,Not Group Friendly,24 hour,"Sweet and salty popcorn with sea salt and caramel, a tasty treat.",,40.8422117,196,5/18/2025
+197,Zava,55 Old Shore Terrace,Academic,Quiet,Group Friendly,8:00am - 6:00pm,"Instant oats with a savory twist, such as herbs and spices.",,-58.4114593,197,12/10/2025
+198,Oloo,809 Sunnyside Plaza,Cafe,Loud,Group Friendly,8:00am - 6:00pm,Space-saving cup that folds flat for easy storage.,,-90.6132158,198,4/18/2025
+199,Pixoboo,6 Valley Edge Avenue,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Cold pasta salad tossed with pesto and fresh vegetables.,,120.5705167,199,6/14/2025
+200,Twitterbridge,9464 Debra Avenue,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,Compact air compressor for inflating tires and sports equipment.,,20.9238397,200,9/28/2025
+201,Dablist,177 Hagan Trail,Student Center,Loud,Not Group Friendly,24 hour,Creamy tahini made from ground sesame seeds.,,112.6079459,201,1/4/2026
+202,Oba,09927 Spenser Crossing,Library,Loud,Group Friendly,8:00am - 6:00pm,Portable solar charger for outdoor adventures.,,-55.8638155,202,1/25/2026
+203,Skimia,69 Artisan Avenue,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Sleek wireless charging pad for smartphones.,,110.8095565,203,2/2/2026
+204,Gigazoom,16 Westridge Pass,Student Center,Quiet,Group Friendly,8:00am - 6:00pm,"Assorted herbal teas, perfect for a warm and relaxing drink.",,126.276226,204,3/10/2026
+205,Zoomcast,4001 Hauk Parkway,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,Eco-friendly yoga mat made from sustainable materials.,,35.3736237,205,3/8/2026
+206,Wikizz,2879 Anthes Way,Residence,Moderate,Group Friendly,24 hour,"Creamy yogurt made from almond milk, vegan-friendly.",,4.8398662,206,4/6/2025
+207,Leexo,8591 Superior Pass,Academic,Moderate,Group Friendly,11:00am - 5:00pm,Cordless handheld vacuum for quick cleanups.,,-69.2497586,207,11/10/2025
+208,Edgeify,0 Shoshone Junction,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Tool to check car engine codes and performance issues.,,18.2269255,208,4/15/2025
+209,Cogilith,0071 Pond Point,Library,Loud,Group Friendly,11:00am - 5:00pm,64GB SD memory card for cameras and devices.,,104.6821048,209,8/15/2025
+210,Dabshots,65714 Nancy Plaza,Residence,Quiet,Group Friendly,24 hour,"A delicious creamy dip featuring spinach and artichokes, perfect for parties.",,32.5037186,210,10/16/2025
+211,Gabtune,4821 Novick Alley,Residence,Quiet,Group Friendly,11:00am - 5:00pm,"Green salsa with a spicy kick, great for dipping.",,22.3268117,211,1/13/2026
+212,Vinder,9 Shoshone Drive,Library,Quiet,Group Friendly,8:00am - 6:00pm,"A mix of wild rice with herbs and spices, ready to serve.",,-8.0276048,212,9/10/2025
+213,Katz,3 Reindahl Junction,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Citrusy lemons perfect for drinks and cooking.,,120.3089541,213,7/21/2025
+214,Edgeclub,162 Nobel Parkway,Student Center,Loud,Group Friendly,24 hour,Gourmet potato skins loaded with cheddar cheese and bacon.,,22.2004824,214,8/2/2025
+215,Voomm,43 Scofield Plaza,Cafe,Loud,Not Group Friendly,11:00am - 5:00pm,A sweet and tangy vinaigrette dressing for salads.,,29.8694229,215,1/2/2026
+216,Voonyx,027 Memorial Junction,Academic,Quiet,Not Group Friendly,24 hour,Eco-friendly bamboo holder for toothbrushes.,,-76.214046,216,4/4/2025
+217,Linktype,52628 Colorado Street,Residence,Moderate,Group Friendly,8:00am - 6:00pm,Bottle that allows you to infuse your water with fruits.,,-79.6923047,217,2/20/2026
+218,Jabberbean,3 Stephen Terrace,Residence,Moderate,Not Group Friendly,24 hour,Soft and strong toilet paper for everyday use.,,116.83333,218,8/1/2025
+219,Fatz,811 Butternut Place,Library,Quiet,Group Friendly,8:00am - 6:00pm,Healthier way to make popcorn in the microwave without oil.,,111.4559084,219,10/27/2025
+220,Youspan,94 South Place,Residence,Loud,Group Friendly,24 hour,"Green salsa with a spicy kick, great for dipping.",,13.4095386,220,9/24/2025
+221,Twitterbridge,9 Rockefeller Place,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Frozen mix of colorful stir-fry veggies.,,80.780153,221,6/6/2025
+222,Zoonoodle,5441 School Plaza,Academic,Moderate,Not Group Friendly,24 hour,"Crunchy granola with oats, almonds, and dried cranberries.",,0.3350126,222,2/4/2026
+223,Cogidoo,638 Londonderry Junction,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Herbal tea bags made from dried hibiscus flowers.,,18.4660353,223,8/12/2025
+224,Flashpoint,98584 Mifflin Trail,Academic,Quiet,Not Group Friendly,24 hour,Corn on the cob seasoned with chili and lime for a spicy kick.,,39.6285874,224,12/20/2025
+225,Dabshots,0574 5th Terrace,Library,Moderate,Group Friendly,11:00am - 5:00pm,Variety pack of sticky notes in different colors and sizes.,,22.4712129,225,10/23/2025
+226,Wordware,290 Veith Avenue,Residence,Quiet,Not Group Friendly,24 hour,Memory foam travel pillow for neck support.,,1.1518478,226,11/25/2025
+227,Linklinks,76932 Rigney Street,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,"Lightly salted rice cakes, perfect for a healthy snack.",,14.9534182,227,6/11/2025
+228,Oyonder,93 Melody Alley,Cafe,Quiet,Group Friendly,24 hour,Compact wireless printer for home use.,,-4.1974627,228,7/6/2025
+229,Topicblab,13096 Cascade Crossing,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,Charming frame to showcase your favorite photos.,,73.7008274,229,9/27/2025
+230,Tagchat,3410 Evergreen Court,Student Center,Quiet,Group Friendly,8:00am - 6:00pm,Beautifully crafted jewelry box with compartments for storage.,,-40.37156,230,2/8/2026
+231,Mynte,98933 Muir Center,Academic,Loud,Group Friendly,24 hour,Set of decorative pillow covers to enhance your home decor.,,116.430668,231,4/30/2025
+232,Vidoo,062 Farmco Trail,Academic,Quiet,Group Friendly,8:00am - 6:00pm,Portable mixer bottle for smoothies and protein shakes.,,37.545315,232,6/24/2025
+233,Wordify,41783 Orin Lane,Student Center,Quiet,Group Friendly,24 hour,"Crispy mini pretzels, a great snack any time of day.",,36.7738708,233,5/31/2025
+234,Avaveo,87 Helena Park,Residence,Moderate,Group Friendly,8:00am - 6:00pm,Comfortable camping mattress that inflates automatically.,,114.057865,234,8/5/2025
+235,Eamia,203 Erie Pass,Library,Quiet,Group Friendly,24 hour,Stylish faux leather leggings for a trendy outfit.,,64.4318916,235,11/18/2025
+236,Zooxo,5319 Shelley Junction,Student Center,Moderate,Not Group Friendly,24 hour,Stream music from your device to any speaker wirelessly.,,41.4462559,236,7/4/2025
+237,Kare,1571 Linden Terrace,Library,Loud,Not Group Friendly,8:00am - 6:00pm,"Gluten-free flour made from ground chickpeas, great for cooking.",,18.6264694,237,3/9/2026
+238,Edgewire,044 Mariners Cove Pass,Academic,Moderate,Group Friendly,24 hour,64GB SD memory card for cameras and devices.,,112.1012912,238,7/9/2025
+239,Yoveo,88 Muir Road,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Complete kit for starting your own organic garden.,,44.4970268,239,9/26/2025
+240,Edgeify,18382 Surrey Alley,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,"Ready-to-eat avocado slices, perfect for tacos.",,33.9293828,240,2/18/2026
+241,Bluejam,89 Chinook Terrace,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Large inflatable pool for summer fun in your backyard.,,38.428733,241,3/12/2026
+242,Eazzy,78 Browning Trail,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Natural elderberry syrup to boost immunity.,,120.434071,242,8/14/2025
+243,Flashpoint,2 Barnett Junction,Academic,Moderate,Group Friendly,8:00am - 6:00pm,Add a smoky flavor to your dishes.,,-46.9442412,243,12/10/2025
+244,Lazzy,62 Bultman Trail,Cafe,Loud,Not Group Friendly,24 hour,"Crunchy granola with toasted coconut flakes, perfect for breakfast or snacks.",,121.0075554,244,10/19/2025
+245,Youbridge,17 Norway Maple Way,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,Educational tablet designed for preschool-age children.,,110.632006,245,3/12/2026
+246,Twimm,98781 Westport Alley,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Lint roller designed specifically for removing pet hair from furniture.,,31.6349344,246,8/26/2025
+247,Feedfish,29 American Ash Crossing,Library,Loud,Group Friendly,24 hour,Vacuum-insulated tumbler for beverages on the go.,,109.228143,247,11/26/2025
+248,Divanoodle,285 Lukken Lane,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,Savory sausage links seasoned with Italian spices.,,6.7329389,248,11/10/2025
+249,Wikizz,9 Mockingbird Crossing,Academic,Quiet,Group Friendly,8:00am - 6:00pm,"Unsweetened apple sauce, great for snacks or baking.",,41.9381568,249,5/6/2025
+250,Gabspot,7 Forster Parkway,Cafe,Quiet,Group Friendly,24 hour,Classic marshmallow treats made with crispy rice.,,49.1727178,250,4/22/2025
+251,Mycat,95992 Sherman Crossing,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Stylish smartwatch with fitness tracking features.,,-95.9991228,251,3/18/2026
+252,Tagpad,41416 Reinke Park,Library,Quiet,Not Group Friendly,24 hour,"Sweet and tart dried cranberries, great for salads and baking.",,116.6878891,252,8/16/2025
+253,Fatz,1052 Barby Avenue,Residence,Quiet,Group Friendly,24 hour,Qi-certified charger for fast wireless charging of smartphones.,,124.3337947,253,4/9/2025
+254,Rooxo,76 Mandrake Center,Academic,Loud,Group Friendly,11:00am - 5:00pm,Set of decorative ceramic planters for indoor plants.,,-2.5098914,254,3/3/2026
+255,Abata,37 Corscot Junction,Residence,Moderate,Group Friendly,11:00am - 5:00pm,Educational robotics kit for building and programming.,,106.4081983,255,6/20/2025
+256,Dabshots,11 Village Plaza,Academic,Moderate,Group Friendly,24 hour,Compact wireless printer for home use.,,111.3245,256,9/1/2025
+257,Quamba,88 Ridgeway Hill,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Easy-to-use tiebacks for curtains or drapes.,,81.9305699,257,9/1/2025
+258,Topicware,01282 Autumn Leaf Drive,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,Soft corner protectors to keep babies safe at home.,,18.942743,258,2/2/2026
+259,Voonyx,33039 Sunfield Trail,Residence,Loud,Not Group Friendly,24 hour,Modern lamp featuring a USB port for convenient charging.,,75.9840587,259,6/9/2025
+260,Edgeclub,8 Harbort Drive,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,DIY LED strip lights with remote control.,,13.35118,260,5/24/2025
+261,Yodel,34712 Crowley Park,Library,Loud,Group Friendly,11:00am - 5:00pm,Tool to check car engine codes and performance issues.,,73.6386612,261,6/17/2025
+262,Yotz,63796 Marquette Plaza,Student Center,Loud,Group Friendly,24 hour,Premium potting soil for indoor plants.,,106.8377497,262,1/20/2026
+263,Skilith,46 Old Gate Park,Cafe,Loud,Not Group Friendly,24 hour,Complete watercolor set with paints and brushes.,,107.8632023,263,3/2/2026
+264,Yodo,310 Gina Lane,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Portable case to organize and protect jewelry on trips.,,42.344717,264,4/22/2025
+265,Pixope,6272 Becker Way,Student Center,Loud,Not Group Friendly,24 hour,"Thin and crispy flatbreads, perfect for dips.",,-73.5425659,265,3/21/2025
+266,Babbleset,388 Commercial Pass,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,Flavorful sauce perfect for stir-frying vegetables and tofu.,,15.290983,266,4/18/2025
+267,Quinu,57800 Sloan Center,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,High-quality voice recorder for lectures and meetings.,,106.6717451,267,2/12/2026
+268,Skaboo,186 Lillian Hill,Library,Quiet,Group Friendly,11:00am - 5:00pm,Rechargeable massage gun for relieving muscle soreness.,,15.5089055,268,9/1/2025
+269,Fatz,6429 Kennedy Hill,Academic,Quiet,Not Group Friendly,24 hour,Eco-friendly bamboo cutting board for food prep.,,119.436,269,4/17/2025
+270,Jaxbean,541 Spohn Trail,Academic,Moderate,Group Friendly,8:00am - 6:00pm,"Creamy and smooth peanut butter, perfect for sandwiches.",,-104.8367063,270,5/1/2025
+271,Zoozzy,82271 Maple Wood Crossing,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Large electric griddle for family meals.,,-8.216481,271,1/7/2026
+272,Leexo,7 Holmberg Place,Residence,Loud,Not Group Friendly,24 hour,"Fresh organic sweet potatoes, great for roasting or mashing.",,16.4207632,272,10/28/2025
+273,Zoomzone,4884 Laurel Place,Academic,Moderate,Group Friendly,24 hour,Compact and stylish indoor/outdoor fire pit for ambiance.,,19.833467,273,3/19/2026
+274,Skaboo,235 Jenifer Alley,Academic,Loud,Group Friendly,11:00am - 5:00pm,Bright LED flashlight with adjustable beam.,,104.373372,274,10/13/2025
+275,Flipstorm,9 Stuart Road,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,Energy-efficient lights that charge during the day and illuminate at night.,,4.8925949,275,8/10/2025
+276,Oloo,109 Cambridge Place,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Heavy-duty rake with adjustable width for different gardening needs.,,-7.4517472,276,1/6/2026
+277,Topicware,20 Express Drive,Student Center,Quiet,Not Group Friendly,24 hour,Complete cleaning kit for camera lenses.,,38.0990815,277,9/23/2025
+278,Dabjam,35424 Corry Place,Library,Loud,Not Group Friendly,24 hour,Tangy salsa made from tomatillos and peppers.,,16.7700322,278,2/26/2026
+279,Npath,6 Sheridan Point,Academic,Quiet,Group Friendly,11:00am - 5:00pm,"Homemade jam made with blueberries and chia seeds, no added sugar.",,132.3446399,279,3/22/2025
+280,Yodoo,49794 Morrow Trail,Academic,Loud,Not Group Friendly,8:00am - 6:00pm,Corn on the cob seasoned with chili and lime for a spicy kick.,,118.180193,280,7/30/2025
+281,Katz,5547 Everett Place,Library,Loud,Not Group Friendly,24 hour,All-in-one kit for making delicious chicken salad.,,111.9856,281,7/15/2025
+282,Wikido,50 Anthes Drive,Academic,Loud,Not Group Friendly,24 hour,Short-grain sushi rice for perfect rolls.,,107.4492746,282,12/11/2025
+283,Podcat,27 Bultman Pass,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,"Crispy and juicy chicken tenders, perfect for dipping.",,113.7513827,283,5/15/2025
+284,Eayo,0 Warner Crossing,Residence,Quiet,Not Group Friendly,24 hour,"Crunchy pretzels coated in rich chocolate, a sweet treat.",,-73.762495,284,4/8/2025
+285,Voonte,45328 Vera Circle,Residence,Moderate,Not Group Friendly,11:00am - 5:00pm,"A sweet and tangy dressing made with figs and balsamic vinegar, great on salads.",,22.7279233,285,11/4/2025
+286,Yotz,34 Butterfield Crossing,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Frozen smoothie blend with berries for a quick and healthy breakfast.,,111.945844,286,12/18/2025
+287,Jaloo,33974 Clyde Gallagher Alley,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,"Fresh and zesty salsa, perfect for nachos.",,-8.270224,287,2/4/2026
+288,Skyndu,9865 Duke Drive,Residence,Moderate,Group Friendly,11:00am - 5:00pm,A nutritious shake with rich chocolate and refreshing mint flavors.,,-49.6555394,288,1/31/2026
+289,Shuffledrive,73334 Norway Maple Alley,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,"Delicious and fully cooked sliced ham, ready to eat.",,103.9655476,289,1/24/2026
+290,Quatz,7622 Morning Terrace,Library,Loud,Group Friendly,8:00am - 6:00pm,Vacuum-insulated tumbler for beverages on the go.,,112.1758089,290,8/3/2025
+291,Lazz,1972 Lakewood Gardens Park,Library,Quiet,Not Group Friendly,24 hour,"Frozen pizza rolls filled with vegetables and cheese, perfect for snacks.",,-37.9148742,291,9/4/2025
+292,Photobean,2 Steensland Alley,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Fresh sushi rolls filled with a variety of vegetables.,,-89.7473837,292,2/3/2026
+293,Oozz,860 Roxbury Alley,Residence,Quiet,Not Group Friendly,24 hour,Creamy chickpea dip blended with tahini and garlic.,,-79.1604971,293,1/19/2026
+294,Fatz,2 Manufacturers Crossing,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,Retro arcade machine for classic gaming.,,117.087268,294,7/10/2025
+295,Mymm,4 South Place,Library,Loud,Group Friendly,24 hour,Sweet and tangy mango chutney for a flavorful dip.,,121.9757838,295,4/30/2025
+296,Quimba,5046 Chive Center,Academic,Moderate,Group Friendly,24 hour,Sweet and nutty filling for delicious homemade pecan pie.,,-78.4325615,296,1/12/2026
+297,Flashspan,7085 Hollow Ridge Place,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Delicate green tea leaves for a refreshing beverage.,,30.69633,297,10/3/2025
+298,Feedspan,1834 Bowman Avenue,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,Lightweight and moisture-wicking racerback tank for workouts.,,112.833836,298,7/21/2025
+299,Blognation,147 Hoffman Alley,Student Center,Moderate,Group Friendly,8:00am - 6:00pm,Classic ranch dressing for salads and dipping.,,-84.3680059,299,9/13/2025
+300,Gabtune,786 Spaight Street,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Smooth Greek yogurt infused with vanilla bean flavor.,,121.498915,300,4/17/2025
+301,Jabberstorm,64033 Eliot Trail,Library,Quiet,Group Friendly,11:00am - 5:00pm,Ready-to-eat chicken bowl with teriyaki sauce and rice.,,113.39277,301,11/18/2025
+302,Wikizz,9247 Birchwood Street,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Eco-friendly soy candles with a variety of scents.,,99.999936,302,1/1/2026
+303,Zoomlounge,487 Hoard Point,Library,Moderate,Not Group Friendly,24 hour,Tangy salsa made from tomatillos and peppers.,,37.3693679,303,1/21/2026
+304,Pixoboo,85017 Forest Alley,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,Frozen mango chunks for smoothies or snacking.,,26.9828477,304,10/1/2025
+305,Photojam,3 Manufacturers Park,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,"Delicious vegetable dumplings, perfect for steaming or frying.",,-35.958777,305,2/10/2026
+306,Topicware,0350 Lien Pass,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,Personal massager for muscle recovery.,,13.7655233,306,8/11/2025
+307,Divavu,52831 Dexter Plaza,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,Durable jump rope with built-in counter for workouts.,,105.019512,307,1/4/2026
+308,Aibox,4 Blackbird Avenue,Library,Quiet,Not Group Friendly,24 hour,Crispy almonds coated with cinnamon and sugar for a sweet and crunchy snack.,,107.237743,308,2/23/2026
+309,Oodoo,53481 Mendota Hill,Academic,Moderate,Group Friendly,24 hour,Yoga socks designed to provide better grip and stability.,,106.5701927,309,12/24/2025
+310,Browsecat,1691 3rd Trail,Residence,Loud,Group Friendly,8:00am - 6:00pm,Compact projector for movies and presentations on the go.,,15.0728705,310,3/14/2026
+311,Skajo,6 Lillian Street,Library,Loud,Group Friendly,8:00am - 6:00pm,Nutritious snack bar made with almond butter and protein.,,-78.4524591,311,5/23/2025
+312,Rhycero,98 Nova Alley,Library,Loud,Group Friendly,11:00am - 5:00pm,Quick meal kit with pasta and fresh vegetables.,,139.7492367,312,3/20/2025
+313,Quinu,1712 Ronald Regan Pass,Residence,Moderate,Group Friendly,24 hour,Monthly subscription for freshly roasted coffee delivered to your door.,,128.2323169,313,7/8/2025
+314,Meeveo,17507 Namekagon Court,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Durable and shatterproof silicone glasses for outdoor use.,,35.20329,314,12/28/2025
+315,Mybuzz,4887 Sage Center,Library,Loud,Group Friendly,11:00am - 5:00pm,A colorful variety of crunchy veggie chips for snacking.,,100.4227992,315,5/31/2025
+316,Oozz,0964 Northwestern Trail,Cafe,Moderate,Not Group Friendly,24 hour,High-carbon stainless steel chef knife for precision cutting.,,2.2936854,316,10/17/2025
+317,Browsedrive,665 Delaware Hill,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,"Roasted pistachios, a healthy and tasty snack.",,16.136353,317,7/31/2025
+318,Kwilith,00016 Pankratz Place,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,Lightweight and portable folding table for camping or picnics.,,116.872657,318,1/23/2026
+319,Browsezoom,09 Rieder Terrace,Academic,Quiet,Group Friendly,8:00am - 6:00pm,Durable backpack for hiking or travel.,,15.0265478,319,4/27/2025
+320,Dabvine,74 Onsgard Hill,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,Notepad made from recycled paper for sustainable note-taking.,,100.646607,320,1/28/2026
+321,Chatterbridge,9780 Main Hill,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,A seasonal creamer that adds pumpkin spice flavor to coffee or tea.,,108.490475,321,12/21/2025
+322,Fadeo,69733 Lukken Terrace,Cafe,Loud,Group Friendly,11:00am - 5:00pm,A blend of dried herbs commonly used in Italian cooking.,,48.9757225,322,8/7/2025
+323,Jabbercube,90106 Killdeer Court,Cafe,Moderate,Group Friendly,24 hour,"Lightly salted rice cakes, perfect for a healthy snack.",,118.71899,323,11/18/2025
+324,Dynazzy,239 Reinke Drive,Residence,Loud,Group Friendly,11:00am - 5:00pm,Wax warmer for creating a soothing atmosphere with fragrances.,,121.5045889,324,12/2/2025
+325,Twimm,74916 Arkansas Park,Academic,Loud,Group Friendly,24 hour,"Shrimp marinated in a honey garlic sauce, ready to cook.",,-65.3688335,325,4/2/2025
+326,Dynabox,80 Golf Course Crossing,Student Center,Quiet,Not Group Friendly,24 hour,Heavy-duty rake with adjustable width for different gardening needs.,,21.631951,326,2/2/2026
+327,Youspan,74319 Boyd Pass,Residence,Quiet,Group Friendly,24 hour,Easy-to-make pancake mix with pumpkin spice flavor.,,-48.5755491,327,1/2/2026
+328,Janyx,05 Gerald Parkway,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Scented bath salts for relaxation and self-care.,,115.1746415,328,10/20/2025
+329,Kaymbo,4839 Londonderry Alley,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,Leak-proof bottles for travel-sized toiletries.,,106.22868,329,6/10/2025
+330,Babbleopia,3 Eggendart Lane,Residence,Quiet,Group Friendly,24 hour,Set of decorative cushion covers for home decor.,,117.323725,330,8/17/2025
+331,Bubblemix,6630 Prentice Crossing,Residence,Moderate,Group Friendly,24 hour,Spicy salsa made with fresh ingredients.,,16.1834327,331,12/28/2025
+332,Gigashots,20530 Karstens Hill,Student Center,Quiet,Not Group Friendly,24 hour,Automatic churner for making butter at home.,,38.4955043,332,2/17/2026
+333,Rhynyx,9 Sycamore Way,Student Center,Moderate,Group Friendly,24 hour,"Nutritious chia seed pudding in vanilla flavor, ready to eat.",,120.277138,333,11/7/2025
+334,Edgepulse,699 Ridgeview Pass,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,Snooze function and LED display for easy reading.,,14.4432179,334,8/28/2025
+335,Jaxspan,54818 Drewry Park,Library,Loud,Not Group Friendly,24 hour,Convenient hooks that utilize door space for hanging items.,,-74.828718,335,8/30/2025
+336,Wikizz,1 Granby Pass,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,Blender for smoothies with a portable cup.,,124.8420794,336,1/6/2026
+337,Fatz,9356 Summerview Road,Cafe,Moderate,Group Friendly,24 hour,3D model puzzle kit for creative builders.,,129.9118965,337,10/14/2025
+338,Rhyloo,623 Northland Way,Cafe,Loud,Group Friendly,11:00am - 5:00pm,"A hearty soup filled with vegetables and herbs, perfect for a light meal.",,66.32376,338,8/20/2025
+339,Trilith,28152 Dixon Park,Library,Moderate,Group Friendly,11:00am - 5:00pm,Large stir fry pan with non-stick surface.,,-8.4860645,339,9/17/2025
+340,Tavu,91064 Transport Way,Library,Quiet,Group Friendly,11:00am - 5:00pm,All-in-one kit for growing herbs in your kitchen.,,112.505924,340,1/11/2026
+341,Trunyx,23078 Drewry Hill,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,"Frozen falafel balls made from chickpeas and herbs, perfect for quick meals or salads.",,25.9224603,341,10/7/2025
+342,Devpoint,78438 Onsgard Crossing,Library,Loud,Not Group Friendly,24 hour,Spicy salsa with chipotle and lime for a zesty kick.,,25.5987643,342,5/15/2025
+343,Twitterworks,56 Dayton Point,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Convenient charging stand for smartphones and devices.,,127.6825578,343,5/18/2025
+344,Bluejam,9982 Kropf Crossing,Residence,Loud,Group Friendly,11:00am - 5:00pm,Rich coconut milk for curries and desserts.,,108.731128,344,5/15/2025
+345,Topicblab,10436 4th Lane,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Journal to record workouts and nutrition.,,-175.204947,345,3/25/2025
+346,Twitterwire,5 Talmadge Road,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,Sweet and crunchy roasted almonds.,,87.463427,346,10/31/2025
+347,Eimbee,9 Nobel Park,Cafe,Quiet,Group Friendly,24 hour,Trendy belt bag for hands-free carrying.,,140.1471983,347,10/14/2025
+348,Tagfeed,19 Claremont Parkway,Student Center,Loud,Group Friendly,11:00am - 5:00pm,A convenient powder mix combining greens and fruits for smoothies.,,67.8288595,348,10/10/2025
+349,Buzzbean,37326 Scofield Alley,Academic,Moderate,Not Group Friendly,24 hour,"Frozen onion rings, crispy and ready to bake.",,172.6519706,349,2/28/2026
+350,Voomm,01 Reinke Junction,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,3-inch memory foam mattress topper for added comfort.,,-74.8672519,350,11/21/2025
+351,Mydo,56900 Debra Hill,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Cozy cable knit cardigan to layer during chilly evenings.,,119.2131226,351,5/30/2025
+352,Einti,85 Morrow Hill,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,HD streaming device for accessing popular services.,,105.190522,352,9/12/2025
+353,Babblestorm,664 Saint Paul Street,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,Warmer for heating baby bottles and food jars.,,13.3829583,353,3/1/2026
+354,Livetube,8741 Rusk Circle,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,A fitted ribbed knit dress that hugs your curves perfectly.,,112.4716488,354,4/10/2025
+355,Camimbo,3 Dorton Junction,Student Center,Loud,Group Friendly,24 hour,High-quality whey protein powder for muscle recovery.,,39.5314274,355,4/15/2025
+356,Feedmix,19839 Carberry Road,Academic,Quiet,Group Friendly,11:00am - 5:00pm,Short-grain sushi rice for perfect rolls.,,106.90896,356,9/4/2025
+357,Podcat,7 Doe Crossing Court,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Powerful grinder for making sausage and burgers at home.,,-77.5461785,357,1/1/2026
+358,Zooveo,16119 Bluestem Court,Student Center,Moderate,Not Group Friendly,24 hour,"Sustainable tank top made of bamboo cotton, offering breathability and comfort.",,127.1388684,358,9/26/2025
+359,Voonder,02400 Burrows Way,Cafe,Loud,Group Friendly,8:00am - 6:00pm,Precision digital scale for accurate cooking measurements.,,-89.76667,359,11/8/2025
+360,Flipopia,027 Bowman Alley,Residence,Loud,Group Friendly,8:00am - 6:00pm,Oats and honey bars with a chewy texture and nutty flavor.,,16.1641685,360,3/2/2026
+361,Youspan,628 Forster Lane,Student Center,Quiet,Not Group Friendly,24 hour,Eco-friendly LED lights for festive decorations.,,-42.4858867,361,12/29/2025
+362,InnoZ,43956 Morning Parkway,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,"Precision pencils for drawing, sketching, and writing.",,-45.4874873,362,11/9/2025
+363,Livetube,9 Lakewood Trail,Library,Moderate,Group Friendly,11:00am - 5:00pm,"Fruits dipped in rich chocolate, perfect for desserts.",,125.408732,363,7/15/2025
+364,Topicstorm,45 Manitowish Trail,Library,Quiet,Group Friendly,11:00am - 5:00pm,Colorful LED strip lights for home decoration.,,-58.7945777,364,9/12/2025
+365,Oba,720 Ilene Park,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,Creamy peach-flavored yogurt with real fruit.,,16.8791589,365,7/17/2025
+366,Gevee,91 Clyde Gallagher Park,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Compact travel organizer for accessories and toiletries.,,19.6173117,366,1/8/2026
+367,Skynoodle,9 Oxford Park,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Handy dispenser for quick access to safety pins.,,99.1013498,367,3/2/2026
+368,Photofeed,42149 High Crossing Way,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,Comfy pet bed with washable cover for easy cleaning.,,59.9684485,368,10/22/2025
+369,Shufflebeat,7 Montana Place,Cafe,Loud,Group Friendly,8:00am - 6:00pm,Assorted fruit-flavored gummy snacks that kids love.,,115.652151,369,1/10/2026
+370,LiveZ,37677 Ilene Plaza,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,Crunchy corn chips flavored with chili and lime for a zesty kick.,,-5.5663222,370,2/7/2026
+371,Meedoo,4 Straubel Street,Student Center,Loud,Not Group Friendly,24 hour,"Canned beans with chili sauce, perfect for chili dishes.",,111.7018452,371,4/1/2025
+372,Oba,62640 Grayhawk Street,Academic,Moderate,Group Friendly,24 hour,Durable pet leash with comfortable handle.,,2.2760839,372,12/29/2025
+373,Shufflester,65 Gina Parkway,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,Upgrade your phone photography with this lens kit that includes wide-angle and macro lenses.,,23.4793196,373,5/27/2025
+374,Gigabox,44537 Kropf Hill,Student Center,Moderate,Not Group Friendly,24 hour,Ergonomically designed pillow with breathable bamboo cover.,,112.90936,374,1/26/2026
+375,Camido,4 Fremont Terrace,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Water-resistant laptop backpack with multiple compartments.,,108.019549,375,2/27/2026
+376,Omba,61 La Follette Alley,Student Center,Quiet,Group Friendly,24 hour,"Nutritious chia seed pudding in vanilla flavor, ready to eat.",,48.516388,376,9/9/2025
+377,Jayo,3587 Jana Court,Academic,Quiet,Group Friendly,8:00am - 6:00pm,"Versatile canned black beans, ready to add to any dish.",,114.980217,377,7/11/2025
+378,Voonix,958 Jana Lane,Student Center,Loud,Group Friendly,24 hour,Comfortable gaming headset with surround sound.,,103.035694,378,6/9/2025
+379,Meetz,47075 Coleman Pass,Library,Moderate,Group Friendly,8:00am - 6:00pm,Healthy snack bars packed with oats and fruit.,,-8.7570417,379,2/10/2026
+380,Viva,2604 Melby Plaza,Cafe,Loud,Group Friendly,11:00am - 5:00pm,Savory sauce for vegetable and meat stir-fries.,,-72.233418,380,1/4/2026
+381,Tambee,4 Sauthoff Trail,Library,Loud,Not Group Friendly,24 hour,Healthy frozen acai bowl with toppings.,,24.7371099,381,4/27/2025
+382,Flashpoint,9792 Rusk Drive,Student Center,Loud,Group Friendly,24 hour,Low-carb vegetable for pasta alternatives.,,106.586543,382,4/24/2025
+383,Brainlounge,055 Sycamore Park,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,Citrusy lemons perfect for drinks and cooking.,,121.0220037,383,9/3/2025
+384,Snaptags,7466 Kim Trail,Cafe,Moderate,Group Friendly,24 hour,Fresh organic cucumber perfect for salads or snacking.,,-104.9078597,384,4/24/2025
+385,Kimia,29 Roth Crossing,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,Create spiraled vegetable noodles easily for healthy meals.,,-69.6840125,385,12/26/2025
+386,Oyoba,624 Kropf Crossing,Student Center,Loud,Group Friendly,24 hour,High-carbon stainless steel chef knife for precision cutting.,,-49.1166441,386,10/20/2025
+387,Voonte,910 Starling Avenue,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Lightweight and slim monitor ideal for dual-screen setups.,,72.8228652,387,10/23/2025
+388,Fiveclub,269 Goodland Junction,Academic,Loud,Not Group Friendly,24 hour,"Juicy chicken breast stuffed with spinach and feta cheese, seasoned to perfection.",,113.440958,388,4/22/2025
+389,Twitterwire,38521 American Lane,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Golden crispy chicken tenders coated with honey mustard flavor.,,-58.3120234,389,6/10/2025
+390,Janyx,6 Orin Avenue,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Assorted cloths for cleaning electronics and delicate surfaces.,,57.5012222,390,2/13/2026
+391,Zoomdog,5745 Almo Alley,Student Center,Moderate,Not Group Friendly,24 hour,A meal kit featuring tender chicken with honey sesame sauce.,,121.515018,391,12/11/2025
+392,Youbridge,4524 High Crossing Lane,Residence,Loud,Group Friendly,8:00am - 6:00pm,Seasoning mix for making crispy and flavorful potato wedges.,,43.5462744,392,4/25/2025
+393,BlogXS,162 Tomscot Court,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,Stabilizer for smooth video recording with smartphones.,,112.6109257,393,2/26/2026
+394,Edgepulse,1563 Forest Run Point,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,Powerful hand blender for soups and smoothies.,,120.3660634,394,3/20/2025
+395,Brainlounge,567 Jay Point,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,"Freshly baked rustic bread, perfect for sandwiches or dipping in olive oil.",,30.3175834,395,11/22/2025
+396,Dynabox,44 Welch Parkway,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,"Fluffy couscous that cooks in just minutes, perfect as a side.",,108.133333,396,7/23/2025
+397,Edgetag,9211 Arizona Crossing,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Instant mix for delicious pumpkin spice lattes at home.,,122.9760543,397,10/6/2025
+398,Gigaclub,69561 Claremont Terrace,Academic,Loud,Group Friendly,8:00am - 6:00pm,"Ready-to-eat avocado slices, perfect for tacos.",,-58.4933597,398,3/10/2026
+399,Gigazoom,25170 Anthes Circle,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Safety collar with flashing lights for pets during night walks.,,118.467943,399,8/28/2025
+400,Tekfly,7 Quincy Point,Library,Loud,Not Group Friendly,8:00am - 6:00pm,Creamy peach-flavored yogurt with real fruit.,,28.2926361,400,6/5/2025
+401,Thoughtbridge,421 Clove Trail,Library,Loud,Not Group Friendly,8:00am - 6:00pm,Set of breathable bags for organizing shoes while traveling.,,120.103473,401,1/25/2026
+402,Brainsphere,7 Ridge Oak Point,Academic,Moderate,Group Friendly,8:00am - 6:00pm,Fun light that creates a disco atmosphere for parties.,,118.180193,402,9/17/2025
+403,Mynte,76 Carpenter Avenue,Student Center,Loud,Group Friendly,11:00am - 5:00pm,Ready-to-bake cinnamon roll dough for easy breakfasts.,,-76.5155834,403,11/6/2025
+404,Talane,327 Duke Place,Library,Moderate,Not Group Friendly,24 hour,"Steamed edamame tossed in a spicy garlic sauce, great for snacking.",,23.0440354,404,5/25/2025
+405,Skibox,40 Fuller Circle,Student Center,Moderate,Not Group Friendly,24 hour,Creamy vegetable curry enriched with spices.,,114.091192,405,9/18/2025
+406,Devshare,8 Thackeray Parkway,Residence,Loud,Not Group Friendly,24 hour,"Fluffy couscous that cooks in just minutes, perfect as a side.",,101.3885001,406,12/8/2025
+407,Skilith,28 Melby Road,Academic,Loud,Group Friendly,8:00am - 6:00pm,"Concentrated tomato paste, great for sauces.",,124.5313,407,4/6/2025
+408,Browsecat,07 Transport Center,Residence,Moderate,Not Group Friendly,11:00am - 5:00pm,Wi-Fi enabled thermostat for energy-saving temperature control.,,121.0964563,408,9/5/2025
+409,Twitterworks,28 West Center,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Insulated water bottle for keeping drinks cold.,,-3.9878427,409,7/15/2025
+410,Devify,0 Briar Crest Park,Residence,Loud,Not Group Friendly,24 hour,Spicy and smoky sausage great for grilling.,,109.482078,410,11/29/2025
+411,Browsedrive,9095 Vermont Drive,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,Dairy-free yogurt made from coconut milk.,,-58.5616502,411,10/5/2025
+412,Eire,869 Golf Course Center,Library,Loud,Group Friendly,11:00am - 5:00pm,High-quality sketchbook for artists.,,-7.9185148,412,9/29/2025
+413,Yodo,36493 Forest Dale Center,Student Center,Loud,Not Group Friendly,24 hour,Rechargeable LED lantern ideal for camping and outdoor activities.,,121.109772,413,7/15/2025
+414,Fivebridge,43 Mendota Road,Student Center,Moderate,Group Friendly,8:00am - 6:00pm,"Delicious pretzel bites with a sweet honey mustard flavor, perfect for dipping.",,-8.2430831,414,6/23/2025
+415,Twitternation,5250 Sutherland Hill,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Ziti pasta baked with marinara and parmesan cheese,,-6.590926,415,12/11/2025
+416,Skipstorm,67 Michigan Crossing,Student Center,Quiet,Group Friendly,24 hour,Ergonomically designed pillow with breathable bamboo cover.,,104.677091,416,2/16/2026
+417,Minyx,158 Valley Edge Avenue,Cafe,Quiet,Not Group Friendly,24 hour,A fashion-forward bomber jacket to elevate your casual looks.,,120.8898149,417,3/26/2025
+418,Brightbean,10728 7th Circle,Cafe,Quiet,Group Friendly,24 hour,Relaxing paint kit with pre-printed canvas for painting.,,22.6326975,418,4/3/2025
+419,Jabbersphere,0674 Petterle Avenue,Student Center,Moderate,Group Friendly,24 hour,Fine granulated sugar for all your baking needs.,,120.7914484,419,8/30/2025
+420,Feedspan,4 Burrows Alley,Cafe,Loud,Not Group Friendly,24 hour,Crispy spring rolls filled with vegetables,,8.6050736,420,5/19/2025
+421,Flashdog,57993 Michigan Way,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Advanced electric toothbrush for effective cleaning.,,121.9615308,421,12/28/2025
+422,Bluejam,5890 Di Loreto Parkway,Residence,Quiet,Group Friendly,11:00am - 5:00pm,"High in protein, perfect for soups and stews.",,27.3733989,422,8/31/2025
+423,Dabvine,6485 Maywood Junction,Academic,Loud,Group Friendly,11:00am - 5:00pm,Indoor Wi-Fi camera for home security.,,14.4423662,423,8/15/2025
+424,Teklist,42500 Oakridge Alley,Library,Moderate,Group Friendly,24 hour,"All-in-one mix for easy homemade cheeseburgers, just add ground beef.",,-71.3205493,424,7/19/2025
+425,Fliptune,1 Jana Lane,Library,Moderate,Group Friendly,8:00am - 6:00pm,Eco-friendly bags for storing food without plastic waste.,,18.3095531,425,6/22/2025
+426,Pixope,4453 Mifflin Trail,Library,Moderate,Group Friendly,11:00am - 5:00pm,Dimmable LED desk lamp with USB charging port.,,20.9469662,426,10/5/2025
+427,Youspan,938 Knutson Street,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,A healthy mix of assorted dried fruits and nuts for snacking.,,18.9515077,427,2/11/2026
+428,Fivechat,427 Hazelcrest Parkway,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Ergonomic memory foam pillow for better sleep.,,43.7775,428,2/8/2026
+429,Zoozzy,2 Golden Leaf Parkway,Academic,Loud,Group Friendly,24 hour,Tofu stir-fried with fresh vegetables in teriyaki sauce.,,-39.1268089,429,6/9/2025
+430,Skipfire,9076 Blackbird Center,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,A delicious chicken dish featuring honey and sesame flavors.,,26.5468773,430,10/2/2025
+431,Photobean,98023 Cordelia Parkway,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,"Versatile slicer for meats, cheeses, and vegetables.",,101.6935065,431,2/22/2026
+432,Riffwire,28245 Killdeer Road,Residence,Loud,Not Group Friendly,24 hour,"Delicious and fully cooked sliced ham, ready to eat.",,-72.4493789,432,12/8/2025
+433,Jayo,0499 Del Mar Alley,Cafe,Loud,Group Friendly,8:00am - 6:00pm,Delicious and tangy marinade for grilling or baking chicken.,,38.1392615,433,5/31/2025
+434,Bluezoom,6438 Towne Alley,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,Fun lunchbox for kids with a sturdy design.,,-8.2693138,434,1/14/2026
+435,Avaveo,3084 Eastlawn Center,Residence,Quiet,Group Friendly,24 hour,Complete grooming kit for dogs and cats.,,42.3295742,435,1/27/2026
+436,Meevee,9 Carberry Parkway,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,"Creamy dip made with caramelized onions, perfect for chips or veggies.",,-6.1157412,436,8/23/2025
+437,Bluejam,23 Sunbrook Place,Student Center,Moderate,Group Friendly,24 hour,"Wild-caught salmon filets, perfect for grilling or baking.",,112.4842,437,1/21/2026
+438,Eamia,2033 Maryland Lane,Library,Quiet,Group Friendly,11:00am - 5:00pm,Fast and accurate thermometer for grilling and cooking.,,115.748629,438,12/28/2025
+439,Trilith,8 Eagle Crest Park,Library,Moderate,Group Friendly,8:00am - 6:00pm,Handheld frother for creating frothed milk for coffee.,,37.1414146,439,3/1/2026
+440,Avamm,86045 Nevada Court,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,Breathable polo shirt designed for both style and comfort on the greens.,,36.3023941,440,3/12/2026
+441,Oyondu,8 Lotheville Park,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,"Spicy chili in a can, ready to eat for a filling meal.",,100.8451467,441,3/21/2025
+442,Zoomcast,01265 Sage Point,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Inflatable air mattress for convenient sleeping.,,-47.9222179,442,5/1/2025
+443,Devcast,92 Oxford Crossing,Library,Moderate,Group Friendly,11:00am - 5:00pm,Breathable polo shirt designed for both style and comfort on the greens.,,40.2586934,443,3/10/2026
+444,Feedfire,4 Monterey Terrace,Library,Quiet,Group Friendly,8:00am - 6:00pm,Eco-friendly generator for outdoor adventures.,,38.5734956,444,10/4/2025
+445,Podcat,5 Bayside Plaza,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,Durable and non-stick ceramic cookware for healthy cooking.,,20.9132879,445,11/5/2025
+446,Devpoint,2 Manley Center,Academic,Loud,Not Group Friendly,24 hour,A pre-packaged salad kit with noodles and Asian-style dressing.,,6.0058975,446,4/20/2025
+447,Dynabox,35256 Linden Plaza,Cafe,Loud,Not Group Friendly,24 hour,Sturdy mobile workbench with storage options.,,23.341193,447,5/31/2025
+448,Quamba,4378 Blaine Crossing,Cafe,Moderate,Not Group Friendly,24 hour,A fragrant blend of Italian herbs for pasta sauces and marinades.,,35.018973,448,7/19/2025
+449,Voomm,173 Haas Avenue,Student Center,Quiet,Group Friendly,8:00am - 6:00pm,Soft and cozy bathrobe perfect for relaxing at home.,,113.093384,449,8/16/2025
+450,Browsezoom,09 Arrowood Trail,Student Center,Quiet,Not Group Friendly,24 hour,Compact fridge ideal for camping and road trips.,,16.5911908,450,9/26/2025
+451,Kamba,29 Mosinee Place,Residence,Quiet,Group Friendly,24 hour,Lightweight and slim monitor ideal for dual-screen setups.,,116.97413,451,12/16/2025
+452,Jaloo,515 Tomscot Park,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,Stay dry with these stylish waterproof rain boots.,,83.7677148,452,2/9/2026
+453,Ntags,8 Eastlawn Point,Cafe,Moderate,Group Friendly,24 hour,"Chic suede ankle booties, perfect for dressing up or down.",,23.3389501,453,6/28/2025
+454,Avamba,5373 Katie Avenue,Library,Loud,Group Friendly,11:00am - 5:00pm,Reusable mat that prevents food from sticking to the grill.,,121.549557,454,2/12/2026
+455,Ntag,68 Susan Crossing,Student Center,Quiet,Not Group Friendly,24 hour,Quick-cooking couscous flavored with herbs and spices.,,-99.0550357,455,7/10/2025
+456,Yamia,330 Myrtle Court,Library,Quiet,Not Group Friendly,24 hour,"Delicious turkey bacon, a healthier alternative.",,113.0762954,456,9/29/2025
+457,Zoomcast,6 Arapahoe Circle,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,Protective goggles for DIY and construction work.,,19.6295361,457,4/12/2025
+458,Tambee,0065 Reindahl Avenue,Library,Loud,Not Group Friendly,8:00am - 6:00pm,DIY kit to make your own elderberry syrup.,,19.7487502,458,4/9/2025
+459,Zooveo,5097 Ramsey Trail,Student Center,Quiet,Group Friendly,24 hour,Personalize your calendar with photos and special dates.,,-58.6340339,459,3/19/2026
+460,Skidoo,26876 Northview Court,Residence,Moderate,Group Friendly,11:00am - 5:00pm,Spicy chili sauce for an extra kick in your meals.,,7.2559678,460,12/20/2025
+461,Kaymbo,063 West Center,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,"Freshly baked bagels, perfect for breakfast or snacks.",,0.151424,461,12/25/2025
+462,Jayo,2 Dapin Drive,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Tangy and crunchy dill pickles.,,107.237743,462,4/20/2025
+463,Einti,080 Texas Point,Academic,Loud,Group Friendly,24 hour,"High in protein, perfect for soups and stews.",,-45.1120424,463,2/25/2026
+464,Quinu,79272 Larry Alley,Student Center,Quiet,Group Friendly,8:00am - 6:00pm,Ready-to-drink shots made with fresh ginger and turmeric.,,-96.3598367,464,6/6/2025
+465,Twitterbeat,9 Burrows Drive,Cafe,Loud,Group Friendly,11:00am - 5:00pm,Eco-friendly generator for outdoor adventures.,,117.365052,465,12/9/2025
+466,Eidel,3358 Meadow Ridge Court,Academic,Moderate,Group Friendly,11:00am - 5:00pm,"A complete meal kit containing breaded chicken breast, marinara sauce, and pasta, perfect for a quick dinner.",,44.3614875,466,12/7/2025
+467,Twinder,8797 Browning Court,Cafe,Loud,Not Group Friendly,24 hour,Spicy and smoky sausage great for grilling.,,116.45252,467,12/13/2025
+468,Kazu,872 Parkside Junction,Residence,Loud,Not Group Friendly,24 hour,Personal massager for muscle recovery.,,54.9326774,468,6/5/2025
+469,Flashspan,9 Talmadge Court,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,"A variety pack of classic, roasted red pepper, and garlic hummus.",,-51.8913473,469,6/14/2025
+470,Wikivu,20671 Boyd Court,Cafe,Quiet,Group Friendly,24 hour,Colorful bins to keep your space organized.,,14.8591964,470,12/4/2025
+471,Yata,15 Fulton Road,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Nutritious and quick-cooking red lentils.,,108.842622,471,3/29/2025
+472,Devpulse,5 Jenna Crossing,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,"Crunchy granola mixed with maple syrup and cinnamon, perfect for breakfast or snacks.",,152.2714594,472,4/18/2025
+473,Twitterwire,41696 Northview Lane,Student Center,Loud,Not Group Friendly,24 hour,A mix of tropical fruits for a refreshing snack or dessert.,,34.6341859,473,5/3/2025
+474,Oozz,0 Monument Terrace,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,Herbal tea bags made from dried hibiscus flowers.,,51.227402,474,5/17/2025
+475,Skinder,7550 Duke Circle,Cafe,Loud,Group Friendly,24 hour,Creamy chickpea dip blended with tahini and garlic.,,35.7593545,475,3/25/2025
+476,Twimm,611 Leroy Circle,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,"Gluten-free almond flour, perfect for baking.",,107.9591094,476,2/22/2026
+477,Skipstorm,516 Ludington Pass,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,Classic wooden puzzle game for kids and adults.,,-117.7431372,477,6/10/2025
+478,Riffwire,217 Dovetail Drive,Library,Moderate,Group Friendly,11:00am - 5:00pm,Crunchy granola with chocolate and hazelnuts for breakfast.,,115.5672264,478,2/18/2026
+479,Divape,22 Porter Hill,Student Center,Moderate,Group Friendly,8:00am - 6:00pm,Adjustable tripod for smartphones and cameras.,,111.4559084,479,5/30/2025
+480,Brainsphere,136 Commercial Alley,Cafe,Loud,Group Friendly,24 hour,Floating lounger for relaxation in swimming pools or lakes.,,116.410742,480,2/19/2026
+481,Eazzy,14313 Bartillon Park,Residence,Quiet,Group Friendly,11:00am - 5:00pm,"Sustainable tank top made of bamboo cotton, offering breathability and comfort.",,43.4273768,481,9/4/2025
+482,Shufflebeat,83903 Barnett Alley,Residence,Loud,Group Friendly,24 hour,Durable non-stick frying pan for easy cooking and cleaning.,,27.8454627,482,11/4/2025
+483,Meedoo,3291 Center Road,Student Center,Loud,Group Friendly,24 hour,Interactive kitchen set for imaginative play.,,10.1367166,483,3/6/2026
+484,Realcube,39108 Dunning Point,Student Center,Moderate,Not Group Friendly,24 hour,Assorted herbal tea bags for relaxation and wellness.,,142.0863655,484,11/29/2025
+485,Gabcube,22611 Darwin Lane,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,"A healthy oil extracted from avocados, ideal for frying and salads.",,109.873117,485,6/15/2025
+486,Rhyzio,074 Merrick Street,Cafe,Loud,Group Friendly,8:00am - 6:00pm,"Compact, waterproof blanket for picnics and events.",,113.543873,486,3/10/2026
+487,Thoughtbeat,96 Division Park,Student Center,Loud,Not Group Friendly,24 hour,"Versatile holder that can be used on desks, cars, and more.",,134.2087936,487,7/13/2025
+488,Realbuzz,49 Basil Avenue,Library,Quiet,Group Friendly,8:00am - 6:00pm,"Creamy hummus with a kick of spice, great for dipping.",,2.3306851,488,7/8/2025
+489,Kwilith,8 Stephen Avenue,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,Delicious cookies made with almond flour for a gluten-free treat.,,96.583409,489,2/6/2026
+490,Babbleset,249 Upham Parkway,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Space-saving crates for easy organization at home or while traveling.,,114.300474,490,7/20/2025
+491,Buzzbean,965 Magdeline Place,Residence,Quiet,Not Group Friendly,24 hour,Dairy-free cheese alternative for your favorite dishes.,,5.3520876,491,9/18/2025
+492,Quire,37941 Pawling Trail,Residence,Moderate,Group Friendly,24 hour,Countertop dishwasher for small kitchens.,,0.3908219,492,2/19/2026
+493,Feedfish,0 Algoma Terrace,Academic,Moderate,Group Friendly,8:00am - 6:00pm,Set of ceramic knives for precision slicing.,,102.5606182,493,2/20/2026
+494,Myworks,99531 Warbler Parkway,Student Center,Quiet,Not Group Friendly,24 hour,Lightweight and portable paddle board for water sports.,,12.8128113,494,2/3/2026
+495,Twitternation,9 Harper Center,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,Perfectly designed pan for making crepes and pancakes.,,104.198771,495,6/10/2025
+496,Demizz,4 Basil Place,Cafe,Moderate,Not Group Friendly,24 hour,Rich and creamy pudding made with ripe avocados and cocoa.,,106.3449755,496,12/22/2025
+497,Devcast,37854 Kropf Trail,Residence,Moderate,Group Friendly,8:00am - 6:00pm,Set of stylish throw pillows for home decor.,,27.3331357,497,12/13/2025
+498,Blogtag,77821 Cottonwood Center,Cafe,Loud,Group Friendly,8:00am - 6:00pm,Short-grain sushi rice for perfect rolls.,,92.2225067,498,8/27/2025
+499,Kazu,28368 Mallard Park,Student Center,Quiet,Group Friendly,8:00am - 6:00pm,"A tangy marinade for meats and veggies, packed with garlic flavor.",,112.7688416,499,9/20/2025
+500,Quatz,41 Tomscot Lane,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Stylish cap to complete your athletic look.,,119.549352,500,9/16/2025
+501,Centizu,8098 Monument Avenue,Student Center,Quiet,Not Group Friendly,24 hour,Borosilicate glass water bottle with silicone sleeve.,,-2.7307058,501,5/1/2025
+502,Ozu,07 Hansons Alley,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,Scented bath salts for relaxation and self-care.,,112.453926,502,10/8/2025
+503,Aimbu,7 Grasskamp Terrace,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,"Crunchy granola with chocolate and coconut, great for breakfast or snacks.",,-15.2765351,503,7/5/2025
+504,Aimbu,2196 Lerdahl Hill,Library,Loud,Group Friendly,8:00am - 6:00pm,Stylish smartwatch with fitness tracking and notifications.,,112.39266,504,6/23/2025
+505,Oyope,18742 Buena Vista Trail,Student Center,Loud,Not Group Friendly,8:00am - 6:00pm,Foldable mat for jigsaw puzzle assembly.,,105.924,505,7/22/2025
+506,Edgeify,9450 Shopko Court,Library,Loud,Group Friendly,11:00am - 5:00pm,"Rich and flavorful chicken broth, great for soups.",,108.7927679,506,8/1/2025
+507,Janyx,8 Prairieview Trail,Student Center,Quiet,Group Friendly,24 hour,STEM-based kit for kids featuring cool science experiments.,,109.6163185,507,9/5/2025
+508,Oba,24 Stoughton Circle,Student Center,Moderate,Group Friendly,24 hour,Eco-friendly utensil set made from natural wood.,,20.1143155,508,12/29/2025
+509,Youtags,1 Mcguire Terrace,Library,Moderate,Group Friendly,11:00am - 5:00pm,Challenging 1000-piece jigsaw puzzle for all ages.,,99.705419,509,2/2/2026
+510,Podcat,23708 Scoville Center,Cafe,Loud,Group Friendly,11:00am - 5:00pm,Smoky and sweet BBQ sauce for grilling and dipping.,,21.1718237,510,7/29/2025
+511,Realmix,3 Drewry Way,Library,Moderate,Not Group Friendly,11:00am - 5:00pm,Rich and creamy almond milk with a hint of chocolate.,,-64.2679738,511,10/5/2025
+512,Skyble,4 Northview Park,Residence,Loud,Group Friendly,24 hour,Portable projector with 1080p resolution for movies.,,23.9179589,512,8/21/2025
+513,Twitternation,3 Schurz Lane,Student Center,Loud,Not Group Friendly,8:00am - 6:00pm,Energy-efficient LED bulbs that can be controlled via smartphone.,,113.829667,513,5/4/2025
+514,Muxo,10 Meadow Valley Avenue,Library,Loud,Group Friendly,24 hour,Savory sausage links seasoned with Italian spices.,,120.8483007,514,11/27/2025
+515,Livetube,471 Vera Way,Residence,Moderate,Group Friendly,11:00am - 5:00pm,A tangy sauce that combines lemon zest and basil for a refreshing flavor.,,110.363649,515,5/24/2025
+516,Demimbu,93984 1st Circle,Residence,Loud,Group Friendly,24 hour,Classic V-neck sweater crafted from soft wool for warmth and style.,,-67.9195741,516,8/7/2025
+517,Photobug,1 Elka Pass,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,"Eye-catching mini dress with sequins, ideal for party nights out.",,124.4695397,517,9/11/2025
+518,Oloo,6419 Vidon Avenue,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,Strategic board game for family game nights.,,120.7906666,518,12/3/2025
+519,Ooba,1672 Armistice Parkway,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Easy-to-make falafel mix for a tasty vegetarian meal.,,-0.2338473,519,1/8/2026
+520,Aimbo,531 Morning Park,Residence,Moderate,Group Friendly,8:00am - 6:00pm,Designed for comfort and performance during workouts.,,111.1995479,520,11/20/2025
+521,Demizz,7402 Eliot Place,Academic,Moderate,Not Group Friendly,24 hour,Eco-friendly bamboo toothbrush for sustainable living.,,101.6419959,521,11/23/2025
+522,Tavu,6639 Bunker Hill Park,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Infuser for brewing loose-leaf herbal teas easily.,,26.9399664,522,12/23/2025
+523,Oba,434 Northwestern Parkway,Student Center,Moderate,Group Friendly,24 hour,Personalized nameplate for offices or homes.,,0.098598,523,5/12/2025
+524,Kayveo,51966 Buena Vista Place,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,Sturdy grip to hold your phone securely while taking selfies.,,103.40391,524,2/13/2026
+525,Topicware,21053 Westend Crossing,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,Ergonomic mouse designed for gamers with high DPI.,,10.4024274,525,4/16/2025
+526,Trunyx,57 Scoville Crossing,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,Classic wooden puzzle game for kids and adults.,,-4.4088857,526,5/30/2025
+527,Meevee,756 6th Terrace,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,Set of brush pens for colorful and creative painting.,,122.133225,527,4/16/2025
+528,Omba,86 Northfield Pass,Cafe,Loud,Group Friendly,24 hour,A mix of fresh vegetables for quick stir-fries.,,104.0304535,528,3/14/2026
+529,Dazzlesphere,8 Messerschmidt Crossing,Cafe,Loud,Not Group Friendly,24 hour,Crunchy granola mixed with coconut flakes.,,-70.6636064,529,8/4/2025
+530,Gabcube,71968 Lindbergh Junction,Cafe,Quiet,Group Friendly,24 hour,Ergonomic office chair with lumbar support and adjustable height.,,19.5835874,530,4/8/2025
+531,Yakidoo,04339 Commercial Terrace,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,A mix of brined Mediterranean olives for snacking.,,106.5230542,531,11/14/2025
+532,Kwimbee,8 Sloan Drive,Library,Moderate,Group Friendly,24 hour,DIY projector that magnifies your smartphone screen for movie nights.,,-75.9928971,532,10/7/2025
+533,Zazio,769 East Way,Academic,Loud,Group Friendly,11:00am - 5:00pm,Frozen vegan tacos filled with plant-based protein and spices.,,-73.268611,533,1/23/2026
+534,Dabjam,6565 Melody Road,Cafe,Loud,Group Friendly,8:00am - 6:00pm,Sweet and nutty filling for delicious homemade pecan pie.,,103.240546,534,2/6/2026
+535,Divavu,30 Ridgeview Avenue,Academic,Quiet,Group Friendly,11:00am - 5:00pm,A pre-packaged salad kit with noodles and Asian-style dressing.,,113.778639,535,7/14/2025
+536,Pixoboo,337 Warbler Point,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,Nutritious bars packed with protein for energy,,1.4534246,536,5/31/2025
+537,Devcast,05 Truax Lane,Residence,Loud,Group Friendly,24 hour,Frozen smoothie blend with berries for a quick and healthy breakfast.,,1.1448981,537,1/24/2026
+538,Podcat,390 Mosinee Park,Academic,Quiet,Group Friendly,24 hour,Adjustable stand to improve ergonomics while working on a laptop.,,-78.1721189,538,2/22/2026
+539,Dynazzy,939 Lerdahl Point,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Bluetooth-enabled key tracker to find lost items easily.,,113.269292,539,9/1/2025
+540,Vinder,2 Talmadge Parkway,Residence,Moderate,Group Friendly,11:00am - 5:00pm,A nutritious salad with quinoa and black beans,,4.8261424,540,9/8/2025
+541,Flashspan,02769 Drewry Park,Library,Moderate,Not Group Friendly,11:00am - 5:00pm,"Flavorful chicken sausage, low in fat and fully cooked.",,140.8492779,541,2/9/2026
+542,Latz,6251 Huxley Circle,Academic,Moderate,Not Group Friendly,24 hour,Automated stirring for your drinks with just a press of a button.,,28.9870901,542,11/20/2025
+543,Skipstorm,768 Glacier Hill Terrace,Residence,Moderate,Not Group Friendly,8:00am - 6:00pm,All-in-one kit for making delicious chicken salad.,,-8.5932108,543,11/4/2025
+544,Innojam,7423 Ridgeview Point,Student Center,Loud,Group Friendly,8:00am - 6:00pm,Delicious veggie burgers loaded with grilled vegetables.,,-87.627893,544,12/31/2025
+545,Livetube,8 Melvin Park,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,Wheeled cooler for transporting drinks and snacks.,,108.4795361,545,5/25/2025
+546,Devshare,55 Havey Plaza,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,Pulled jackfruit in a smoky BBQ sauce for a tasty vegan dish.,,24.9415656,546,1/12/2026
+547,Skimia,920 Crowley Place,Library,Moderate,Group Friendly,11:00am - 5:00pm,Crisp and delicious organic apples.,,-10.022186,547,12/9/2025
+548,Jayo,68628 Bunker Hill Park,Cafe,Loud,Group Friendly,11:00am - 5:00pm,Comfortable carrier for small pets during travel.,,2.8002946,548,3/25/2025
+549,Abatz,179 Hazelcrest Terrace,Student Center,Quiet,Not Group Friendly,24 hour,Craft your own lip balms with this complete kit.,,118.06182,549,11/29/2025
+550,Oozz,1 Kedzie Junction,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,Color-changing smart LED bulbs compatible with Alexa.,,114.466022,550,12/17/2025
+551,Twitterbeat,32 Petterle Way,Cafe,Moderate,Not Group Friendly,24 hour,Stylish stand to hold your recipes while cooking.,,111.3545546,551,7/28/2025
+552,Topicware,280 Hovde Street,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,Natural energy bites packed with fruits and nuts for a perfect snack.,,-83.1702597,552,6/6/2025
+553,Cogilith,636 Maple Wood Terrace,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,Perfectly designed pan for making crepes and pancakes.,,5.8978018,553,12/29/2025
+554,Twitterbeat,63182 Starling Alley,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Pack of ultra-soft microfiber cloths for cleaning.,,11.045721,554,11/23/2025
+555,Devpulse,7 Rutledge Crossing,Cafe,Loud,Group Friendly,8:00am - 6:00pm,"Stylish ripped boyfriend jeans for a relaxed, effortlessly cool vibe.",,120.0496593,555,8/25/2025
+556,Twitterbeat,361 Hanover Avenue,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Rechargeable LED lantern ideal for camping and outdoor activities.,,-7.9720237,556,9/14/2025
+557,Eabox,83294 Bunker Hill Parkway,Cafe,Loud,Group Friendly,24 hour,Shredded cabbage and carrots for coleslaw.,,-75.723394,557,8/18/2025
+558,Yodoo,1 Anniversary Alley,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,"Soft and fluffy whole wheat pita bread, great for wraps.",,19.0173647,558,1/3/2026
+559,Jatri,65484 Sycamore Center,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,"Chilled noodles dressed in sesame sauce, ready to eat.",,112.2878,559,6/29/2025
+560,Bluejam,9 Esch Street,Student Center,Loud,Group Friendly,24 hour,Quick meal kit with pasta and fresh vegetables.,,17.1921015,560,1/29/2026
+561,Browsebug,3 Carey Street,Academic,Quiet,Group Friendly,8:00am - 6:00pm,Soft and chewy cookies made with creamy peanut butter.,,5.8978018,561,11/6/2025
+562,Voonyx,4465 Shelley Hill,Student Center,Quiet,Group Friendly,24 hour,"Crunchy granola with toasted coconut flakes, perfect for breakfast or snacks.",,-97.45842,562,3/27/2025
+563,Devpulse,64911 Katie Pass,Library,Quiet,Group Friendly,8:00am - 6:00pm,Crispy cauliflower bites tossed in spicy buffalo sauce.,,7.593124,563,2/21/2026
+564,Twinder,7965 Marquette Trail,Library,Loud,Group Friendly,8:00am - 6:00pm,Cordless electric knife for effortless slicing.,,99.679959,564,12/21/2025
+565,Youtags,19344 Huxley Crossing,Library,Quiet,Not Group Friendly,24 hour,Rechargeable LED lantern ideal for camping and outdoor activities.,,-8.4622869,565,8/12/2025
+566,Pixoboo,1 Arapahoe Junction,Cafe,Loud,Group Friendly,11:00am - 5:00pm,"Pasta alternative made from sweet potatoes, gluten-free and rich in flavor.",,116.293727,566,1/11/2026
+567,InnoZ,10908 Pawling Lane,Academic,Quiet,Not Group Friendly,24 hour,"Gluten-free pasta made from lentils, high in protein.",,76.0001092,567,6/29/2025
+568,Yoveo,1539 Florence Parkway,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,Bold graphic hoodie featuring a comfortable fit and soft fabric.,,11.9101293,568,9/20/2025
+569,Photofeed,71 Petterle Avenue,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Natural air purifiers to absorb odors and moisture.,,120.67466,569,5/8/2025
+570,Jabberstorm,65 Rowland Trail,Cafe,Loud,Group Friendly,24 hour,Soft hamburger buns made with whole grains.,,-7.4404863,570,8/1/2025
+571,Devshare,35 Village Circle,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Frozen mini meatballs that are great as a snack or in pasta dishes.,,17.5786783,571,1/31/2026
+572,Roodel,62140 Westend Lane,Cafe,Loud,Group Friendly,8:00am - 6:00pm,Instant-read thermometer for accurate cooking temperatures.,,22.5927946,572,5/28/2025
+573,Dabshots,2264 Graceland Terrace,Cafe,Loud,Group Friendly,24 hour,Versatile multi-tool with 15 different functions.,,117.120033,573,2/3/2026
+574,Yoveo,72539 Scoville Lane,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,Ergonomic wireless mouse with adjustable DPI.,,23.2164145,574,1/25/2026
+575,Skivee,50 Bobwhite Point,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,Sleek wireless charging pad for smartphones.,,36.6889,575,4/11/2025
+576,Twitternation,80674 Ruskin Way,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,"Stylish two-tone windbreaker, perfect for active days.",,-7.1808711,576,9/27/2025
+577,Quire,7303 Donald Park,Academic,Quiet,Group Friendly,8:00am - 6:00pm,Comfortable gaming chair for long hours of play.,,111.3947978,577,5/15/2025
+578,Tanoodle,350 Golf Terrace,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,Refreshing sparkling water infused with cranberry and lime flavors.,,-89.52,578,6/9/2025
+579,Lajo,42 Tomscot Point,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,Cozy beanie hat to keep your head warm in the cold.,,30.384612,579,7/21/2025
+580,Twitterbeat,5436 Harper Parkway,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,Secure phone mount for your vehicle's dashboard.,,123.3058014,580,8/18/2025
+581,Twinte,15833 Petterle Street,Student Center,Moderate,Group Friendly,24 hour,Creamy Greek yogurt packed with protein and probiotics.,,11.9120278,581,6/16/2025
+582,Zava,3 Rigney Pass,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Compact travel organizer for accessories and toiletries.,,99.0267076,582,3/22/2025
+583,Meevee,03023 Arapahoe Junction,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,"Crunchy granola clusters, perfect for snacking or topping yogurt.",,19.9682943,583,5/11/2025
+584,Realfire,18387 Towne Lane,Student Center,Moderate,Group Friendly,24 hour,Compact waffle maker for perfect small waffles.,,-40.6953223,584,6/30/2025
+585,Jaloo,704 Melvin Avenue,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,DIY kit to make your own lip balms in various flavors.,,20.9077452,585,5/6/2025
+586,Devbug,572 Porter Street,Library,Loud,Group Friendly,11:00am - 5:00pm,"Supportive sports bra designed for high-impact workouts, made with moisture-wicking fabric.",,102.990108,586,9/6/2025
+587,Meemm,88714 Trailsway Lane,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,Soft comforter set for a cozy bedroom look.,,118.015602,587,1/6/2026
+588,Brainbox,74 Cherokee Junction,Residence,Moderate,Group Friendly,24 hour,Compact electric pot for hot pot dining at home.,,43.1076819,588,11/16/2025
+589,Jayo,9737 Johnson Park,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,"Delicious and fully cooked sliced ham, ready to eat.",,-74.1643652,589,7/3/2025
+590,Twimbo,679 Nancy Avenue,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,Sweet and tangy raspberry lime beverage,,66.32376,590,8/11/2025
+591,Realcube,56 Milwaukee Circle,Academic,Moderate,Group Friendly,24 hour,Classic wooden puzzle game for kids and adults.,,102.2462087,591,8/13/2025
+592,Kimia,678 Claremont Trail,Cafe,Loud,Group Friendly,11:00am - 5:00pm,Quick-cooking ramen noodles made with organic wheat.,,110.179953,592,6/25/2025
+593,Zoombeat,6 Kennedy Way,Residence,Moderate,Group Friendly,24 hour,Bell peppers filled with quinoa and vegetables.,,-89.270477,593,10/21/2025
+594,Ntags,16819 Columbus Terrace,Residence,Moderate,Not Group Friendly,8:00am - 6:00pm,Ready-to-eat chicken bowl with teriyaki sauce and rice.,,120.3435365,594,5/23/2025
+595,Realcube,018 Hayes Center,Cafe,Loud,Group Friendly,8:00am - 6:00pm,A blend of herbs and garlic for seasoning meats and vegetables.,,123.7702587,595,6/5/2025
+596,Voolia,305 Macpherson Parkway,Library,Moderate,Group Friendly,8:00am - 6:00pm,Delicious waffles infused with pumpkin and spices.,,129.736915,596,8/27/2025
+597,Tagpad,43 Northridge Alley,Residence,Loud,Group Friendly,11:00am - 5:00pm,Ready-to-drink shots made with fresh ginger and turmeric.,,140.6689995,597,8/25/2025
+598,Rhybox,95 Blaine Drive,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,Portable rechargeable warmer for cold days.,,-40.2957768,598,10/16/2025
+599,Myworks,7257 Pearson Place,Library,Loud,Group Friendly,8:00am - 6:00pm,Stylish smartwatch with fitness tracking and notifications.,,114.8567482,599,12/18/2025
+600,Zoonder,94724 Dahle Hill,Library,Quiet,Not Group Friendly,24 hour,"A simple, no-bake cheesecake mix to create your own delicious cheesecake.",,121.006595,600,4/24/2025
+601,Edgewire,98780 Russell Avenue,Academic,Quiet,Group Friendly,8:00am - 6:00pm,Programmable pet feeder for scheduled meals.,,105.2077798,601,12/15/2025
+602,Trudoo,967 Hollow Ridge Crossing,Library,Loud,Not Group Friendly,24 hour,Complete fondue set for chocolate and cheese parties.,,42.1102682,602,5/12/2025
+603,Shuffletag,34494 Autumn Leaf Lane,Student Center,Loud,Group Friendly,8:00am - 6:00pm,Convenient shower system for camping and outdoor activities.,,14.1650902,603,8/1/2025
+604,Browsezoom,483 Mosinee Pass,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Connect and control smart devices from one app.,,111.4529274,604,12/18/2025
+605,Skyvu,357 Leroy Circle,Academic,Loud,Group Friendly,8:00am - 6:00pm,Hands-free waist pack for carrying essentials while walking your dog.,,117.406384,605,10/19/2025
+606,Bubbletube,4844 Nobel Avenue,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,"Sweet relish made from cucumbers, perfect for sandwiches.",,36.5260122,606,7/9/2025
+607,Centimia,81715 Bay Junction,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Collapsible dish rack for kitchen countertop use.,,100.8120563,607,9/10/2025
+608,Jabbertype,9 Oxford Pass,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,Breathable linen trousers perfect for hot weather.,,121.0702642,608,12/13/2025
+609,Fiveclub,53 Springview Parkway,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Comfortable eye mask that includes noise-canceling ear plugs.,,124.6161575,609,5/17/2025
+610,Dabshots,3 Kennedy Parkway,Library,Moderate,Group Friendly,24 hour,Non-stick surface for easy cooking and cleaning.,,41.1342102,610,5/30/2025
+611,Yoveo,6221 Blackbird Road,Cafe,Moderate,Not Group Friendly,24 hour,"Sweet and spiced apple filling, perfect for pies.",,16.0063249,611,4/4/2025
+612,Reallinks,61991 Ridge Oak Place,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,"Deliciously creamy spinach dip, perfect for parties.",,118.43196,612,10/4/2025
+613,Browsetype,994 Dorton Trail,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,"Tender jackfruit cooked in BBQ sauce, a delicious plant-based alternative.",,79.8908308,613,3/17/2026
+614,Pixoboo,83289 Karstens Street,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,"A delicious creamy dip featuring spinach and artichokes, perfect for parties.",,113.645873,614,12/16/2025
+615,Kwimbee,10 Oak Valley Terrace,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,Rich and flavorful pasta sauce made with ripe tomatoes and basil.,,21.10889,615,7/22/2025
+616,Photojam,52 Gina Plaza,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,"A sweet and tangy dressing made with figs and balsamic vinegar, great on salads.",,125.5406265,616,5/6/2025
+617,Plajo,19818 Jenna Court,Student Center,Moderate,Not Group Friendly,24 hour,Powerful blender for smoothies and soups.,,-41.745717,617,10/10/2025
+618,Skippad,4 Morningstar Pass,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,"A delicious creamy dip featuring spinach and artichokes, perfect for parties.",,-97.5199862,618,1/1/2026
+619,Bubblebox,98280 Division Road,Library,Loud,Not Group Friendly,11:00am - 5:00pm,"Crispy mini pretzels, a great snack any time of day.",,106.27613,619,3/6/2026
+620,Cogilith,9347 Clarendon Terrace,Residence,Moderate,Not Group Friendly,24 hour,DIY LED strip lights with remote control.,,103.064018,620,5/8/2025
+621,Edgeblab,08 Lakeland Terrace,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,"Light and crispy rice cakes, a perfect low-calorie snack.",,49.8240194,621,4/6/2025
+622,Yoveo,765 Twin Pines Alley,Academic,Quiet,Not Group Friendly,24 hour,Compact food processor for quick meal prep.,,15.959277,622,10/17/2025
+623,Teklist,13 Dixon Lane,Academic,Quiet,Group Friendly,11:00am - 5:00pm,Quick-cooking ramen for instant meals.,,120.395912,623,10/22/2025
+624,Mybuzz,61 Sunbrook Alley,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Set of two yoga blocks for increased stability and support.,,120.9997478,624,5/11/2025
+625,Feedbug,6749 Pine View Trail,Library,Loud,Not Group Friendly,24 hour,Comfortable carry for pets while hiking or traveling.,,120.15507,625,8/17/2025
+626,Oyoyo,2418 Chive Parkway,Library,Loud,Not Group Friendly,8:00am - 6:00pm,Ergonomic footrest for easier pedicure treatment.,,83.9955879,626,9/16/2025
+627,Topdrive,89 Morning Junction,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,Rechargeable electric toothbrush with smart timer.,,112.389438,627,4/7/2025
+628,Twimbo,7 Bartelt Hill,Academic,Loud,Group Friendly,24 hour,"Sliced black olives, perfect for salads and pizzas.",,17.306927,628,10/14/2025
+629,Eayo,0 Johnson Road,Cafe,Loud,Not Group Friendly,24 hour,Rich and flavorful tomato sauce for pasta or pizza.,,-8.6939907,629,4/23/2025
+630,Trilia,1676 Cordelia Terrace,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,Durable backpack designed for hiking and outdoor excursions.,,37.4793238,630,5/17/2025
+631,Livepath,67821 Katie Drive,Residence,Moderate,Group Friendly,8:00am - 6:00pm,"A sweet and tart jam, perfect on toast or in desserts.",,51.48333,631,6/30/2025
+632,Katz,90265 Dovetail Road,Academic,Loud,Group Friendly,24 hour,Rechargeable lantern with multiple brightness settings for outdoors.,,-105.4093552,632,11/3/2025
+633,Avamm,9 Scoville Point,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,A flavorful sauce for stir-frying vegetables and meats.,,3.43333,633,2/15/2026
+634,Zazio,4398 Emmet Circle,Academic,Moderate,Group Friendly,24 hour,Durable yoga strap for deeper stretches.,,135.5602794,634,7/12/2025
+635,Linkbridge,47 Red Cloud Court,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,"A sweet and tart jam, perfect on toast or in desserts.",,-8.971304,635,11/11/2025
+636,Skinte,9141 Vera Point,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,"Fresh and tart organic green apples, great for snacking or baking.",,120.8681069,636,6/24/2025
+637,Riffwire,91 Dryden Point,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,Control appliances remotely using your smartphone.,,-51.2003761,637,10/30/2025
+638,Dynazzy,54 Havey Crossing,Academic,Quiet,Group Friendly,11:00am - 5:00pm,Refreshing sparkling water with lemon and lime flavor,,24.0942729,638,3/22/2025
+639,Meevee,208 Pond Crossing,Academic,Quiet,Not Group Friendly,24 hour,Stylish and functional backpack for school or trips.,,120.8646582,639,3/25/2025
+640,Mynte,157 Talmadge Park,Student Center,Loud,Group Friendly,11:00am - 5:00pm,Powerful blender for smoothies and soups.,,125.423119,640,3/8/2026
+641,Twinte,9 Merrick Road,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,Rich and tangy dressing perfect for salads.,,22.3898739,641,6/15/2025
+642,Fanoodle,82 Maple Parkway,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Dried tomatoes packed with deep flavor for salads and pasta.,,3.7636128,642,5/10/2025
+643,Meemm,445 Sutteridge Parkway,Library,Loud,Not Group Friendly,11:00am - 5:00pm,DIY kit to convert your smartphone into a mini projector.,,71.9210047,643,7/26/2025
+644,Realbridge,355 Valley Edge Road,Residence,Loud,Group Friendly,11:00am - 5:00pm,Heavy-duty rake with adjustable width for different gardening needs.,,128.1590828,644,11/20/2025
+645,Skajo,07 Amoth Point,Library,Loud,Group Friendly,11:00am - 5:00pm,Cordless electric screwdriver for home projects.,,124.25,645,4/30/2025
+646,Realfire,44 Hoard Way,Student Center,Moderate,Not Group Friendly,24 hour,"A classic soup combining tomatoes and basil, great with grilled cheese sandwiches.",,21.3589808,646,2/21/2026
+647,Photobug,0 Straubel Circle,Residence,Loud,Group Friendly,8:00am - 6:00pm,A retro-style button-down shirt with a relaxed fit.,,19.5946634,647,12/28/2025
+648,Brainlounge,87 Hudson Crossing,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,A sleek leather wallet that combines style and functionality.,,-6.2634596,648,1/22/2026
+649,Youfeed,1 Mallory Terrace,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,"Sliced black olives, perfect for salads and pizzas.",,118.132068,649,10/14/2025
+650,Realmix,03 Cherokee Terrace,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,"Tangy and sweet balsamic dressing, perfect for salads.",,113.6799766,650,7/21/2025
+651,Voomm,5 Mccormick Road,Cafe,Loud,Not Group Friendly,11:00am - 5:00pm,Complete cleaning kit for camera lenses.,,55.4543246,651,11/15/2025
+652,Wordpedia,01500 Fordem Road,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,"Green salsa with a spicy kick, great for dipping.",,-48.8447394,652,1/8/2026
+653,Muxo,72 Schlimgen Hill,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,Cold pasta salad tossed with pesto and fresh vegetables.,,-93.91,653,10/16/2025
+654,Dablist,319 Nevada Place,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Non-stick and heat-resistant utensils for cooking.,,7.7424053,654,11/29/2025
+655,Voomm,7 Sugar Circle,Library,Moderate,Group Friendly,8:00am - 6:00pm,Convertible kneeler and seat for gardening comfort.,,37.8087693,655,5/23/2025
+656,Talane,4 Schurz Alley,Academic,Moderate,Not Group Friendly,24 hour,A mix of frozen berries for smoothies or desserts,,102.969002,656,3/20/2025
+657,Buzzster,3 Harper Trail,Academic,Moderate,Group Friendly,24 hour,Cordless electric screwdriver for home projects.,,-8.2603368,657,1/3/2026
+658,Realblab,23 Waywood Alley,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,High-quality whole wheat flour for baking and cooking.,,115.08775,658,11/30/2025
+659,Eazzy,30 Prairie Rose Park,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,"Skillet that can fry, grill, and sauté with ease.",,108.4703138,659,3/1/2026
+660,Babblestorm,14766 Hayes Court,Residence,Loud,Group Friendly,8:00am - 6:00pm,"A zesty salsa made with peaches and mangos, great for chips.",,115.5207358,660,1/6/2026
+661,Dablist,86791 Hallows Drive,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,"Roasted pistachios, a healthy and tasty snack.",,43.3907569,661,6/21/2025
+662,Leenti,67151 Banding Alley,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,Durable lunch box designed to keep food fresh and cool.,,16.5942897,662,2/21/2026
+663,Flipbug,304 Vidon Circle,Student Center,Moderate,Not Group Friendly,24 hour,Qi-certified charger for fast wireless charging of smartphones.,,-175.21333,663,10/18/2025
+664,Shuffledrive,1368 Oxford Circle,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,A seasonal creamer that adds pumpkin spice flavor to coffee or tea.,,-8.635246,664,12/27/2025
+665,Twinder,33332 Memorial Alley,Library,Moderate,Group Friendly,8:00am - 6:00pm,Fun fridge magnets to decorate your kitchen.,,84.1556369,665,6/18/2025
+666,Oyoloo,89277 Crownhardt Way,Library,Loud,Group Friendly,24 hour,Non-slip yoga mat for optimal grip and comfort.,,121.1893,666,5/17/2025
+667,Katz,219 Grayhawk Pass,Student Center,Quiet,Not Group Friendly,24 hour,"Creamy ranch dressing, perfect for salads and dips.",,36.6585689,667,10/24/2025
+668,Zazio,70 Maple Wood Pass,Academic,Quiet,Group Friendly,24 hour,Functional leggings designed for maximum comfort during workouts.,,50.6430658,668,7/27/2025
+669,Zoonder,2 Gulseth Lane,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Corn on the cob seasoned with chili and lime for a spicy kick.,,49.4017092,669,9/23/2025
+670,Jamia,0429 Service Avenue,Residence,Quiet,Group Friendly,24 hour,Cordless electric knife for effortless slicing.,,124.0280263,670,6/14/2025
+671,Meemm,78635 Northfield Pass,Academic,Quiet,Group Friendly,11:00am - 5:00pm,Regulate water temperature for safe and comfortable showers.,,-36.2064182,671,3/19/2026
+672,Jaxbean,4 Badeau Way,Academic,Moderate,Not Group Friendly,24 hour,"Flavorful chicken sausage, low in fat and fully cooked.",,-8.3687908,672,8/6/2025
+673,Thoughtstorm,828 Dixon Circle,Library,Moderate,Not Group Friendly,24 hour,Smoky and sweet BBQ sauce for grilling and dipping.,,22.7447696,673,5/3/2025
+674,Linkbridge,97 Mosinee Pass,Academic,Loud,Group Friendly,11:00am - 5:00pm,Unsweetened coconut flakes for baking and topping.,,66.9511459,674,10/4/2025
+675,Realblab,87 Marcy Road,Student Center,Loud,Group Friendly,8:00am - 6:00pm,"Pre-cooked vegetable fried rice, just heat and serve.",,-48.5762695,675,4/8/2025
+676,Eabox,067 Lindbergh Junction,Student Center,Quiet,Group Friendly,24 hour,Organizational cubes for easy packing and travel.,,112.590061,676,1/25/2026
+677,Aimbu,5 Sachs Parkway,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,"Classic marinara sauce for pasta, pizza, or dipping.",,23.0257921,677,2/18/2026
+678,Mudo,10322 Pawling Trail,Library,Moderate,Not Group Friendly,11:00am - 5:00pm,Refreshing coconut water packed with electrolytes for hydration.,,113.207187,678,4/4/2025
+679,Gabvine,4310 Transport Center,Library,Moderate,Group Friendly,24 hour,"Traditional Korean fermented vegetables, packed with flavor.",,16.3936719,679,5/2/2025
+680,Oyonder,80 Brickson Park Avenue,Student Center,Loud,Group Friendly,11:00am - 5:00pm,Large inflatable pool for summer fun in your backyard.,,-70.2497616,680,11/15/2025
+681,Skalith,7 Sunbrook Junction,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Adjustable dog collar with personalized tags.,,10.7652478,681,9/23/2025
+682,Centimia,73589 Kings Circle,Residence,Moderate,Group Friendly,24 hour,Educational tablet designed for preschool-age children.,,10.72746,682,1/14/2026
+683,Voolia,0856 Melby Court,Academic,Moderate,Not Group Friendly,24 hour,"Dairy-free ice cream made with coconut milk, creamy and delicious.",,112.199427,683,7/20/2025
+684,Skinder,966 Roxbury Street,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,A comforting soup filled with chicken and noodles in broth.,,123.4808607,684,6/5/2025
+685,Cogidoo,40859 Basil Drive,Student Center,Loud,Not Group Friendly,8:00am - 6:00pm,"Fresh pomegranate juice, rich in antioxidants.",,111.189296,685,9/9/2025
+686,Leenti,9838 Reinke Drive,Cafe,Loud,Not Group Friendly,24 hour,Lightweight tennis racket for beginners and advanced players.,,121.4023587,686,10/22/2025
+687,Lazzy,2417 Sutherland Circle,Library,Loud,Group Friendly,11:00am - 5:00pm,"Hearty beef chili, ready to heat and eat.",,111.9790773,687,7/20/2025
+688,Feedmix,7673 Sunfield Alley,Student Center,Loud,Not Group Friendly,24 hour,A classic denim jacket that never goes out of style.,,-78.1546617,688,1/23/2026
+689,Twitterwire,3 Karstens Terrace,Academic,Quiet,Group Friendly,24 hour,Storage solutions for keeping your car tidy and organized.,,-49.3356859,689,10/18/2025
+690,Photobean,3 Carioca Avenue,Academic,Moderate,Not Group Friendly,24 hour,Eco-friendly generator for outdoor adventures.,,111.6394,690,5/20/2025
+691,Myworks,04270 Morningstar Lane,Residence,Moderate,Group Friendly,24 hour,Stylish and modern holder for storing wine bottles on walls.,,109.103413,691,2/21/2026
+692,Meevee,6772 Messerschmidt Hill,Student Center,Loud,Group Friendly,24 hour,Stackable measuring cups made from stainless steel.,,132.991547,692,2/10/2026
+693,Jetpulse,785 Lakeland Junction,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,High-intensity flashlight with adjustable focus and brightness.,,121.653543,693,12/29/2025
+694,Ainyx,257 Badeau Court,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,Refreshing sparkling water with lemon and lime flavor,,103.1358,694,11/7/2025
+695,Meevee,51604 Eastlawn Terrace,Library,Quiet,Group Friendly,8:00am - 6:00pm,Fun tourist magnets from around the world for your fridge.,,122.5971,695,4/16/2025
+696,Yotz,0638 Packers Court,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Compact air fryer for healthier cooking.,,32.4202638,696,3/30/2025
+697,Shufflebeat,20673 Forest Dale Parkway,Library,Loud,Not Group Friendly,24 hour,Easy-to-use tiebacks for curtains or drapes.,,121.0036417,697,12/28/2025
+698,Oyondu,71 Pankratz Trail,Residence,Quiet,Group Friendly,24 hour,Chic wrap jumpsuit that flatters the body and is perfect for any occasion.,,-81.4471254,698,3/9/2026
+699,Skynoodle,3371 Lakewood Junction,Residence,Quiet,Group Friendly,8:00am - 6:00pm,A flavorful blend of rice with tropical pineapple and coconut flavors.,,20.7453177,699,4/16/2025
+700,Flashset,81057 Glendale Hill,Library,Moderate,Group Friendly,11:00am - 5:00pm,Easy-to-read digital kitchen timer with alarms.,,108.2427764,700,12/7/2025
+701,Fivechat,22627 Kropf Junction,Library,Loud,Group Friendly,11:00am - 5:00pm,Planter with self-watering feature for easy plant care.,,121.0380826,701,1/17/2026
+702,Topicstorm,5 Delladonna Road,Library,Moderate,Group Friendly,8:00am - 6:00pm,Leak-proof cooler bag ideal for picnics and camping.,,45.35898,702,9/3/2025
+703,Tekfly,6 Rutledge Hill,Residence,Loud,Group Friendly,8:00am - 6:00pm,"Delicious and hearty black beans, great for soups or salads.",,110.5930548,703,1/17/2026
+704,Voonte,720 Annamark Street,Library,Loud,Group Friendly,24 hour,A blend of mixed nuts for snacking.,,41.734917,704,2/11/2026
+705,Tagopia,60616 Melody Lane,Library,Loud,Not Group Friendly,24 hour,Reusable whiteboard for notes and reminders with magnetic backing.,,-104.1175578,705,7/19/2025
+706,Topiczoom,30028 7th Way,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,Refreshing coconut water packed with electrolytes for hydration.,,52.1354762,706,4/7/2025
+707,Riffpath,790 Ruskin Terrace,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,"Nutritious chia seed pudding in vanilla flavor, ready to eat.",,-64.9307007,707,4/5/2025
+708,Bluezoom,2 Derek Point,Library,Loud,Group Friendly,11:00am - 5:00pm,Plant-based sausage links with spices and herbs.,,119.160586,708,10/18/2025
+709,Gabvine,84877 Vermont Crossing,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Complete kit for growing herbs indoors.,,106.3198908,709,7/21/2025
+710,Kanoodle,04342 Nelson Alley,Academic,Moderate,Not Group Friendly,24 hour,Portable case to organize and protect jewelry on trips.,,5.5053129,710,2/6/2026
+711,Snaptags,48 Saint Paul Hill,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,Classic V-neck sweater crafted from soft wool for warmth and style.,,14.2604647,711,12/12/2025
+712,Demivee,0485 Mayer Crossing,Academic,Quiet,Group Friendly,24 hour,All-natural skincare set for daily use.,,110.615261,712,12/5/2025
+713,Oodoo,5447 Pawling Circle,Academic,Quiet,Group Friendly,8:00am - 6:00pm,Wheeled cooler for transporting drinks and snacks.,,-8.296808,713,10/8/2025
+714,Buzzster,142 Jenna Park,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,Cozy oversized sweater perfect for chilly days with a textured knit design.,,112.243026,714,3/4/2026
+715,Plajo,39284 Lunder Way,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Nutty granola bars for healthy snacking.,,38.0110797,715,3/10/2026
+716,Eayo,0500 1st Lane,Student Center,Loud,Not Group Friendly,24 hour,"Crispy baked falafel balls, perfect for salads",,4.6192695,716,1/17/2026
+717,Shuffledrive,2228 Gateway Street,Residence,Moderate,Group Friendly,11:00am - 5:00pm,7-in-1 multi-cooker for versatile cooking.,,-76.6506567,717,4/15/2025
+718,Roombo,351 Hauk Avenue,Library,Loud,Group Friendly,8:00am - 6:00pm,A rich coconut curry sauce perfect for simmering vegetables or meats.,,117.197212,718,2/14/2026
+719,Jetpulse,58 Rusk Circle,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Just add water for a hearty cheese and broccoli soup in minutes.,,-114.0371938,719,12/27/2025
+720,Livetube,4080 Susan Drive,Cafe,Loud,Group Friendly,11:00am - 5:00pm,Frozen smoothie blend with berries for a quick and healthy breakfast.,,-52.8955875,720,1/12/2026
+721,Feedfish,7075 Coleman Avenue,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,Cozy throw blanket perfect for adding warmth to your home.,,101.0315823,721,9/17/2025
+722,Yodel,13 Waubesa Pass,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,"Crunchy and nutritious almonds, perfect for snacking.",,121.450653,722,7/15/2025
+723,Twinder,1 Heffernan Junction,Academic,Quiet,Group Friendly,11:00am - 5:00pm,Set of elegant wine glasses for special occasions.,,-3.2602564,723,3/11/2026
+724,Brightdog,67862 Mallory Pass,Residence,Loud,Group Friendly,24 hour,A warm knitted scarf to keep you cozy in winter.,,4.7270746,724,7/23/2025
+725,Meevee,7390 Hollow Ridge Way,Library,Quiet,Group Friendly,8:00am - 6:00pm,Small fridge designed to keep skincare products cool and fresh.,,37.578484,725,3/14/2026
+726,Kimia,533 Schmedeman Trail,Academic,Loud,Not Group Friendly,8:00am - 6:00pm,Eco-friendly phone case designed to decompose safely.,,101.207047,726,1/3/2026
+727,Oyondu,9 Melvin Pass,Library,Loud,Group Friendly,8:00am - 6:00pm,Adjustable tripod for smartphones and cameras.,,112.197899,727,1/7/2026
+728,Gabcube,39389 Mayfield Circle,Library,Loud,Group Friendly,8:00am - 6:00pm,Classic marshmallow treats made with crispy rice.,,100.5201019,728,11/25/2025
+729,Skimia,03 Anhalt Trail,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Tender ribs smothered in a honey barbecue sauce.,,-95.8803869,729,7/6/2025
+730,Jaxbean,9351 Mosinee Parkway,Library,Moderate,Group Friendly,8:00am - 6:00pm,Crunchy crackers topped with real cheddar cheese flavor.,,9.5617847,730,9/30/2025
+731,Photobug,89259 Ridge Oak Crossing,Cafe,Moderate,Group Friendly,24 hour,Comfortable eye mask that includes noise-canceling ear plugs.,,136.8367649,731,7/7/2025
+732,Tagchat,6 Carey Terrace,Residence,Moderate,Not Group Friendly,11:00am - 5:00pm,Wi-Fi enabled thermostat for energy-saving temperature control.,,6.0925959,732,12/3/2025
+733,Yacero,8 Riverside Trail,Academic,Loud,Group Friendly,24 hour,Moisturizing body wash with natural ingredients.,,153.8190084,733,2/8/2026
+734,Centizu,5 Eagan Place,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Colorful bins to keep your space organized.,,41.1199008,734,6/2/2025
+735,Dynabox,41905 Clove Pass,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Crunchy granola with pumpkin spice flavor.,,117.251586,735,11/8/2025
+736,Skilith,23950 Hauk Center,Cafe,Moderate,Not Group Friendly,24 hour,"Soothing tea with honey and ginger, great for relaxation.",,100.721884,736,11/13/2025
+737,Quatz,8449 Kinsman Terrace,Residence,Moderate,Group Friendly,24 hour,Educational tablet designed for preschool-age children.,,-8.2439651,737,10/15/2025
+738,Brainverse,8 Miller Avenue,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,"Concentrated tomato paste, great for sauces.",,112.4440473,738,10/11/2025
+739,Babbleset,3 Northport Park,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Essential attachments for pressure washing.,,125.2052299,739,10/6/2025
+740,Mita,6 Bay Park,Academic,Loud,Group Friendly,8:00am - 6:00pm,"Chickpeas served with olives, feta, and hummus, a healthy meal.",,118.6498144,740,9/19/2025
+741,Plajo,667 School Lane,Academic,Loud,Not Group Friendly,24 hour,Corn on the cob seasoned with chili and lime for a spicy kick.,,-72.5387781,741,8/7/2025
+742,Yotz,1095 Novick Court,Library,Quiet,Group Friendly,24 hour,"A comfortable crew neck sweater, great for all seasons.",,90.4147954,742,12/20/2025
+743,Snaptags,2 Rockefeller Circle,Library,Loud,Group Friendly,8:00am - 6:00pm,Hearty minestrone soup loaded with vegetables and pasta.,,98.385029,743,1/15/2026
+744,Meezzy,90228 Lakewood Junction,Student Center,Quiet,Group Friendly,24 hour,Complete set to brew coffee with different methods.,,13.3834052,744,6/10/2025
+745,Leenti,0670 Johnson Alley,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,Complete karaoke system with microphones and speakers.,,115.147814,745,3/11/2026
+746,Photobug,2 Helena Terrace,Academic,Moderate,Group Friendly,24 hour,Chocolate coconut protein bars inspired by the classic candy bar.,,76.9262526,746,4/6/2025
+747,Snaptags,84 Cherokee Trail,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,Compact and portable projector for watching videos anywhere.,,3.3955927,747,7/4/2025
+748,Thoughtstorm,119 Heath Place,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,Smooth and creamy smoothie made with peanut butter and banana.,,29.2335299,748,9/23/2025
+749,Eire,7 Harbort Trail,Student Center,Quiet,Group Friendly,8:00am - 6:00pm,Adds extra comfort to your mattress for a better night's sleep.,,9.1690428,749,10/30/2025
+750,Gevee,38441 Oxford Junction,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,Stylish markers for labeling your indoor garden plants.,,111.4526032,750,5/29/2025
+751,Devpoint,7031 Oxford Lane,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Eco-friendly soy candles with a variety of scents.,,120.960159,751,4/7/2025
+752,Topicshots,53 Towne Junction,Student Center,Quiet,Not Group Friendly,24 hour,Unique handcrafted utensils for cooking and serving.,,123.6148,752,11/3/2025
+753,Ainyx,4 School Park,Student Center,Loud,Not Group Friendly,8:00am - 6:00pm,Set of two yoga blocks for increased stability and support.,,-4.0388918,753,3/16/2026
+754,LiveZ,09 Towne Plaza,Academic,Quiet,Group Friendly,11:00am - 5:00pm,Breathable mesh sports leggings for ultimate comfort.,,99.9608287,754,10/1/2025
+755,Tagfeed,7 Vahlen Pass,Student Center,Loud,Not Group Friendly,8:00am - 6:00pm,Versatile puff pastry for pies and pastries.,,120.547358,755,11/25/2025
+756,Skivee,302 Mandrake Alley,Student Center,Moderate,Group Friendly,24 hour,Made from biodegradable materials for eco-conscious yogis.,,31.9292855,756,5/12/2025
+757,Babbleset,078 Rockefeller Hill,Student Center,Loud,Group Friendly,8:00am - 6:00pm,"A mix of fresh vegetables with a savory stir-fry sauce, ready to cook.",,116.00509,757,7/31/2025
+758,Camido,25 Sugar Avenue,Academic,Moderate,Group Friendly,24 hour,Comfortable and reusable face masks in different styles.,,-86.5728785,758,11/6/2025
+759,Skajo,92673 Dawn Center,Cafe,Loud,Group Friendly,8:00am - 6:00pm,A blend of peach and mango for a tropical smoothie.,,-41.6809724,759,11/8/2025
+760,Jaxspan,9 Loftsgordon Court,Academic,Loud,Not Group Friendly,8:00am - 6:00pm,Crispy chickpeas roasted with honey for a sweet and satisfying snack.,,-94.4452233,760,12/2/2025
+761,Wikizz,84 Ridgeway Court,Cafe,Loud,Group Friendly,11:00am - 5:00pm,Unsweetened coconut flakes for baking and snacking.,,-73.626268,761,9/21/2025
+762,Roombo,990 Rieder Circle,Residence,Moderate,Group Friendly,8:00am - 6:00pm,Quick and easy side dish with buttery flavor.,,106.4563567,762,3/25/2025
+763,Buzzster,4148 Mifflin Center,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,"Wide range of flavored wings, perfect for parties or casual snacking.",,46.9376519,763,3/31/2025
+764,Zoombeat,077 Golf View Junction,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,"Mix for homemade cornbread, just add water and bake for a delicious side.",,35.03913,764,7/22/2025
+765,Voomm,33938 Northridge Hill,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Rich cocoa powder for baking and chocolate recipes.,,108.504872,765,4/17/2025
+766,Agivu,10003 Fallview Hill,Student Center,Loud,Group Friendly,8:00am - 6:00pm,1080p wireless security camera with night vision.,,-98.882461,766,7/8/2025
+767,Skibox,9110 Bartelt Road,Residence,Moderate,Group Friendly,24 hour,Delicious dark chocolate with creamy nut butter inside.,,112.8135304,767,3/8/2026
+768,Realblab,45924 Dorton Avenue,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,"Tender jackfruit cooked in BBQ sauce, a delicious plant-based alternative.",,107.1816257,768,11/29/2025
+769,Youbridge,51 Pepper Wood Hill,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,"Ready-to-eat avocado slices, perfect for tacos.",,107.8346924,769,11/4/2025
+770,Omba,5834 Cambridge Terrace,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Color-changing LED lights for home decoration with remote.,,117.314323,770,1/21/2026
+771,Fanoodle,540 Village Green Alley,Student Center,Loud,Group Friendly,8:00am - 6:00pm,Passive noise reduction headphones for focus.,,-8.3687908,771,8/21/2025
+772,Skyndu,8 Jenifer Court,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,Mini refrigerator ideal for small spaces.,,48.2219395,772,9/15/2025
+773,Realcube,893 Laurel Street,Cafe,Loud,Group Friendly,8:00am - 6:00pm,"Light and crispy rice cakes, a perfect low-calorie snack.",,111.0479956,773,7/5/2025
+774,Youfeed,7 Pierstorff Terrace,Cafe,Moderate,Not Group Friendly,24 hour,Fiery hot sauce made with fresh habaneros and spices.,,121.87093,774,2/12/2026
+775,Yakidoo,28 Havey Court,Library,Moderate,Not Group Friendly,11:00am - 5:00pm,Savory teriyaki sauce for stir-frying veggies or meats.,,-70.297951,775,11/8/2025
+776,Pixope,306 Fieldstone Plaza,Student Center,Quiet,Not Group Friendly,24 hour,"A zesty marinade made with lemon juice and garlic, ideal for chicken or fish.",,23.6229395,776,8/12/2025
+777,Omba,44 Hanson Place,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,"A hearty soup made with lentils, coconut milk, and a blend of spices for a tropical flavor.",,22.5489792,777,2/11/2026
+778,Skynoodle,01 Dovetail Drive,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,Complete outdoor kit for camping and hiking.,,69.1963258,778,8/25/2025
+779,Shuffledrive,99030 Lukken Crossing,Cafe,Quiet,Not Group Friendly,24 hour,Essential oil blends for a soothing atmosphere in your home.,,116.00509,779,5/21/2025
+780,Blogtag,45 Rieder Alley,Academic,Moderate,Not Group Friendly,24 hour,Rich and buttery mashed potatoes with roasted garlic.,,73.4803095,780,11/15/2025
+781,Gabspot,3 Lyons Circle,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,Cordless handheld vacuum for quick cleanups.,,111.0177251,781,3/4/2026
+782,Photobean,7 Donald Way,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,Delicious homemade style blackberry jam.,,88.3831008,782,7/19/2025
+783,Trudoo,7 Sloan Plaza,Cafe,Moderate,Group Friendly,24 hour,Effective roller for removing pet hair from furniture.,,69.53695,783,5/20/2025
+784,Jamia,11429 Hanover Road,Cafe,Loud,Group Friendly,24 hour,Quick and easy way to remove wrinkles from clothes.,,-46.3660676,784,3/19/2026
+785,Dabshots,7518 Service Center,Residence,Moderate,Not Group Friendly,11:00am - 5:00pm,A flavorful barbecue sauce with a sweet and spicy kick.,,87.5395855,785,9/22/2025
+786,Gabspot,5 2nd Parkway,Academic,Moderate,Group Friendly,11:00am - 5:00pm,Plant-based mix for a rich chocolate cake.,,42.0328581,786,6/7/2025
+787,Vinte,45 Kenwood Crossing,Student Center,Loud,Group Friendly,11:00am - 5:00pm,String lights for decorating holiday trees.,,28.8389611,787,1/31/2026
+788,BlogXS,4548 Haas Alley,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Sweet and spicy salsa made with fresh peaches.,,118.698572,788,4/17/2025
+789,Twitternation,628 Orin Plaza,Residence,Quiet,Group Friendly,24 hour,A feminine wrap top with a beautiful floral print.,,107.172085,789,7/15/2025
+790,Oozz,20703 High Crossing Circle,Student Center,Loud,Not Group Friendly,8:00am - 6:00pm,Adjustable laptop stand for better ergonomics.,,21.13909,790,4/16/2025
+791,Jamia,5 Bashford Crossing,Residence,Moderate,Not Group Friendly,8:00am - 6:00pm,Compact air fryer for healthier cooking.,,32.7616732,791,5/9/2025
+792,Mynte,56204 Reinke Park,Cafe,Loud,Group Friendly,24 hour,Savory popcorn flavored with maple syrup and bacon bits.,,-60.6991676,792,8/15/2025
+793,Wikivu,575 Charing Cross Terrace,Residence,Loud,Group Friendly,8:00am - 6:00pm,"A spicy glaze made with sriracha and honey, perfect for meats.",,59.7112737,793,6/7/2025
+794,Buzzster,4156 Pennsylvania Center,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Waterproof picnic blanket for outdoor fun.,,2.511999,794,11/24/2025
+795,Twitterworks,01787 Goodland Drive,Academic,Quiet,Group Friendly,24 hour,Protective gaiters to keep dirt and debris out of shoes during hikes.,,17.1632224,795,5/19/2025
+796,Mydo,22 Sloan Street,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Stylish insulated lunch bag for on-the-go meals.,,21.7376178,796,10/26/2025
+797,Edgeclub,5 Eastlawn Pass,Residence,Moderate,Group Friendly,24 hour,Versatile multi-tool with 15 different functions.,,116.525725,797,8/17/2025
+798,Wikizz,9 Elmside Circle,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,"Wild-caught salmon filets, perfect for grilling or baking.",,24.2547455,798,5/9/2025
+799,Brainbox,2105 Anzinger Park,Residence,Moderate,Not Group Friendly,11:00am - 5:00pm,Indoor putting green for practicing your putting skills.,,122.486657,799,6/27/2025
+800,Wikibox,5895 Prentice Park,Student Center,Moderate,Group Friendly,8:00am - 6:00pm,Dairy-free cheese alternative for your favorite dishes.,,19.8982345,800,11/18/2025
+801,Dabfeed,9216 Swallow Avenue,Student Center,Quiet,Group Friendly,24 hour,Marinated beef strips in teriyaki sauce for easy grilling.,,25.0288051,801,6/1/2025
+802,Izio,55275 Prairie Rose Crossing,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Insulated mug to keep drinks hot on the go.,,44.2287108,802,8/24/2025
+803,Topicblab,7896 Mcbride Street,Cafe,Moderate,Group Friendly,24 hour,Wide pasta sheets for making lasagna.,,24.1989562,803,4/20/2025
+804,Zooveo,6505 Service Trail,Student Center,Moderate,Group Friendly,24 hour,"Crunchy cacao nibs, great for adding to smoothies or baking.",,120.9888316,804,10/17/2025
+805,Livepath,9230 Crescent Oaks Court,Residence,Loud,Group Friendly,11:00am - 5:00pm,Easily opens jar lids and bottle caps with one touch.,,-89.8468753,805,8/4/2025
+806,Skippad,06812 Fordem Alley,Academic,Quiet,Not Group Friendly,24 hour,Battery-operated motion sensor light for safety.,,-8.3704583,806,4/12/2025
+807,Divavu,3698 Eastlawn Center,Residence,Moderate,Group Friendly,24 hour,Hand-poured candles made of natural soy wax.,,18.0778717,807,7/25/2025
+808,Meevee,23941 Doe Crossing Pass,Cafe,Moderate,Group Friendly,24 hour,Comfortable and rugged boots designed for hiking.,,119.318928,808,11/26/2025
+809,Oyope,87494 Browning Lane,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,Portable case to organize and protect jewelry on trips.,,70.79064,809,1/16/2026
+810,Linkbridge,2398 Goodland Drive,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,Ergonomic office chair with lumbar support and adjustable height.,,123.7487563,810,8/1/2025
+811,Tanoodle,4 Carberry Park,Residence,Quiet,Group Friendly,24 hour,Notepad made from recycled paper for sustainable note-taking.,,103.455954,811,9/24/2025
+812,Realbridge,3 Florence Pass,Library,Moderate,Not Group Friendly,24 hour,A flavorful lentil curry cooked with vegetables and spices.,,109.088095,812,7/25/2025
+813,Yozio,4 Armistice Park,Library,Quiet,Not Group Friendly,24 hour,Sweet and crunchy roasted almonds.,,-64.1847851,813,9/26/2025
+814,Devpulse,442 Gateway Junction,Residence,Quiet,Not Group Friendly,24 hour,Regulate water temperature for safe and comfortable showers.,,30.3896651,814,7/26/2025
+815,Kazio,4263 Bayside Terrace,Cafe,Loud,Group Friendly,11:00am - 5:00pm,"Soft pretzel bites, perfect for dipping in mustard or cheese sauce.",,-75.4111644,815,1/6/2026
+816,Innojam,2 Westport Terrace,Residence,Moderate,Group Friendly,11:00am - 5:00pm,Make delightful blueberry muffins at home with this easy mix.,,109.482078,816,5/16/2025
+817,Omba,3169 Transport Alley,Academic,Moderate,Group Friendly,8:00am - 6:00pm,"Tangy dressing perfect for salads and marinades, with sesame and ginger flavors.",,11.9661922,817,11/23/2025
+818,Fivespan,4 Golf Course Plaza,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,"Organize travel documents, passport, and cards.",,-111.4052626,818,7/30/2025
+819,Kaymbo,02477 Lunder Road,Academic,Quiet,Not Group Friendly,11:00am - 5:00pm,Rich and creamy milk perfect for baking or desserts.,,107.9195543,819,3/26/2025
+820,Bubblemix,50 Bonner Point,Academic,Loud,Group Friendly,8:00am - 6:00pm,"Crispy sweet potato fries, perfectly seasoned and baked to perfection.",,46.1136773,820,8/15/2025
+821,Zava,08028 Westport Park,Residence,Moderate,Group Friendly,8:00am - 6:00pm,Individually packaged bars made with dried fruits and nuts.,,80.638098,821,9/19/2025
+822,Trilia,9447 Golden Leaf Plaza,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,"A zesty salsa made with peaches and mangos, great for chips.",,-8.4188235,822,2/23/2026
+823,Topdrive,3 Weeping Birch Terrace,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Snooze function and LED display for easy reading.,,46.9861647,823,12/21/2025
+824,Dynabox,53 Coolidge Hill,Library,Quiet,Group Friendly,11:00am - 5:00pm,Handheld frother for creating frothed milk for coffee.,,50.0969652,824,7/19/2025
+825,Youopia,988 Lien Terrace,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,Cozy wool sweater to keep you warm on chilly days.,,102.199029,825,1/30/2026
+826,Plajo,54 Scofield Street,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,Set of whisks in various sizes for cooking.,,106.2327247,826,12/11/2025
+827,Flashspan,7189 Everett Point,Academic,Moderate,Group Friendly,8:00am - 6:00pm,Soft blanket that provides warmth with adjustable settings.,,18.0843085,827,10/4/2025
+828,Zooxo,2924 Dunning Center,Student Center,Loud,Not Group Friendly,24 hour,"Spicy sauce made with chili peppers and garlic, great for stir-frying.",,9.6146499,828,12/5/2025
+829,Rhycero,61 Lakewood Gardens Center,Library,Loud,Group Friendly,8:00am - 6:00pm,"Frozen berries blend perfect for smoothies, just add yogurt.",,100.22775,829,10/27/2025
+830,Yata,9910 Spohn Alley,Academic,Quiet,Not Group Friendly,8:00am - 6:00pm,Hard-shell case for protecting sunglasses.,,111.984823,830,7/29/2025
+831,Trilia,3 Eagan Pass,Library,Loud,Group Friendly,8:00am - 6:00pm,Adds extra comfort to your mattress for a better night's sleep.,,110.12549,831,1/13/2026
+832,Jaxspan,3 Acker Drive,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,"Bell peppers stuffed with rice, beans, and spices, ready to bake.",,2.343224,832,11/17/2025
+833,Gabvine,664 Carpenter Terrace,Student Center,Moderate,Group Friendly,24 hour,"Track steps, heart rate, and sleep patterns.",,15.6082286,833,10/25/2025
+834,Fatz,197 Gateway Street,Academic,Moderate,Group Friendly,11:00am - 5:00pm,Spicy salsa made with black beans and tomatoes.,,2.3081396,834,6/30/2025
+835,Edgeclub,65 Red Cloud Court,Academic,Moderate,Not Group Friendly,11:00am - 5:00pm,Breathable tank top perfect for workouts or casual wear.,,-28.0961737,835,8/29/2025
+836,Gabspot,04 Beilfuss Center,Student Center,Loud,Not Group Friendly,24 hour,Wireless trackpad for enhanced laptop navigation.,,20.11774,836,2/21/2026
+837,Topdrive,423 Butternut Avenue,Library,Moderate,Group Friendly,24 hour,Rich chocolate syrup for ice cream or beverages.,,-76.607349,837,4/16/2025
+838,Gabtype,16 Chive Trail,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Convenient dispenser for dog waste bags on walks.,,102.214609,838,3/26/2025
+839,Browsedrive,539 Helena Center,Residence,Moderate,Not Group Friendly,8:00am - 6:00pm,Classic chino shorts in a versatile color for summer adventures.,,76.46606,839,5/30/2025
+840,Livetube,85939 Fulton Lane,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,"Refreshing dressing made with avocado and lime, perfect for salads.",,-35.3246769,840,2/20/2026
+841,Jabberstorm,83 Knutson Alley,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,Flexible tray for easy-release ice cubes.,,58.4201892,841,3/7/2026
+842,Vidoo,1618 Tennessee Plaza,Cafe,Quiet,Group Friendly,24 hour,Compact air compressor for inflating tires and sports equipment.,,-99.1303962,842,11/24/2025
+843,Vidoo,6 Thierer Point,Residence,Moderate,Group Friendly,8:00am - 6:00pm,Durable tablet designed for kids with parental controls.,,43.4910283,843,6/23/2025
+844,Livetube,0 Meadow Ridge Place,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,Inspiring cookbook with healthy recipes.,,22.0152079,844,6/27/2025
+845,Rhybox,9 Wayridge Junction,Residence,Loud,Group Friendly,8:00am - 6:00pm,"Crunchy tortilla chips with a hint of sea salt, great with dips.",,-68.1942711,845,6/6/2025
+846,Photobug,09 Glendale Center,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Healthy chia pudding made with mango and coconut milk.,,66.8975372,846,4/23/2025
+847,Youtags,5323 Schiller Drive,Library,Quiet,Group Friendly,11:00am - 5:00pm,"Rich and creamy tomato basil soup, perfect with a grilled cheese.",,19.0552497,847,10/27/2025
+848,Babbleset,5 Comanche Crossing,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Flexible LED lights for creative home lighting designs.,,104.6995991,848,1/25/2026
+849,Centidel,12657 Granby Drive,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,"Fluffy quinoa mixed with lemon zest and herbs, a perfect side.",,35.26916,849,12/9/2025
+850,Gigazoom,736 Orin Park,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,"Fast and compact external solid state drive, 1TB.",,7.7170649,850,2/4/2026
+851,Browsecat,46 Havey Lane,Student Center,Quiet,Group Friendly,8:00am - 6:00pm,Smart speaker with Alexa and music streaming features.,,41.3986916,851,7/26/2025
+852,Livepath,56561 Canary Drive,Library,Quiet,Not Group Friendly,24 hour,Non-contact thermometer for quick and easy temperature readings.,,37.4827996,852,1/21/2026
+853,Omba,4002 Rusk Crossing,Residence,Quiet,Group Friendly,24 hour,Classic fit blue jeans with a slight stretch for comfort and durability.,,107.2776992,853,3/7/2026
+854,Geba,484 Hollow Ridge Plaza,Library,Moderate,Group Friendly,24 hour,Reusable tote bags for shopping and eco-friendly living.,,-65.0604467,854,10/9/2025
+855,Mynte,5 Carpenter Point,Cafe,Moderate,Group Friendly,24 hour,Designed for comfort and performance during workouts.,,2.2372792,855,5/21/2025
+856,Ainyx,41 Green Parkway,Residence,Loud,Not Group Friendly,8:00am - 6:00pm,"Delicious vegetable dumplings, perfect for steaming or frying.",,140.9686224,856,12/27/2025
+857,Trilith,74 Reinke Way,Cafe,Loud,Not Group Friendly,24 hour,"Fluffy couscous seasoned with a blend of herbs, perfect as a side dish.",,22.4329027,857,1/3/2026
+858,Shuffledrive,48 Westport Street,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Sweet and tangy jam made from natural apricots.,,14.8410058,858,12/22/2025
+859,Buzzbean,14358 Colorado Court,Residence,Quiet,Not Group Friendly,24 hour,A mix of frozen roasted vegetables for an easy side dish.,,107.4492746,859,1/13/2026
+860,Jabbersphere,0262 Mallory Park,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Non-stick baking mat for easy cooking and cleanup.,,-121.6954666,860,3/17/2026
+861,Janyx,391 Drewry Avenue,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,Soft oatmeal cookies with maple and pecans.,,-117.2893839,861,5/21/2025
+862,Bluezoom,19246 Melvin Avenue,Library,Moderate,Group Friendly,8:00am - 6:00pm,Marinated chicken skewers infused with traditional tandoori spices.,,2.5135985,862,4/18/2025
+863,Kimia,2414 Hoard Terrace,Student Center,Loud,Group Friendly,11:00am - 5:00pm,Hard-shell case for protecting sunglasses.,,19.347341,863,8/2/2025
+864,Rhycero,109 Roth Point,Library,Moderate,Not Group Friendly,24 hour,Lightweight water filter for outdoor adventures.,,24.2595187,864,9/13/2025
+865,Eayo,81240 Butternut Way,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Multi-level cat tree for play and scratching.,,-6.8672668,865,2/4/2026
+866,Zoombox,7 Main Point,Student Center,Moderate,Group Friendly,8:00am - 6:00pm,Ceramic pizza stone for homemade pizzas.,,100.5201019,866,6/15/2025
+867,JumpXS,349 Bowman Parkway,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,Easy-to-install lights to brighten kitchen cabinets and workspaces.,,-91.912218,867,3/28/2025
+868,Livetube,103 Bellgrove Drive,Academic,Loud,Not Group Friendly,8:00am - 6:00pm,Healthier way to make popcorn in the microwave without oil.,,109.864472,868,8/25/2025
+869,Wikido,0 Johnson Street,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,"Juicy meatballs made with a blend of beef and pork, seasoned with Italian herbs.",,112.5541,869,6/13/2025
+870,Gabspot,136 Bunker Hill Street,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Foam yoga block for enhancing poses and stability.,,120.4706,870,7/29/2025
+871,Eidel,7 Sage Crossing,Library,Quiet,Group Friendly,8:00am - 6:00pm,Multi-angle stand for easy viewing of devices.,,5.8978018,871,8/12/2025
+872,Linkbridge,0 Ohio Hill,Library,Quiet,Group Friendly,11:00am - 5:00pm,Multi-level cat tree for climbing and scratching.,,34.801898,872,2/27/2026
+873,Linktype,6 Prairieview Plaza,Academic,Moderate,Not Group Friendly,24 hour,Spreadable cream cheese blended with garlic and herbs.,,2.2372823,873,6/2/2025
+874,Dynabox,84 Haas Road,Cafe,Loud,Group Friendly,24 hour,A sweet and spicy sauce for dipping or cooking.,,104.1698463,874,10/24/2025
+875,Mita,815 Stuart Circle,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,A flavorful sauce for stir-frying vegetables and meats.,,16.8056804,875,11/30/2025
+876,Dabfeed,962 La Follette Lane,Academic,Moderate,Group Friendly,11:00am - 5:00pm,Comfortable gaming headset with surround sound.,,-80.0856189,876,11/4/2025
+877,Tagfeed,9 Toban Crossing,Cafe,Quiet,Not Group Friendly,24 hour,Nutritious protein bars for on-the-go snacking.,,-77.45,877,10/17/2025
+878,Bubblebox,9403 Alpine Junction,Library,Moderate,Group Friendly,24 hour,Essential attachments for pressure washing.,,105.9141793,878,1/26/2026
+879,Dabjam,7417 Mesta Drive,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,Instant ramen cups with flavor-packed broth.,,30.2801166,879,1/10/2026
+880,Yakidoo,79027 Oxford Court,Cafe,Loud,Group Friendly,8:00am - 6:00pm,Creamy peach-flavored yogurt with real fruit.,,121.450653,880,9/20/2025
+881,Tavu,01168 Chive Pass,Library,Loud,Group Friendly,8:00am - 6:00pm,Complete cleaning kit for camera lenses.,,-87.583038,881,2/22/2026
+882,Mudo,3907 Kipling Road,Library,Loud,Not Group Friendly,8:00am - 6:00pm,Crispy apple chips drizzled with caramel for a sweet treat.,,-8.6432945,882,4/20/2025
+883,Brainlounge,9598 Victoria Alley,Residence,Quiet,Group Friendly,11:00am - 5:00pm,Roasted cashews coated in honey and sesame seeds for a sweet treat.,,-8.7524636,883,9/17/2025
+884,Thoughtstorm,5 Valley Edge Street,Residence,Moderate,Not Group Friendly,8:00am - 6:00pm,A sweet and tangy vinaigrette dressing for salads.,,-58.5144579,884,1/24/2026
+885,Rhyloo,0 Blaine Crossing,Academic,Loud,Group Friendly,8:00am - 6:00pm,"Protein-rich quinoa, a great alternative to rice.",,151.2502275,885,5/3/2025
+886,Dabshots,68280 Caliangt Parkway,Student Center,Moderate,Not Group Friendly,8:00am - 6:00pm,Energy-efficient window air conditioner for cooling.,,6.1112878,886,6/11/2025
+887,Gigabox,50 Schlimgen Hill,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Decadent tart made with rich dark chocolate.,,121.2478052,887,7/20/2025
+888,Realbridge,89 Delladonna Way,Student Center,Quiet,Not Group Friendly,11:00am - 5:00pm,A blend of spices perfect for seasoning steak.,,-46.7478493,888,8/26/2025
+889,Fanoodle,9424 Morrow Place,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Savory quiche loaded with spinach and cheese.,,-52.8444231,889,4/8/2025
+890,Browsedrive,7 Homewood Avenue,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,"Protein-rich quinoa, a great alternative to rice.",,35.16593,890,5/7/2025
+891,Fiveclub,1405 Kensington Court,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,Stylish smartwatch with fitness tracking features.,,115.1767095,891,9/30/2025
+892,Bluejam,7614 Welch Pass,Residence,Loud,Group Friendly,8:00am - 6:00pm,"Crunchy, seasoned chickpeas for a wholesome snack.",,99.0819914,892,4/3/2025
+893,Pixoboo,2032 Fairview Plaza,Residence,Moderate,Group Friendly,8:00am - 6:00pm,Stay warm with this stylish knit beanie in various colors.,,14.50306,893,2/8/2026
+894,Photolist,51547 Clarendon Parkway,Residence,Quiet,Not Group Friendly,11:00am - 5:00pm,Soft and chewy cookies made with creamy peanut butter.,,117.395313,894,4/20/2025
+895,Eare,395 Jana Alley,Library,Loud,Not Group Friendly,8:00am - 6:00pm,Everyday flats that combine comfort and style.,,121.0038631,895,1/25/2026
+896,Flashspan,4 Westridge Center,Residence,Moderate,Group Friendly,8:00am - 6:00pm,"Crunchy granola with oats, nuts, and honey.",,-157.4903907,896,8/28/2025
+897,Twitterworks,3 Bashford Lane,Library,Loud,Group Friendly,11:00am - 5:00pm,Sweetened sticky rice served with fresh mango and coconut sauce.,,10.1591213,897,12/20/2025
+898,Skimia,5 Pierstorff Terrace,Student Center,Moderate,Group Friendly,24 hour,Lightweight and portable swing hammock for relaxing outdoors.,,120.482198,898,9/18/2025
+899,Yabox,8 Jay Center,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Abstract canvas print to enhance home decor.,,86.1430172,899,4/12/2025
+900,Twiyo,5 Spaight Park,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Activity workbook for early learning and fun.,,41.734917,900,7/25/2025
+901,Viva,2 Quincy Lane,Residence,Loud,Not Group Friendly,24 hour,Handmade eco-friendly bowls made from real coconuts.,,109.6922026,901,10/3/2025
+902,Camimbo,64711 Sachtjen Pass,Residence,Loud,Not Group Friendly,11:00am - 5:00pm,Non-stick baking mat for easy cooking and cleanup.,,21.897405,902,7/24/2025
+903,Livefish,3676 Arizona Lane,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Infuser for brewing loose-leaf herbal teas easily.,,72.1486548,903,6/30/2025
+904,Flipopia,0859 Northview Terrace,Residence,Moderate,Not Group Friendly,8:00am - 6:00pm,Eco-friendly bamboo cutting boards in various sizes.,,12.5352641,904,4/15/2025
+905,Omba,159 Hansons Place,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Convenient electric screwdriver for DIY projects at home.,,107.768069,905,1/4/2026
+906,Eabox,5349 Emmet Alley,Cafe,Loud,Not Group Friendly,11:00am - 5:00pm,Rechargeable lantern with multiple brightness settings for outdoors.,,0.2010233,906,9/14/2025
+907,Meedoo,1 Lunder Drive,Library,Moderate,Not Group Friendly,11:00am - 5:00pm,Eco-friendly silicone bags for food storage and snacks.,,115.251124,907,10/7/2025
+908,Vinder,01 Express Place,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,"A blend of nuts, seeds, and dried fruits for snacking.",,39.1009227,908,6/20/2025
+909,Divanoodle,7 Merry Lane,Library,Loud,Not Group Friendly,24 hour,"A hearty soup made with lentils, a variety of vegetables, and spices, ideal for a nutritious meal.",,120.409835,909,1/2/2026
+910,Leenti,68 Golden Leaf Crossing,Academic,Moderate,Not Group Friendly,24 hour,Comfortable pillow with built-in massage features.,,125.75324,910,10/12/2025
+911,Jabberstorm,693 Knutson Terrace,Cafe,Loud,Not Group Friendly,11:00am - 5:00pm,Weighted jump rope that counts jumps and calories burned.,,3.8502617,911,9/25/2025
+912,Yodo,73 Hanover Alley,Academic,Loud,Group Friendly,24 hour,"Sweet peach halves packed in juice, great for desserts.",,-51.5303101,912,1/1/2026
+913,Flashspan,9806 Buhler Place,Cafe,Quiet,Not Group Friendly,11:00am - 5:00pm,Stylish insulated lunch bag for on-the-go meals.,,14.1268727,913,8/21/2025
+914,Bubblebox,26 Briar Crest Alley,Student Center,Loud,Not Group Friendly,8:00am - 6:00pm,Spicy seasoning mix for all your favorite dishes.,,-80.0926014,914,1/4/2026
+915,Reallinks,81779 Fairview Avenue,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,Comfortable and adjustable harness for dogs.,,-8.7098337,915,2/27/2026
+916,Snaptags,264 Stephen Center,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,Adds extra comfort to your mattress for a better night's sleep.,,-88.1263369,916,1/21/2026
+917,Quimm,8250 Londonderry Hill,Residence,Quiet,Group Friendly,8:00am - 6:00pm,A blend of spices that brings the taste of fall to your baked goods.,,-45.928795,917,6/17/2025
+918,Twitterwire,035 Fairfield Hill,Student Center,Moderate,Not Group Friendly,24 hour,Savory sauce for vegetable and meat stir-fries.,,-8.2103619,918,2/26/2026
+919,Realbuzz,9890 Grayhawk Court,Student Center,Quiet,Not Group Friendly,8:00am - 6:00pm,Easy-to-heat frozen burritos for a quick meal.,,15.0017895,919,5/24/2025
+920,Thoughtstorm,75822 Huxley Circle,Cafe,Moderate,Not Group Friendly,8:00am - 6:00pm,Marinated beef strips in teriyaki sauce for easy grilling.,,57.5012222,920,7/22/2025
+921,Edgeify,43 Gateway Point,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Space-saving broom holder for organized cleaning supplies.,,139.8755526,921,3/2/2026
+922,Oyondu,28723 Towne Lane,Cafe,Quiet,Group Friendly,8:00am - 6:00pm,Short-grain sushi rice for perfect rolls.,,109.0215438,922,6/12/2025
+923,Skinix,05 Eagle Crest Center,Student Center,Quiet,Not Group Friendly,24 hour,Tablet for digital drawing and illustration work.,,-71.465973,923,3/6/2026
+924,Skippad,1840 Lillian Junction,Library,Quiet,Group Friendly,11:00am - 5:00pm,"Concentrated tomato paste, great for sauces.",,12.0234318,924,12/8/2025
+925,Twitternation,99366 Barby Court,Student Center,Loud,Not Group Friendly,8:00am - 6:00pm,Lightweight and slim monitor ideal for dual-screen setups.,,44.5141851,925,5/18/2025
+926,JumpXS,2962 Maywood Park,Library,Quiet,Group Friendly,8:00am - 6:00pm,Quick-cooking ramen noodles made with organic wheat.,,34.779603,926,12/24/2025
+927,Youtags,605 Dovetail Avenue,Student Center,Loud,Not Group Friendly,11:00am - 5:00pm,Easy-to-set-up picnic table for outdoor dining.,,13.7676059,927,12/17/2025
+928,Jayo,898 Crowley Trail,Residence,Loud,Not Group Friendly,24 hour,Energy-efficient infrared heater for home use.,,108.2323,928,4/28/2025
+929,Leenti,40328 Stone Corner Road,Residence,Moderate,Not Group Friendly,8:00am - 6:00pm,"Durable canvas tote bag, perfect for everyday use.",,116.768541,929,1/19/2026
+930,Dynabox,76014 Forster Park,Student Center,Quiet,Group Friendly,24 hour,Sustainable foam blocks for yoga practice.,,13.7889869,930,11/11/2025
+931,Skyvu,4 Morningstar Terrace,Academic,Loud,Group Friendly,8:00am - 6:00pm,A crunchy collection of flavored kettle chips in a convenient pack.,,-105.2061347,931,2/17/2026
+932,Photojam,445 Packers Way,Student Center,Moderate,Not Group Friendly,11:00am - 5:00pm,Durable and soft frisbee designed for dogs to play with.,,-57.5897345,932,12/1/2025
+933,Kayveo,0503 Rusk Hill,Student Center,Quiet,Group Friendly,24 hour,Fragrant fried rice with authentic Thai basil and veggies.,,-118.1507494,933,10/6/2025
+934,Fatz,36683 Springview Center,Student Center,Loud,Group Friendly,11:00am - 5:00pm,Portable fire pit for backyard gatherings.,,23.0771373,934,12/16/2025
+935,Skaboo,99201 Vahlen Road,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Crunchy pretzel nuggets filled with creamy peanut butter.,,-8.8183159,935,3/20/2025
+936,Edgeclub,93 Lakewood Point,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,"Crunchy granola with almonds and a hint of vanilla, perfect for breakfast.",,-58.2918546,936,11/29/2025
+937,Layo,4 Dennis Way,Residence,Moderate,Not Group Friendly,24 hour,"Rich and creamy tomato basil soup, perfect with a grilled cheese.",,43.9516138,937,1/24/2026
+938,Kare,3160 Corry Hill,Student Center,Moderate,Group Friendly,8:00am - 6:00pm,Citrusy lemons perfect for drinks and cooking.,,120.9915504,938,7/7/2025
+939,Brainlounge,262 Lighthouse Bay Center,Student Center,Quiet,Not Group Friendly,24 hour,"Creamy chickpea dip, perfect for veggies or pita.",,113.3227193,939,8/23/2025
+940,Wordtune,0587 Tony Lane,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,"Deliciously creamy spinach dip, perfect for parties.",,120.4493879,940,6/7/2025
+941,Yozio,945 Petterle Way,Student Center,Loud,Not Group Friendly,24 hour,High-quality whole wheat flour for baking and cooking.,,37.6032435,941,10/22/2025
+942,Twitterbridge,4 Cody Road,Library,Loud,Group Friendly,11:00am - 5:00pm,Pulled jackfruit in a smoky BBQ sauce for a tasty vegan dish.,,140.6634789,942,5/1/2025
+943,Feedspan,6957 Trailsway Parkway,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,"Bell peppers stuffed with rice, beans, and spices, ready to bake.",,55.40834,943,7/23/2025
+944,Bluezoom,11 Longview Trail,Residence,Quiet,Not Group Friendly,8:00am - 6:00pm,Delicious ravioli filled with creamy ricotta and fresh spinach.,,100.103317,944,11/20/2025
+945,Trudeo,95107 Starling Way,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,Compact fire pit for campfires and gatherings.,,-0.8453268,945,3/20/2025
+946,Cogidoo,417 American Circle,Student Center,Loud,Group Friendly,8:00am - 6:00pm,High-quality whey protein powder for muscle recovery.,,-82.7247254,946,8/4/2025
+947,Twitterbridge,37993 Caliangt Trail,Cafe,Moderate,Group Friendly,8:00am - 6:00pm,Multi-level cat tree for play and scratching.,,124.7798258,947,2/28/2026
+948,Mybuzz,85 Oxford Center,Academic,Loud,Not Group Friendly,24 hour,Fresh walnut halves for baking or snacking.,,71.4599651,948,10/20/2025
+949,Plambee,36902 Bayside Drive,Library,Quiet,Not Group Friendly,8:00am - 6:00pm,A sweet and spicy sauce ideal for spring rolls or chicken nuggets.,,87.236772,949,8/16/2025
+950,Jabbersphere,6630 Hayes Hill,Library,Moderate,Group Friendly,11:00am - 5:00pm,"A mix of grilled vegetables, ready to heat for quick side dishes.",,25.9358367,950,8/3/2025
+951,Ntags,254 Lillian Center,Residence,Moderate,Not Group Friendly,24 hour,Complete set of gardening tools for all your needs.,,114.7380385,951,6/28/2025
+952,Trudeo,2803 Carioca Crossing,Cafe,Loud,Not Group Friendly,11:00am - 5:00pm,Wearable device to track fitness activities and heart rate.,,-73.1545822,952,7/4/2025
+953,Skimia,363 Mccormick Point,Academic,Quiet,Group Friendly,8:00am - 6:00pm,Anti-fog ski goggles for winter sports.,,-87.2543702,953,9/19/2025
+954,Browsecat,7 Dorton Street,Residence,Moderate,Group Friendly,24 hour,"Freshly baked artisan bread, perfect for sandwiches or toasting.",,105.2721456,954,7/10/2025
+955,Jetwire,4515 Porter Way,Library,Moderate,Group Friendly,11:00am - 5:00pm,Space-saving rack to store and organize spices conveniently.,,15.4102793,955,8/3/2025
+956,Mynte,683 Gale Way,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,"A mix of grilled vegetables, ready to heat for quick side dishes.",,103.93935,956,8/3/2025
+957,Reallinks,04 Dexter Alley,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Just add water for a quick pasta sauce.,,120.5657329,957,2/21/2026
+958,Yadel,3 Wayridge Point,Academic,Moderate,Not Group Friendly,24 hour,Set of baking sheets for effortless baking.,,114.333767,958,9/9/2025
+959,Kwilith,784 Commercial Parkway,Student Center,Quiet,Group Friendly,8:00am - 6:00pm,Timeless black trousers for a smart and sophisticated look.,,69.3717635,959,6/17/2025
+960,Chatterbridge,6 Commercial Street,Academic,Loud,Group Friendly,24 hour,All-in-one art set for kids to unleash creativity.,,17.6896073,960,10/22/2025
+961,Mybuzz,17658 Rigney Avenue,Academic,Quiet,Not Group Friendly,24 hour,Refreshing sparkling water with lemon and lime flavor,,-7.9000381,961,9/20/2025
+962,Topicshots,1 Northfield Plaza,Cafe,Moderate,Not Group Friendly,11:00am - 5:00pm,"A tangy marinade for meats and veggies, packed with garlic flavor.",,123.8751554,962,2/9/2026
+963,Browsecat,1992 Lunder Road,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Compact electric pot for hot pot dining at home.,,-7.5618071,963,6/17/2025
+964,Thoughtblab,2105 Packers Pass,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,Durable bag for carrying your yoga mat and accessories.,,12.3750266,964,5/17/2025
+965,Brightbean,0 Lillian Parkway,Library,Quiet,Group Friendly,24 hour,Padded laptop sleeve for protection against scratches.,,-42.374164,965,2/23/2026
+966,Skyndu,97807 Coolidge Junction,Residence,Quiet,Group Friendly,8:00am - 6:00pm,Tangy sweet chili sauce perfect for dipping or cooking.,,25.498235,966,11/4/2025
+967,Quire,316 Fairfield Pass,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Colorful bins to keep your space organized.,,24.8195808,967,1/6/2026
+968,Mymm,9 Evergreen Trail,Cafe,Loud,Group Friendly,8:00am - 6:00pm,Compact and stylish indoor/outdoor fire pit for ambiance.,,141.2777515,968,11/28/2025
+969,Pixoboo,913 Namekagon Parkway,Academic,Moderate,Group Friendly,8:00am - 6:00pm,Challenging and fun puzzle game for all ages.,,112.97964,969,8/25/2025
+970,Thoughtblab,55178 Karstens Trail,Residence,Quiet,Group Friendly,24 hour,A blend of spices perfect for seasoning steak.,,115.078981,970,3/24/2025
+971,Katz,817 Westend Point,Library,Loud,Group Friendly,8:00am - 6:00pm,Adjustable window blinds for privacy and light control.,,19.9677201,971,5/26/2025
+972,Eadel,02738 Sloan Park,Cafe,Moderate,Group Friendly,11:00am - 5:00pm,Powerful blender for smoothies and soups.,,106.7883416,972,3/1/2026
+973,Cogibox,9 Macpherson Center,Academic,Loud,Not Group Friendly,8:00am - 6:00pm,Compact electric pot for hot pot dining at home.,,117.116756,973,6/18/2025
+974,Flashset,057 Colorado Pass,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,Variety of bands suitable for all fitness levels.,,124.292626,974,4/3/2025
+975,Mycat,260 Nelson Junction,Cafe,Loud,Not Group Friendly,11:00am - 5:00pm,Rechargeable water flosser for dental hygiene.,,125.136451,975,11/25/2025
+976,Bubblebox,59 Oak Valley Terrace,Academic,Loud,Group Friendly,11:00am - 5:00pm,Wireless trackpad for enhanced laptop navigation.,,121.5863465,976,7/15/2025
+977,Livetube,3 Anzinger Court,Library,Moderate,Group Friendly,8:00am - 6:00pm,Wireless trackpad for enhanced laptop navigation.,,37.6243984,977,1/19/2026
+978,Yodoo,68477 Sloan Point,Residence,Loud,Group Friendly,8:00am - 6:00pm,Compostable plates suitable for various occasions.,,102.0032957,978,8/23/2025
+979,Quaxo,35 Rusk Center,Cafe,Loud,Not Group Friendly,8:00am - 6:00pm,"Creamy and rich vanilla ice cream, a classic dessert.",,-73.330688,979,6/1/2025
+980,Twitternation,86065 Russell Avenue,Library,Moderate,Not Group Friendly,24 hour,Rich and buttery mashed potatoes with roasted garlic.,,113.249705,980,10/14/2025
+981,Geba,11013 Scofield Point,Residence,Loud,Group Friendly,24 hour,Powerful grinder for making sausage and burgers at home.,,68.627038,981,12/20/2025
+982,Skyndu,42 Moland Road,Library,Quiet,Not Group Friendly,11:00am - 5:00pm,Timeless belted trench coat for a polished look during fall.,,34.8870985,982,11/17/2025
+983,Yombu,6 Jay Terrace,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Comprehensive first aid kit for emergency situations.,,-62.97238,983,11/5/2025
+984,Twitterbridge,14 Rowland Crossing,Cafe,Moderate,Not Group Friendly,24 hour,Insulated pitcher to keep beverages cold or hot.,,106.1081103,984,8/14/2025
+985,Gabtune,8 Fulton Parkway,Residence,Quiet,Group Friendly,8:00am - 6:00pm,"Spicy and creamy dip made with shredded chicken, perfect for parties.",,-52.2516426,985,3/5/2026
+986,Youspan,3560 Rusk Place,Cafe,Quiet,Not Group Friendly,8:00am - 6:00pm,"A hearty salad with lentils, veggies, and curry dressing.",,119.843271,986,4/2/2025
+987,Eare,5540 Donald Junction,Library,Quiet,Group Friendly,11:00am - 5:00pm,UV light sanitizer for phones and small items.,,2.3839746,987,7/12/2025
+988,Skimia,59262 Blue Bill Park Crossing,Library,Moderate,Not Group Friendly,8:00am - 6:00pm,Large wall planner for organizing schedules.,,141.6664383,988,6/1/2025
+989,Ooba,036 Lillian Lane,Student Center,Moderate,Group Friendly,11:00am - 5:00pm,Classic cereal made with whole grains and honey.,,102.0832543,989,10/22/2025
+990,Vinte,621 Del Sol Junction,Residence,Quiet,Group Friendly,8:00am - 6:00pm,64GB SD memory card for cameras and devices.,,91.862132,990,9/5/2025
+991,Devify,37104 Schiller Point,Library,Loud,Not Group Friendly,11:00am - 5:00pm,Customizable window cover for light control and privacy.,,-70.929367,991,2/5/2026
+992,Quinu,890 Southridge Circle,Academic,Moderate,Not Group Friendly,8:00am - 6:00pm,Roasted almonds dipped in rich dark chocolate.,,120.8130073,992,8/24/2025
+993,Buzzster,38 Barby Place,Academic,Loud,Not Group Friendly,11:00am - 5:00pm,"Crunchy tortilla chips with a hint of sea salt, great with dips.",,-38.8591633,993,7/27/2025
+994,Jaxbean,572 Bultman Circle,Academic,Moderate,Not Group Friendly,24 hour,Colorful and child-friendly gardening tools for little hands.,,18.735973,994,12/11/2025
+995,Ailane,2 Anthes Road,Student Center,Quiet,Group Friendly,11:00am - 5:00pm,Beginner-friendly acoustic guitar with natural finish.,,36.5567371,995,11/14/2025
+996,Babblestorm,5263 Banding Street,Library,Loud,Group Friendly,24 hour,Rich and buttery mashed potatoes with roasted garlic.,,13.7026399,996,4/10/2025
+997,Skimia,1 Hovde Junction,Academic,Quiet,Group Friendly,8:00am - 6:00pm,"Fresh fruit salad, ready to eat and refreshing.",,153.7133333,997,11/26/2025
+998,Quatz,3 Eagan Avenue,Cafe,Moderate,Not Group Friendly,24 hour,"Deliciously smoked salmon, great for bagels.",,10.7612521,998,9/30/2025
+999,Vinte,23435 Menomonie Court,Academic,Loud,Not Group Friendly,24 hour,"Pasta tossed with fresh basil pesto, simple and delicious.",,122.22028,999,9/9/2025
+1000,Gigazoom,03 Tony Street,Cafe,Quiet,Group Friendly,11:00am - 5:00pm,Fun gardening tools designed specifically for kids.,,15.5547835,1000,2/18/2026
