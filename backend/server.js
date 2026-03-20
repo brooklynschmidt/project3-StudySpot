@@ -44,7 +44,7 @@ app.get("/", (req, res) => res.send("API running"));
 
 async function start() {
   try {
-    await connect("mongodb://localhost:27017/Login");
+    await connect(process.env.MONGO_URI);
     console.log("connected\n");
     app.listen(PORT, () => {
       console.log(`Server running on http://localhost:${PORT}`);
