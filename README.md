@@ -59,7 +59,7 @@ We also used Leaflet for the map.
 ![main_home_page_picture5](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/homepage5.png)
 
 **Explore Page**
-![explore picture](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/explore.png))
+![explore picture](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/explore.png)
 
 **Login Page**
 ![login page picture](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/login.png)
