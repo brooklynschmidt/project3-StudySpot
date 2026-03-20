@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
-import "./FilterDropdown.css";
+import "./Filterdropdown.css";
 
 const CATEGORIES = ["Library", "Cafe", "Academic", "Student center", "Residence"];
 const AVAILABILITY = ["Crowded", "Moderate", "Not crowded"];
