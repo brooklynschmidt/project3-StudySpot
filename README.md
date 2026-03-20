@@ -9,7 +9,7 @@ The goal of actual application is to serve as a way for students in particular t
 **Author: Isabel Yeow and Brooklyn Schmidt**
 
 **Web Page:**
-[Link to Homepage]()
+[Link to Homepage](https://project3-studyspot.onrender.com)
 
 **Demo:**
 [Link to Demo](https://drive.google.com/drive/folders/19ejEOaI-PdmDMf_lV6uHf7IAZsSqQIF6?usp=sharing)
