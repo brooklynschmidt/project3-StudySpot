@@ -12,7 +12,7 @@ The goal of actual application is to serve as a way for students in particular t
 [Link to Homepage]()
 
 **Demo:**
-[Link to Demo]()
+[Link to Demo](https://drive.google.com/drive/folders/19ejEOaI-PdmDMf_lV6uHf7IAZsSqQIF6?usp=sharing)
 
 **Slides**
 [Link to Slides](https://docs.google.com/presentation/d/1ktsat6GKhlUz59b5e-BPNa98xoul8ztLYtC3ZC1O3lY/edit?usp=sharing)
