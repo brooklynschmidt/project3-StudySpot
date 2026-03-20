@@ -12,10 +12,10 @@ The goal of actual application is to serve as a way for students in particular t
 [Link to Homepage]()
 
 **Demo:**
-[Link to Demo]()
+[Link to Demo](https://drive.google.com/drive/folders/19ejEOaI-PdmDMf_lV6uHf7IAZsSqQIF6?usp=sharing)
 
 **Slides**
-[Link to Slides]()
+[Link to Slides](https://docs.google.com/presentation/d/1ktsat6GKhlUz59b5e-BPNa98xoul8ztLYtC3ZC1O3lY/edit?usp=sharing)
 
 **Design Document:**
 [Design Document](https://docs.google.com/document/d/1L-fo8RJYEdD5aULZEC40bsFTxo-vV0CAVsUai_5xTxs/edit?usp=sharing)
@@ -52,32 +52,35 @@ We also used Leaflet for the map.
 
 # Screenshots
 **Homepage**
-![main home page picture1](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/homepage1.png)
-![main home page picture2](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/homepage2.png)
+![main home page picture1](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/homepage1.png)
+![main home page picture2](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/homepage2.png)
+![main_home_page_picture3](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/homepage3.png)
+![main_home_page_picture4](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/homepage4.png)
+![main_home_page_picture5](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/homepage5.png)
 
 **Explore Page**
-![product page picture](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/productpage.png)
+![explore picture](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/explore.png)
 
 **Login Page**
-![login page picture](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/loginpage.png)
+![login page picture](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/login.png)
 
 **Sign Up Page**
-![sign up page](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/createaccount.png)
+![sign up page](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/signup.png)
 
 **Adding a Spot**
-![dashboard picture](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/dashboard.png)
+![add picture](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/add.png)
 
 **Viewing a Spot**
-![add an event](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/addevent.png)
+![view spot](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/view.png)
 
 **Filter Dashboard**
-![view/delete picture](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/viewevent.png)
+![filter_picture](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/filter.png)
 
 **Favorites**
-![view/favorites_picture](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/viewevent.png)
+![favorites_picture](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/favorites.png)
 
 **Profile**
-![profile page picture](https://github.com/brooklynschmidt/project2-attendeeum/blob/184070bc82e6de66523bd43534ec9de76ed0a139/images/profile.png)
+![profile page picture](https://github.com/brooklynschmidt/project3-StudySpot/blob/8d813678dc73329bf67ae678080a9b4c2917881d/images/profile.png)
 
 
 # AI Generated Content & Prompts
