@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import SpotCard from "../../components/SpotCard/SpotCard.jsx";
-import SpotDetail from "../../components/SpotDetail/SpotDetail.jsx";
+import SpotCard from "../../components/SpotCard/Spotcard.jsx";
+import SpotDetail from "../../components/SpotDetail/Spotdetail.jsx";
 import FilterDropdown from "../../components/FilterDropdown/FilterDropdown.jsx";
 import "./Explore.css";
 
