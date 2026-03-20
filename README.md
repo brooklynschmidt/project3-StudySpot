@@ -30,7 +30,7 @@ We also used Leaflet for the map.
 3. `npm install`
 4. `docker run --name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:latest` Due to this step, you may need to change the MongoDB string that is used to connect to the DB.
 5. `npm start`
-6. In a different terminal, run npm run dev
+6. In a different terminal, run `npm run dev`
 7. Open up the local host page
 
 # Instructions on How To Use The Application
