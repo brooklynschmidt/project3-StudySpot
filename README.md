@@ -15,7 +15,7 @@ The goal of actual application is to serve as a way for students in particular t
 [Link to Demo]()
 
 **Slides**
-[Link to Slides]()
+[Link to Slides](https://docs.google.com/presentation/d/1ktsat6GKhlUz59b5e-BPNa98xoul8ztLYtC3ZC1O3lY/edit?usp=sharing)
 
 **Design Document:**
 [Design Document](https://docs.google.com/document/d/1L-fo8RJYEdD5aULZEC40bsFTxo-vV0CAVsUai_5xTxs/edit?usp=sharing)
