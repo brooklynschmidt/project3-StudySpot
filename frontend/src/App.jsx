@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home.jsx";
 import Login from "./pages/Login/Login.jsx";
 import Signup from "./pages/Signup/Signup.jsx";
 import Explore from "./pages/Explore/Explore.jsx";
-import AddSpot from "./pages/AddSpot/AddSpot.jsx";
+import AddSpot from "./pages/Addspot/AddSpot.jsx";
 import Profile from "./pages/Profile/Profile.jsx";
 import "./App.css";
 
