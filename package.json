@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --watch backend.js"
+    "start": "node --watch backend.js",
+      "start:all": "concurrently \"npm --prefix backend start\" \"npm --prefix frontend run dev\""
   },
   "keywords": [],
   "author": "Brooklyn Schmidt",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.38.0",
+    "concurrently": "^9.2.1",
     "eslint": "^9.38.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jest": "^29.0.1",
