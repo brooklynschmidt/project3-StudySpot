@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./SpotDetail.css";
+import "./Spotdetail.css";
 
 const STATUS_OPTIONS = [
   { label: "Not crowded", class: "open" },

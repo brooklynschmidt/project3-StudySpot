@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./SpotCard.css";
+import "./Spotcard.css";
 
 function SpotCard({
   name,
