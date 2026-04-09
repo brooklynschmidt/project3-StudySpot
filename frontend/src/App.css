@@ -10,11 +10,43 @@ body,
 
 
 :root {
+  /* ── Brand ── */
   --color-green: #9abd97;
+  --color-green-hover: #d9e8d9;
+  --color-green-bg: #e8efe8;
+  --color-green-light: #f7faf7;
   --color-navy: #04395e;
   --color-white: #ffffff;
-  --color-light-gray: #f5f5f5;
-  --color-dark-gray: #333333;
+
+  /* ── Neutrals ── */
+  --color-gray-50: #fafafa;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #f0f0f0;
+  --color-gray-300: #e0e0e0;
+  --color-gray-400: #ccc;
+  --color-gray-700: #333333;
+
+  /* ── Semantic: confirm / cancel / danger ── */
+  --color-confirm: #04395e;
+  --color-confirm-text: #ffffff;
+  --color-cancel-border: #e0e0e0;
+  --color-cancel-text: #04395e;
+  --color-danger: #a32d2d;
+  --color-danger-bg: #fce8e8;
+  --color-danger-hover: #f7c1c1;
+
+  /* ── Status pills ── */
+  --color-status-open: #3b6d11;
+  --color-status-open-bg: #eaf3de;
+  --color-status-moderate: #854f0b;
+  --color-status-moderate-bg: #faeeda;
+  --color-status-crowded: #a32d2d;
+  --color-status-crowded-bg: #fce8e8;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 4px 24px rgba(4, 57, 94, 0.08);
+  --shadow-md: 0 6px 28px rgba(4, 57, 94, 0.12);
+  --shadow-lg: 0 8px 32px rgba(4, 57, 94, 0.1);
 }
 
 * {

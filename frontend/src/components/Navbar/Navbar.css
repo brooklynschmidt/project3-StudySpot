@@ -61,7 +61,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background-color: #e8efe8;
+  background-color: var(--color-green-bg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,6 +75,6 @@
 }
 
 .nav-avatar:hover {
-  background-color: #d9e8d9;
+  background-color: var(--color-green-hover);
   box-shadow: 0 0 0 2px var(--color-green);
 }
