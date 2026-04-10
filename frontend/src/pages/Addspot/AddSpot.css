@@ -34,7 +34,7 @@
 
 .add-spot__form-side {
   flex: 1;
-  padding: 24px 44px 36px;
+  padding: var(--space-page-y) 44px 36px;
   overflow-y: auto;
   background-color: var(--color-white);
 }

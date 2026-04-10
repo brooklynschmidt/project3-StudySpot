@@ -24,12 +24,6 @@ function makeIcon(size, active) {
 const greenIcon = makeIcon(12, false);
 const activeIcon = makeIcon(16, true);
 
-const PREF_STYLES = {
-  noise: { bg: "#eaf3de", color: "#3b6d11" },
-  group: { bg: "#faeeda", color: "#854f0b" },
-  category: { bg: "#e6f0fa", color: "#1a5276" },
-};
-
 function Profile({ user = null, onLogout = () => {} }) {
   const navigate = useNavigate();
   const mapRef = useRef(null);
@@ -212,7 +206,7 @@ function Profile({ user = null, onLogout = () => {} }) {
   if (!displayUser) {
     return (
       <main className="profile-page">
-        <p style={{ padding: "40px", textAlign: "center", opacity: 0.5 }}>
+        <p className="profile-page__empty" style={{ marginTop: 0, padding: "40px" }}>
           Please log in to view your profile.
         </p>
       </main>
@@ -250,11 +244,7 @@ function Profile({ user = null, onLogout = () => {} }) {
               .map(([key, value]) => (
                 <span
                   key={key}
-                  className="profile-page__pref-pill"
-                  style={{
-                    backgroundColor: PREF_STYLES[key]?.bg || "#f0f0f0",
-                    color: PREF_STYLES[key]?.color || "#666",
-                  }}
+                  className={`profile-page__pref-pill profile-page__pref-pill--${key}`}
                 >
                   {value}
                 </span>
