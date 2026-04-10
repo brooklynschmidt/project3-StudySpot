@@ -139,18 +139,13 @@ function Signup({ onLogin = () => {} }) {
 
           {error && <p className="signup-page__error">{error}</p>}
 
-          <button
-            type="submit"
-            className="signup-page__btn"
-            disabled={loading}
-          >
+          <button type="submit" className="signup-page__btn" disabled={loading}>
             {loading ? "Creating account..." : "Create account"}
           </button>
         </form>
 
         <p className="signup-page__switch">
-          Already have an account?{" "}
-          <Link to="/login">Log in</Link>
+          Already have an account? <Link to="/login">Log in</Link>
         </p>
       </div>
     </main>

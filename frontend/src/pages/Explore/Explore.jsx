@@ -68,10 +68,10 @@ function Explore({ loggedIn = false }) {
       setFavorites((prev) =>
         prev.includes(spotId)
           ? prev.filter((id) => id !== spotId)
-          : [...prev, spotId]
+          : [...prev, spotId],
       );
     },
-    [loggedIn]
+    [loggedIn],
   );
 
   const handleFavoritesFilter = useCallback(() => {
@@ -92,8 +92,7 @@ function Explore({ loggedIn = false }) {
       spot.address.toLowerCase().includes(searchQuery.toLowerCase());
 
     const matchesCategory =
-      filters.category.length === 0 ||
-      filters.category.includes(spot.category);
+      filters.category.length === 0 || filters.category.includes(spot.category);
 
     const matchesAvailability =
       filters.availability.length === 0 ||
@@ -123,8 +122,8 @@ function Explore({ loggedIn = false }) {
         // Update immediately in UI for snappy feedback
         setAllSpots((prev) =>
           prev.map((s) =>
-            (s._id || s.id) === spotId ? { ...s, status: newStatus } : s
-          )
+            (s._id || s.id) === spotId ? { ...s, status: newStatus } : s,
+          ),
         );
         if (selectedSpot && (selectedSpot._id || selectedSpot.id) === spotId) {
           setSelectedSpot((prev) => ({ ...prev, status: newStatus }));
@@ -144,7 +143,7 @@ function Explore({ loggedIn = false }) {
         console.error("Error updating spot status:", err);
       }
     },
-    [selectedSpot]
+    [selectedSpot],
   );
 
   useEffect(() => {
@@ -156,7 +155,7 @@ function Explore({ loggedIn = false }) {
     });
     L.tileLayer(
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-      { maxZoom: 19 }
+      { maxZoom: 19 },
     ).addTo(mapRef.current);
     mapRef.current.setView([42.344, -71.08], 14);
   }, []);
@@ -165,7 +164,7 @@ function Explore({ loggedIn = false }) {
     if (!mapRef.current) return;
 
     Object.values(markersRef.current).forEach((m) =>
-      mapRef.current.removeLayer(m)
+      mapRef.current.removeLayer(m),
     );
     markersRef.current = {};
 
@@ -378,14 +377,13 @@ function Explore({ loggedIn = false }) {
         </div>
         <div className="explore-page__list">
           <p className="explore-page__list-header">
-            {filteredSpots.length}{" "}
-            {showFavoritesOnly ? "favorited" : ""} spot
+            {filteredSpots.length} {showFavoritesOnly ? "favorited" : ""} spot
             {filteredSpots.length !== 1 ? "s" : ""}{" "}
             {!showFavoritesOnly && (searchQuery || activeFilterCount > 0)
               ? "found"
               : showFavoritesOnly
-              ? ""
-              : "nearby"}
+                ? ""
+                : "nearby"}
           </p>
           {filteredSpots.length === 0 && (
             <p className="explore-page__no-results">

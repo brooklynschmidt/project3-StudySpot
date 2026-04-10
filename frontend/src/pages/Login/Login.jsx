@@ -120,8 +120,7 @@ function Login({ onLogin = () => {} }) {
         </Link>
 
         <p className="login-page__switch">
-          Don&apos;t have an account?{" "}
-          <Link to="/signup">Sign up</Link>
+          Don&apos;t have an account? <Link to="/signup">Sign up</Link>
         </p>
       </div>
     </main>

@@ -2,7 +2,13 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 import "./Filterdropdown.css";
 
-const CATEGORIES = ["Library", "Cafe", "Academic", "Student center", "Residence"];
+const CATEGORIES = [
+  "Library",
+  "Cafe",
+  "Academic",
+  "Student center",
+  "Residence",
+];
 const AVAILABILITY = ["Crowded", "Moderate", "Not crowded"];
 const NOISE_LEVELS = ["Quiet", "Moderate", "Loud"];
 const GROUP_OPTIONS = ["Yes", "No"];

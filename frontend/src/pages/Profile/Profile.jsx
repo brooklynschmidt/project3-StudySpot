@@ -34,7 +34,11 @@ function Profile({ user = null, onLogout = () => {} }) {
   const [mySpots, setMySpots] = useState([]);
   const [selectedSpotId, setSelectedSpotId] = useState(null);
   const [editing, setEditing] = useState(false);
-  const [editForm, setEditForm] = useState({ firstName: "", lastName: "", preferences: {} });
+  const [editForm, setEditForm] = useState({
+    firstName: "",
+    lastName: "",
+    preferences: {},
+  });
 
   /** Fetch profile & spots **/
   useEffect(() => {
@@ -52,8 +56,8 @@ function Profile({ user = null, onLogout = () => {} }) {
             preferences: {
               noise: data.preferences?.noise || "",
               group: data.preferences?.group || "",
-              category: data.preferences?.category || ""
-            }
+              category: data.preferences?.category || "",
+            },
           });
         }
       } catch (err) {
@@ -95,7 +99,9 @@ function Profile({ user = null, onLogout = () => {} }) {
   /** Update markers **/
   const updateMarkers = useCallback(() => {
     if (!mapRef.current) return;
-    Object.values(markersRef.current).forEach((m) => mapRef.current.removeLayer(m));
+    Object.values(markersRef.current).forEach((m) =>
+      mapRef.current.removeLayer(m),
+    );
     markersRef.current = {};
 
     mySpots.forEach((spot) => {
@@ -122,7 +128,8 @@ function Profile({ user = null, onLogout = () => {} }) {
     (spotId) => {
       setSelectedSpotId(spotId);
       const spot = mySpots.find((s) => (s._id || s.id) === spotId);
-      if (spot && mapRef.current) mapRef.current.flyTo(spot.pos, 17, { duration: 0.8 });
+      if (spot && mapRef.current)
+        mapRef.current.flyTo(spot.pos, 17, { duration: 0.8 });
     },
     [mySpots],
   );
@@ -136,7 +143,9 @@ function Profile({ user = null, onLogout = () => {} }) {
       });
       if (res.ok) {
         const updated = await res.json();
-        setMySpots((prev) => prev.map((s) => ((s._id || s.id) === spotId ? updated : s)));
+        setMySpots((prev) =>
+          prev.map((s) => ((s._id || s.id) === spotId ? updated : s)),
+        );
       }
     } catch (err) {
       console.error("Failed to update spot:", err);
@@ -162,31 +171,35 @@ function Profile({ user = null, onLogout = () => {} }) {
   );
 
   /** User profile update **/
-  const handleUpdateProfile = useCallback(async (updatedFields) => {
-    if (!user?._id) return;
-    try {
-      const res = await fetch(`/api/users/${user._id}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(updatedFields),
-      });
-      if (res.ok) {
-        const updated = await res.json();
-        setProfileData(updated);
-        setEditing(false);
-      } else {
-        const err = await res.json();
-        console.error("Profile update failed:", err);
+  const handleUpdateProfile = useCallback(
+    async (updatedFields) => {
+      if (!user?._id) return;
+      try {
+        const res = await fetch(`/api/users/${user._id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(updatedFields),
+        });
+        if (res.ok) {
+          const updated = await res.json();
+          setProfileData(updated);
+          setEditing(false);
+        } else {
+          const err = await res.json();
+          console.error("Profile update failed:", err);
+        }
+      } catch (err) {
+        console.error("Failed to update profile:", err);
       }
-    } catch (err) {
-      console.error("Failed to update profile:", err);
-    }
-  }, [user]);
+    },
+    [user],
+  );
 
   /** Delete user account **/
   const handleDeleteProfile = useCallback(async () => {
     if (!user?._id) return;
-    if (!window.confirm("Are you sure you want to delete your account?")) return;
+    if (!window.confirm("Are you sure you want to delete your account?"))
+      return;
     try {
       const res = await fetch(`/api/users/${user._id}`, { method: "DELETE" });
       if (res.ok) {
@@ -206,7 +219,10 @@ function Profile({ user = null, onLogout = () => {} }) {
   if (!displayUser) {
     return (
       <main className="profile-page">
-        <p className="profile-page__empty" style={{ marginTop: 0, padding: "40px" }}>
+        <p
+          className="profile-page__empty"
+          style={{ marginTop: 0, padding: "40px" }}
+        >
           Please log in to view your profile.
         </p>
       </main>
@@ -222,7 +238,15 @@ function Profile({ user = null, onLogout = () => {} }) {
           onClick={() => navigate("/explore")}
           aria-label="Back to explore"
         >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" width="16" height="16">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            width="16"
+            height="16"
+          >
             <path d="M19 12H5" />
             <path d="M12 19l-7-7 7-7" />
           </svg>
@@ -233,7 +257,9 @@ function Profile({ user = null, onLogout = () => {} }) {
       <header className="profile-page__header">
         <div className="profile-page__avatar">{displayUser.initials}</div>
         <div className="profile-page__info">
-          <h1 className="profile-page__name">{displayUser.firstName} {displayUser.lastName}</h1>
+          <h1 className="profile-page__name">
+            {displayUser.firstName} {displayUser.lastName}
+          </h1>
           <p className="profile-page__email">{displayUser.email}</p>
         </div>
 
@@ -252,9 +278,30 @@ function Profile({ user = null, onLogout = () => {} }) {
         </div>
 
         <div className="profile-page__actions">
-          <button type="button" className="edit" onClick={() => setEditing(true)}>Edit Profile</button>
-          <button type="button" className="danger" onClick={handleDeleteProfile}>Delete Account</button>
-          <button type="button" className="profile-page__logout" onClick={() => { onLogout(); navigate("/"); }}>Log out</button>
+          <button
+            type="button"
+            className="edit"
+            onClick={() => setEditing(true)}
+          >
+            Edit Profile
+          </button>
+          <button
+            type="button"
+            className="danger"
+            onClick={handleDeleteProfile}
+          >
+            Delete Account
+          </button>
+          <button
+            type="button"
+            className="profile-page__logout"
+            onClick={() => {
+              onLogout();
+              navigate("/");
+            }}
+          >
+            Log out
+          </button>
         </div>
       </header>
 
@@ -265,52 +312,76 @@ function Profile({ user = null, onLogout = () => {} }) {
             <input
               type="text"
               value={editForm.firstName}
-              onChange={(e) => setEditForm(prev => ({ ...prev, firstName: e.target.value }))}
+              onChange={(e) =>
+                setEditForm((prev) => ({ ...prev, firstName: e.target.value }))
+              }
               placeholder="First name"
             />
             <input
               type="text"
               value={editForm.lastName}
-              onChange={(e) => setEditForm(prev => ({ ...prev, lastName: e.target.value }))}
+              onChange={(e) =>
+                setEditForm((prev) => ({ ...prev, lastName: e.target.value }))
+              }
               placeholder="Last name"
             />
 
             <div className="modal-preferences">
-              {["noise","group","category"].map(key => (
+              {["noise", "group", "category"].map((key) => (
                 <label key={key}>
                   {key.charAt(0).toUpperCase() + key.slice(1)}:
                   <select
                     value={editForm.preferences[key]}
-                    onChange={e => setEditForm(prev => ({
-                      ...prev,
-                      preferences: { ...prev.preferences, [key]: e.target.value }
-                    }))}
+                    onChange={(e) =>
+                      setEditForm((prev) => ({
+                        ...prev,
+                        preferences: {
+                          ...prev.preferences,
+                          [key]: e.target.value,
+                        },
+                      }))
+                    }
                   >
                     <option value="">None</option>
-                    {key === "noise" && <>
-                      <option value="Quiet">Quiet</option>
-                      <option value="Moderate">Moderate</option>
-                      <option value="Loud">Loud</option>
-                    </>}
-                    {key === "group" && <>
-                      <option value="Group Friendly">Group Friendly</option>
-                      <option value="Not Group Friendly">Not Group Friendly</option>
-                    </>}
-                    {key === "category" && <>
-                      <option value="Cafe">Cafe</option>
-                      <option value="Library">Library</option>
-                      <option value="Academic">Academic</option>
-                      <option value="Student Center">Student Center</option>
-                      <option value="Residence">Residence</option>
-                    </>}
+                    {key === "noise" && (
+                      <>
+                        <option value="Quiet">Quiet</option>
+                        <option value="Moderate">Moderate</option>
+                        <option value="Loud">Loud</option>
+                      </>
+                    )}
+                    {key === "group" && (
+                      <>
+                        <option value="Group Friendly">Group Friendly</option>
+                        <option value="Not Group Friendly">
+                          Not Group Friendly
+                        </option>
+                      </>
+                    )}
+                    {key === "category" && (
+                      <>
+                        <option value="Cafe">Cafe</option>
+                        <option value="Library">Library</option>
+                        <option value="Academic">Academic</option>
+                        <option value="Student Center">Student Center</option>
+                        <option value="Residence">Residence</option>
+                      </>
+                    )}
                   </select>
                 </label>
               ))}
             </div>
 
             <div className="modal-actions">
-              <button className="save" onClick={() => handleUpdateProfile(editForm)}>Save</button>
-              <button className="cancel" onClick={() => setEditing(false)}>Cancel</button>
+              <button
+                className="save"
+                onClick={() => handleUpdateProfile(editForm)}
+              >
+                Save
+              </button>
+              <button className="cancel" onClick={() => setEditing(false)}>
+                Cancel
+              </button>
             </div>
           </div>
         </div>
@@ -327,7 +398,9 @@ function Profile({ user = null, onLogout = () => {} }) {
           </p>
 
           {mySpots.length === 0 && (
-            <p className="profile-page__empty">You haven&apos;t added any spots yet.</p>
+            <p className="profile-page__empty">
+              You haven&apos;t added any spots yet.
+            </p>
           )}
 
           {mySpots.map((spot) => {

@@ -7,7 +7,7 @@ import "./MapView.css";
 const NEU = [42.3398, -71.0892];
 const SNELL = [42.3386, -71.0877];
 const MASS_AVE = [42.342, -71.0853];
-const KHOURY = [42.3370, -71.0920];
+const KHOURY = [42.337, -71.092];
 
 const SPOTS = [
   { pos: [42.3386, -71.0877], name: "Snell Library" },
@@ -298,8 +298,8 @@ function MapView({ spots }) {
         </div>
         <h2>Made by students, for students</h2>
         <p>
-          We noticed students always end up at the same crowded spots.
-          StudySpot was built to change that.
+          We noticed students always end up at the same crowded spots. StudySpot
+          was built to change that.
         </p>
         <div className="map-view__bios">
           <div className="map-view__bio-card">
@@ -317,8 +317,8 @@ function MapView({ spots }) {
             <div>
               <p className="map-view__bio-name">Brooklyn Schmidt</p>
               <p className="map-view__bio-text">
-                Wanted a better way for students to share the spots they
-                swear by. 
+                Wanted a better way for students to share the spots they swear
+                by.
               </p>
             </div>
           </div>

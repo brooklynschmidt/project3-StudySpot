@@ -1,4 +1,10 @@
-import { BrowserRouter, Routes, Route, useLocation, Navigate } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useLocation,
+  Navigate,
+} from "react-router-dom";
 import { useState, useCallback, useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./pages/Home/Home.jsx";
@@ -78,15 +84,9 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<Home />} />
 
-        <Route
-          path="/login"
-          element={<Login onLogin={handleLogin} />}
-        />
+        <Route path="/login" element={<Login onLogin={handleLogin} />} />
 
-        <Route
-          path="/signup"
-          element={<Signup onLogin={handleLogin} />}
-        />
+        <Route path="/signup" element={<Signup onLogin={handleLogin} />} />
 
         <Route
           path="/explore"
