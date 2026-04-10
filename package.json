@@ -6,7 +6,8 @@
   "scripts": {
     "install:all": "npm --prefix frontend install && npm --prefix backend install",
     "build:frontend": "npm --prefix frontend run build",
-    "start": "npm --prefix backend start"
+    "start": "npm --prefix backend start",
+    "dev": "concurrently \"npm --prefix backend start\" \"npm --prefix frontend run dev\""
   },
   "keywords": [],
   "author": "Brooklyn Schmidt",
