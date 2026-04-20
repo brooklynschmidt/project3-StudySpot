@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+// eslint-disable-next-line no-unused-vars
 import ProfileSpotCard from "../../components/ProfileSpotCard/ProfileSpotCard.jsx";
 import "./Profile.css";
 
@@ -91,7 +92,7 @@ function Profile({ user = null, onLogout = () => {} }) {
     });
     L.tileLayer(
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-      { maxZoom: 19 },
+      { maxZoom: 19 }
     ).addTo(mapRef.current);
     mapRef.current.setView([42.344, -71.08], 14);
   }, []);
@@ -100,7 +101,7 @@ function Profile({ user = null, onLogout = () => {} }) {
   const updateMarkers = useCallback(() => {
     if (!mapRef.current) return;
     Object.values(markersRef.current).forEach((m) =>
-      mapRef.current.removeLayer(m),
+      mapRef.current.removeLayer(m)
     );
     markersRef.current = {};
 
@@ -131,7 +132,7 @@ function Profile({ user = null, onLogout = () => {} }) {
       if (spot && mapRef.current)
         mapRef.current.flyTo(spot.pos, 17, { duration: 0.8 });
     },
-    [mySpots],
+    [mySpots]
   );
 
   const handleSaveSpot = useCallback(async (spotId, updatedFields) => {
@@ -144,7 +145,7 @@ function Profile({ user = null, onLogout = () => {} }) {
       if (res.ok) {
         const updated = await res.json();
         setMySpots((prev) =>
-          prev.map((s) => ((s._id || s.id) === spotId ? updated : s)),
+          prev.map((s) => ((s._id || s.id) === spotId ? updated : s))
         );
       }
     } catch (err) {
@@ -167,7 +168,7 @@ function Profile({ user = null, onLogout = () => {} }) {
         console.error("Failed to delete spot:", err);
       }
     },
-    [selectedSpotId],
+    [selectedSpotId]
   );
 
   /** User profile update **/
@@ -192,7 +193,7 @@ function Profile({ user = null, onLogout = () => {} }) {
         console.error("Failed to update profile:", err);
       }
     },
-    [user],
+    [user]
   );
 
   /** Delete user account **/

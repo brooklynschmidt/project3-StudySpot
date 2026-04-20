@@ -30,7 +30,7 @@ async function createUser({ email, password, firstName, lastName }) {
   };
 
   const result = await db.collection(COLLECTION).insertOne(user);
-  const { password: _, ...safeUser } = { ...user, _id: result.insertedId };
+  const { ...safeUser } = { ...user, _id: result.insertedId };
   return safeUser;
 }
 
@@ -49,18 +49,14 @@ async function findUserById(id) {
 
   if (!user) return null;
 
-  const { password: _, ...safeUser } = user;
+  const { ...safeUser } = user;
   return safeUser;
 }
 
 async function updateUser(id, updates) {
   const db = getDb();
 
-  const allowed = [
-    "firstName",
-    "lastName",
-    "preferences",
-  ];
+  const allowed = ["firstName", "lastName", "preferences"];
   const filtered = {};
   for (const key of allowed) {
     if (updates[key] !== undefined) {

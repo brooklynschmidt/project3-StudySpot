@@ -13,11 +13,13 @@ router.post("/signup", async (req, res) => {
 
     const user = await createUser({ email, password, firstName, lastName });
     req.login(user, (err) => {
-      if (err) return res.status(500).json({ error: "Login failed after signup" });
+      if (err)
+        return res.status(500).json({ error: "Login failed after signup" });
       return res.status(201).json(user);
     });
   } catch (err) {
-    if (err.message === "Email already in use") return res.status(409).json({ error: err.message });
+    if (err.message === "Email already in use")
+      return res.status(409).json({ error: err.message });
     console.error("Signup error:", err);
     res.status(500).json({ error: "Internal server error" });
   }
