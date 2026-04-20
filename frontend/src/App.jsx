@@ -91,11 +91,7 @@ function AppContent() {
 
         <Route
           path="/explore"
-          element={
-            <ProtectedRoute user={user}>
-              <Explore loggedIn={loggedIn} user={user} />
-            </ProtectedRoute>
-          }
+          element={<Explore loggedIn={loggedIn} user={user} />}
         />
 
         <Route
