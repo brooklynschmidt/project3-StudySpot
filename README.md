@@ -1,10 +1,12 @@
-# Project #3 - StudySpot: A Map-based Cafe Finder
+# Project #4 - StudySpot: A Map-based Cafe Finder
 [CS 5610: Web Development by John Alexis Guerra Gómez](https://johnguerra.co/classes/webDevelopment_online_spring_2026/)
 
 # Project Objective
 The goal of this project was to get comfortable creating a full stack application using HTML, CSS, Bootstrap, JavaScript, MongoDB, Express, and React. It was a good opportunity to learn how to piece together all of the different moving parts and add React to our project skills.
 
 The goal of actual application is to serve as a way for students in particular to find study spots around them. They can add study spots that they find or look for ones around them that fit their needs. A neat feature is that users can alert other users how busy a study spot in real-time.
+
+As of 4/20/2026, we have moved to making this application more accessible and usable. We implemented changes to the UI in particular and made sure the application passes Google Lighthouse's tests. There are a few differences in the tests such as the map dots being too close to one another, but that is not something we can control as users can place the dots anywhere. Making the dots any smaller would make them extremely difficult to see. We also had some performance issues which is to be expected as we use a global map API. 
 
 **Author: Isabel Yeow and Brooklyn Schmidt**
 
