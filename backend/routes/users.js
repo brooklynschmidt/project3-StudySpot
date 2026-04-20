@@ -4,9 +4,7 @@ import { findUserById, updateUser, deleteUser } from "../db/users.js";
 const router = Router();
 
 router.get("/me", (req, res) => {
-  console.log("Test");
   try {
-    console.log("Running");
     if (!req.user) {
       return res.status(401).json({ error: "Not authenticated" });
     }
