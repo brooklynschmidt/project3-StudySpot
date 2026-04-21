@@ -115,36 +115,6 @@ function Explore({ loggedIn = false }) {
     );
   });
 
-  // --- NEW: handle updating spot availability ---
-  const handleUpdateAvailability = useCallback(
-    async (spotId, newStatus) => {
-      try {
-        // Update immediately in UI for snappy feedback
-        setAllSpots((prev) =>
-          prev.map((s) =>
-            (s._id || s.id) === spotId ? { ...s, status: newStatus } : s,
-          ),
-        );
-        if (selectedSpot && (selectedSpot._id || selectedSpot.id) === spotId) {
-          setSelectedSpot((prev) => ({ ...prev, status: newStatus }));
-        }
-
-        // Persist change to backend
-        const res = await fetch(`/api/spots/${spotId}`, {
-          method: "PUT",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ status: newStatus }),
-        });
-
-        if (!res.ok) {
-          console.error("Failed to update spot status");
-        }
-      } catch (err) {
-        console.error("Error updating spot status:", err);
-      }
-    },
-    [selectedSpot],
-  );
 
   useEffect(() => {
     if (mapRef.current) return;
@@ -371,7 +341,6 @@ function Explore({ loggedIn = false }) {
             <SpotDetail
               spot={selectedSpot}
               onClose={handleCloseDetail}
-              onUpdateAvailability={handleUpdateAvailability} // <-- PASS HERE
             />
           )}
         </div>

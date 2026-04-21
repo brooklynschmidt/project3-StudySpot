@@ -1,20 +1,14 @@
 import PropTypes from "prop-types";
 import "./Spotdetail.css";
 
-const STATUS_OPTIONS = [
-  { label: "Not crowded", class: "open" },
-  { label: "Moderate", class: "moderate" },
-  { label: "Crowded", class: "crowded" },
-];
+const STATUS_CLASS = {
+  "Not crowded": "open",
+  Moderate: "moderate",
+  Crowded: "crowded",
+};
 
-function SpotDetail({ spot = null, onClose, onUpdateAvailability }) {
+function SpotDetail({ spot = null, onClose }) {
   if (!spot) return null;
-
-  const handleStatusClick = (status) => {
-    if (status !== spot.status) {
-      onUpdateAvailability(spot.id || spot._id, status);
-    }
-  };
 
   return (
     <div className="spot-detail">
@@ -31,18 +25,11 @@ function SpotDetail({ spot = null, onClose, onUpdateAvailability }) {
       <p className="spot-detail__address">{spot.address}</p>
 
       <div className="spot-detail__tags">
-        {STATUS_OPTIONS.map((opt) => (
-          <span
-            key={opt.label}
-            className={`spot-detail__status spot-detail__status--${opt.class} ${
-              spot.status === opt.label ? "spot-detail__status--active" : ""
-            }`}
-            onClick={() => handleStatusClick(opt.label)}
-            style={{ cursor: "pointer" }}
-          >
-            {opt.label}
-          </span>
-        ))}
+        <span
+          className={`spot-detail__status spot-detail__status--${STATUS_CLASS[spot.status] || "open"} spot-detail__status--active`}
+        >
+          {spot.status}
+        </span>
 
         <span className="spot-detail__category">{spot.category}</span>
       </div>
@@ -91,7 +78,6 @@ SpotDetail.propTypes = {
     pos: PropTypes.arrayOf(PropTypes.number).isRequired,
   }),
   onClose: PropTypes.func.isRequired,
-  onUpdateAvailability: PropTypes.func.isRequired,
 };
 
 export default SpotDetail;
