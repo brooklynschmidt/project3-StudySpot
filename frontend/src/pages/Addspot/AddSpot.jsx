@@ -5,18 +5,28 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "./AddSpot.css";
 
-const CATEGORIES = [
-  "Library",
-  "Cafe",
-  "Academic",
-  "Student center",
-  "Residence",
-];
+const CATEGORIES = ["Library", "Cafe", "Academic", "Student center", "Residence"];
 const NOISE_LEVELS = ["Quiet", "Moderate", "Loud"];
 const AVAILABILITY = ["Not crowded", "Moderate", "Crowded"];
 
+async function geocodeAddress(address) {
+  const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1`;
+  const res = await fetch(url, { headers: { "Accept-Language": "en" } });
+  const data = await res.json();
+  if (data.length === 0) return null;
+  return [parseFloat(data[0].lat), parseFloat(data[0].lon)];
+}
+
+const pinIcon = L.divIcon({
+  html: '<div style="width:16px;height:16px;background:#9ABD97;border:2.5px solid #04395E;border-radius:50%;box-shadow:0 0 8px rgba(4,57,94,.3);"></div>',
+  className: "",
+  iconSize: [16, 16],
+  iconAnchor: [8, 8],
+});
+
 function AddSpot({ user = null }) {
   const navigate = useNavigate();
+  const debounceRef = useRef(null);
   const mapRef = useRef(null);
   const mapElRef = useRef(null);
   const markerRef = useRef(null);
@@ -30,44 +40,60 @@ function AddSpot({ user = null }) {
   const [description, setDescription] = useState("");
   const [status, setStatus] = useState("");
   const [position, setPosition] = useState(null);
+  const [geocodeStatus, setGeocodeStatus] = useState("idle");
   const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
     if (mapRef.current) return;
-
-    mapRef.current = L.map(mapElRef.current, {
-      zoomControl: false,
-      attributionControl: false,
-    });
-    L.tileLayer(
-      "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-      { maxZoom: 19 },
-    ).addTo(mapRef.current);
+    mapRef.current = L.map(mapElRef.current, { zoomControl: false, attributionControl: false });
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", { maxZoom: 19 }).addTo(mapRef.current);
     mapRef.current.setView([42.344, -71.08], 14);
-
-    mapRef.current.on("click", (e) => {
-      const { lat, lng } = e.latlng;
-      setPosition([lat, lng]);
-
-      if (markerRef.current) {
-        markerRef.current.setLatLng([lat, lng]);
-      } else {
-        const icon = L.divIcon({
-          html: '<div style="width:16px;height:16px;background:#9ABD97;border:2.5px solid #04395E;border-radius:50%;box-shadow:0 0 8px rgba(4,57,94,.3);"></div>',
-          className: "",
-          iconSize: [16, 16],
-          iconAnchor: [8, 8],
-        });
-        markerRef.current = L.marker([lat, lng], { icon }).addTo(
-          mapRef.current,
-        );
-      }
-    });
   }, []);
+
+  useEffect(() => {
+    if (!address.trim()) {
+      setPosition(null);
+      setGeocodeStatus("idle");
+      if (markerRef.current && mapRef.current) {
+        mapRef.current.removeLayer(markerRef.current);
+        markerRef.current = null;
+      }
+      return;
+    }
+
+    setGeocodeStatus("loading");
+    clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(async () => {
+      try {
+        const pos = await geocodeAddress(address);
+        if (pos) {
+          setPosition(pos);
+          setGeocodeStatus("found");
+          if (mapRef.current) {
+            if (markerRef.current) {
+              markerRef.current.setLatLng(pos);
+            } else {
+              markerRef.current = L.marker(pos, { icon: pinIcon }).addTo(mapRef.current);
+            }
+            mapRef.current.flyTo(pos, 16, { duration: 0.8 });
+          }
+        } else {
+          setPosition(null);
+          setGeocodeStatus("notfound");
+        }
+      } catch {
+        setPosition(null);
+        setGeocodeStatus("notfound");
+      }
+    }, 600);
+
+    return () => clearTimeout(debounceRef.current);
+  }, [address]);
 
   const handleSubmit = useCallback(
     async (e) => {
       e.preventDefault();
+      if (!position) return;
       setSubmitting(true);
 
       try {
@@ -75,14 +101,8 @@ function AddSpot({ user = null }) {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            name,
-            address,
-            category,
-            noiseLevel,
-            groupFriendly,
-            hours,
-            description,
-            status,
+            name, address, category, noiseLevel, groupFriendly,
+            hours, description, status,
             pos: position,
             createdBy: user ? user._id : null,
           }),
@@ -100,19 +120,7 @@ function AddSpot({ user = null }) {
         setSubmitting(false);
       }
     },
-    [
-      name,
-      address,
-      category,
-      noiseLevel,
-      groupFriendly,
-      hours,
-      description,
-      status,
-      position,
-      user,
-      navigate,
-    ],
+    [name, address, category, noiseLevel, groupFriendly, hours, description, status, position, user, navigate],
   );
 
   const statusClass =
@@ -126,11 +134,6 @@ function AddSpot({ user = null }) {
     <main className="add-spot">
       <div className="add-spot__map-side">
         <div ref={mapElRef} className="add-spot__leaflet" />
-        <div className="add-spot__map-hint">
-          {position
-            ? "Pin placed — click again to move it"
-            : "Click on the map to place a pin"}
-        </div>
       </div>
 
       <div className="add-spot__form-side">
@@ -140,15 +143,7 @@ function AddSpot({ user = null }) {
           onClick={() => navigate("/explore")}
           aria-label="Back to explore"
         >
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            width="16"
-            height="16"
-          >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" width="16" height="16">
             <path d="M19 12H5" />
             <path d="M12 19l-7-7 7-7" />
           </svg>
@@ -176,49 +171,35 @@ function AddSpot({ user = null }) {
             <input
               id="spot-address"
               type="text"
-              placeholder="e.g. 376 Huntington Ave"
+              placeholder="e.g. 376 Huntington Ave, Boston"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
               required
             />
+            {geocodeStatus === "loading" && (
+              <p className="add-spot__geocode-hint">Looking up location...</p>
+            )}
+            {geocodeStatus === "found" && (
+              <p className="add-spot__geocode-hint add-spot__geocode-hint--found">Location found</p>
+            )}
+            {geocodeStatus === "notfound" && (
+              <p className="add-spot__geocode-hint add-spot__geocode-hint--error">Address not found — try adding a city or zip code</p>
+            )}
           </div>
 
           <div className="add-spot__row">
             <div className="add-spot__field">
               <label htmlFor="spot-category">Category</label>
-              <select
-                id="spot-category"
-                value={category}
-                onChange={(e) => setCategory(e.target.value)}
-                required
-              >
-                <option value="" disabled>
-                  Select
-                </option>
-                {CATEGORIES.map((c) => (
-                  <option key={c} value={c}>
-                    {c}
-                  </option>
-                ))}
+              <select id="spot-category" value={category} onChange={(e) => setCategory(e.target.value)} required>
+                <option value="" disabled>Select</option>
+                {CATEGORIES.map((c) => <option key={c} value={c}>{c}</option>)}
               </select>
             </div>
-
             <div className="add-spot__field">
               <label htmlFor="spot-noise">Noise level</label>
-              <select
-                id="spot-noise"
-                value={noiseLevel}
-                onChange={(e) => setNoiseLevel(e.target.value)}
-                required
-              >
-                <option value="" disabled>
-                  Select
-                </option>
-                {NOISE_LEVELS.map((n) => (
-                  <option key={n} value={n}>
-                    {n}
-                  </option>
-                ))}
+              <select id="spot-noise" value={noiseLevel} onChange={(e) => setNoiseLevel(e.target.value)} required>
+                <option value="" disabled>Select</option>
+                {NOISE_LEVELS.map((n) => <option key={n} value={n}>{n}</option>)}
               </select>
             </div>
           </div>
@@ -226,36 +207,17 @@ function AddSpot({ user = null }) {
           <div className="add-spot__row">
             <div className="add-spot__field">
               <label htmlFor="spot-group">Group friendly</label>
-              <select
-                id="spot-group"
-                value={groupFriendly}
-                onChange={(e) => setGroupFriendly(e.target.value)}
-                required
-              >
-                <option value="" disabled>
-                  Select
-                </option>
+              <select id="spot-group" value={groupFriendly} onChange={(e) => setGroupFriendly(e.target.value)} required>
+                <option value="" disabled>Select</option>
                 <option value="Yes">Yes</option>
                 <option value="No">No</option>
               </select>
             </div>
-
             <div className="add-spot__field">
               <label htmlFor="spot-status">Availability</label>
-              <select
-                id="spot-status"
-                value={status}
-                onChange={(e) => setStatus(e.target.value)}
-                required
-              >
-                <option value="" disabled>
-                  Select
-                </option>
-                {AVAILABILITY.map((a) => (
-                  <option key={a} value={a}>
-                    {a}
-                  </option>
-                ))}
+              <select id="spot-status" value={status} onChange={(e) => setStatus(e.target.value)} required>
+                <option value="" disabled>Select</option>
+                {AVAILABILITY.map((a) => <option key={a} value={a}>{a}</option>)}
               </select>
             </div>
           </div>
@@ -286,25 +248,17 @@ function AddSpot({ user = null }) {
             <p className="add-spot__preview-label">Live preview</p>
             <article className="add-spot__preview-card">
               <div className="add-spot__preview-content">
-                <h3
-                  className={`add-spot__preview-name ${!name ? "add-spot__preview-name--empty" : ""}`}
-                >
+                <h3 className={`add-spot__preview-name ${!name ? "add-spot__preview-name--empty" : ""}`}>
                   {name || "Spot name"}
                 </h3>
-                <p
-                  className={`add-spot__preview-address ${!address ? "add-spot__preview-address--empty" : ""}`}
-                >
+                <p className={`add-spot__preview-address ${!address ? "add-spot__preview-address--empty" : ""}`}>
                   {address || "123 Address St"}
                 </p>
                 <div className="add-spot__preview-bottom">
-                  <span
-                    className={`add-spot__preview-status ${status ? statusClass : "add-spot__preview-status--empty"}`}
-                  >
+                  <span className={`add-spot__preview-status ${status ? statusClass : "add-spot__preview-status--empty"}`}>
                     {status || "Not crowded"}
                   </span>
-                  <span
-                    className={`add-spot__preview-type ${!category ? "add-spot__preview-type--empty" : ""}`}
-                  >
+                  <span className={`add-spot__preview-type ${!category ? "add-spot__preview-type--empty" : ""}`}>
                     {category || "Category"}
                   </span>
                 </div>
@@ -313,11 +267,7 @@ function AddSpot({ user = null }) {
           </div>
 
           <div className="add-spot__actions">
-            <button
-              type="button"
-              className="add-spot__btn add-spot__btn--cancel"
-              onClick={() => navigate("/explore")}
-            >
+            <button type="button" className="add-spot__btn add-spot__btn--cancel" onClick={() => navigate("/explore")}>
               Cancel
             </button>
             <button
@@ -329,10 +279,8 @@ function AddSpot({ user = null }) {
             </button>
           </div>
 
-          {!position && (
-            <p className="add-spot__pin-warning">
-              Place a pin on the map to submit
-            </p>
+          {address && geocodeStatus === "notfound" && (
+            <p className="add-spot__pin-warning">Enter a valid address to submit</p>
           )}
         </form>
       </div>
